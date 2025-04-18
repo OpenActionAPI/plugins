@@ -67,7 +67,7 @@ def download_icon(owner_repo, json_key):
     except Exception as e:
         tqdm.write(f"Could not fetch icon for {json_key}: {e}")
 
-def fill_missing_fields(data):
+def fill_missing_fields(data, update_description=False):
     for key, plugin in tqdm(data.items(), desc="Filling catalogue", unit="plugin"):
         repo_url = plugin.get("repository")
         if not repo_url or "github.com" not in repo_url:
@@ -77,7 +77,7 @@ def fill_missing_fields(data):
         missing_name = "name" not in plugin
         missing_author = "author" not in plugin
         missing_download = "download_url" not in plugin
-        missing_description = "description" not in plugin
+        missing_description = update_description or "description" not in plugin
         missing_icon = not os.path.exists(os.path.join(ICON_DIR, f"{key}.png"))
 
         if not (missing_name or missing_author or missing_download or missing_icon or missing_description):
@@ -117,21 +117,34 @@ def main():
     with open(CATALOG_FILE, "r", encoding='utf-8') as f:
         data = json.load(f)
 
-        # Get optional plugin key from command-line
-    if len(sys.argv) > 1:
-        plugin_key = sys.argv[1]
-        if plugin_key in data:
-            subset = {plugin_key: data[plugin_key]}
-            updated = fill_missing_fields(subset)
-            data[plugin_key] = updated[plugin_key]
-        else:
-            print(f"Plugin '{plugin_key}' not found in catalogue.")
+    args = sys.argv[1:]
+    plugin_key = None
+    force_update_description = False
+
+    for arg in args:
+        if arg == '--update':
+            force_update_description = True
+        elif arg == '--help' or arg == '-h':
+            print("Usage: python FillMissingData.py [plugin_key] [--update]")
+            print("  --update: Force update the description field.")
+            print("  plugin_key: Specify a plugin key to update only that plugin. Otherwise, all plugins will be updated.")
             return
+        elif arg.startswith("--") or arg.startswith("-"):
+            print(f"Unknown argument: {arg}")
+            return
+        elif arg in data:
+            plugin_key = arg
+
+    if plugin_key:
+        subset = {plugin_key: data[plugin_key]}
+        updated = fill_missing_fields(subset, update_description=force_update_description)
+        data[plugin_key] = updated[plugin_key]
     else:
-        data = fill_missing_fields(data)
+        data = fill_missing_fields(data, update_description=force_update_description)
 
     with open(CATALOG_FILE, "w", encoding='utf-8') as f:
         json.dump(data, f, indent='\t', ensure_ascii=False)
+
     print("Catalogue updated.")
 
 if __name__ == "__main__":
