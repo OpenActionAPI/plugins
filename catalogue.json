@@ -1,4 +1,9 @@
 {
+	"me.amankhanna.oampris": {
+		"name": "Linux Media",
+		"author": "nekename",
+		"repository": "https://github.com/nekename/oampris"
+	},
 	"com.elgato.analogclock": {
 		"name": "Analog Clock",
 		"author": "Elgato",
