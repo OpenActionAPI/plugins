@@ -2,566 +2,695 @@
 	"me.amankhanna.oampris": {
 		"name": "Linux Media",
 		"author": "nekename",
-		"repository": "https://github.com/nekename/oampris"
+		"repository": "https://github.com/nekename/oampris",
+		"description": "An OpenAction (OpenDeck) plugin for controlling media players on Linux using the MPRIS protocol."
 	},
 	"com.elgato.analogclock": {
 		"name": "Analog Clock",
 		"author": "Elgato",
 		"repository": "https://github.com/elgatosf/streamdeck-analogclock",
-		"download_url": "https://github.com/elgatosf/streamdeck-analogclock/raw/master/Release/com.elgato.analogclock.streamDeckPlugin"
+		"download_url": "https://github.com/elgatosf/streamdeck-analogclock/raw/master/Release/com.elgato.analogclock.streamDeckPlugin",
+		"description": "Stream Deck SDK: Analog Clock sample plugin"
 	},
 	"com.elgato.applemail": {
 		"name": "Apple Mail",
 		"author": "Elgato",
 		"repository": "https://github.com/elgatosf/streamdeck-applemail",
-		"download_url": "https://github.com/elgatosf/streamdeck-applemail/raw/master/Release/com.elgato.applemail.streamDeckPlugin"
+		"download_url": "https://github.com/elgatosf/streamdeck-applemail/raw/master/Release/com.elgato.applemail.streamDeckPlugin",
+		"description": "Stream Deck SDK: AppleMail sample plugin"
 	},
 	"com.elgato.counter": {
 		"name": "Counter",
 		"author": "Elgato",
 		"repository": "https://github.com/elgatosf/streamdeck-counter",
-		"download_url": "https://github.com/elgatosf/streamdeck-counter/raw/master/Release/com.elgato.counter.streamDeckPlugin"
+		"download_url": "https://github.com/elgatosf/streamdeck-counter/raw/master/Release/com.elgato.counter.streamDeckPlugin",
+		"description": "Stream Deck SDK: Counter sample plugin"
 	},
 	"com.elgato.cpu": {
 		"name": "CPU",
 		"author": "Elgato",
 		"repository": "https://github.com/elgatosf/streamdeck-cpu",
-		"download_url": "https://github.com/elgatosf/streamdeck-cpu/releases/download/1.2/com.elgato.cpu.streamDeckPlugin"
+		"download_url": "https://github.com/elgatosf/streamdeck-cpu/releases/download/1.2/com.elgato.cpu.streamDeckPlugin",
+		"description": "Stream Deck SDK: CPU sample plugin"
 	},
 	"com.elgato.philips-hue": {
 		"name": "Philips Hue",
 		"author": "Elgato",
 		"repository": "https://github.com/elgatosf/streamdeck-philipshue",
-		"download_url": "https://github.com/elgatosf/streamdeck-philipshue/raw/master/Release/com.elgato.philips-hue.streamDeckPlugin"
+		"download_url": "https://github.com/elgatosf/streamdeck-philipshue/raw/master/Release/com.elgato.philips-hue.streamDeckPlugin",
+		"description": "Stream Deck SDK: Philips Hue sample plugin"
 	},
 	"com.arkyasmal.windowactions": {
 		"name": "Window Actions",
 		"author": "Arky Asmal",
-		"repository": "https://github.com/aasmal97/Window-Actions"
+		"repository": "https://github.com/aasmal97/Window-Actions",
+		"download_url": "https://github.com/aasmal97/Window-Actions/releases/download/v4.2.2/com.arkyasmal.windowactions.streamDeckPlugin",
+		"description": "A StreamDeck Plugin that allows a user to perform window actions, and navigate virtual desktops, on a windows machine"
 	},
 	"com.adamcarballo.unity-integration": {
 		"name": "Unity Integration",
 		"author": "Àdam Carballo",
-		"repository": "https://github.com/AdamCarballo/streamdeck-unity-plugin"
+		"repository": "https://github.com/AdamCarballo/streamdeck-unity-plugin",
+		"download_url": "https://github.com/AdamCarballo/streamdeck-unity-plugin/releases/download/1.2.0/com.adamcarballo.unity-integration.streamDeckPlugin",
+		"description": "Stream Deck SDK plugin allowing support for custom Unity actions"
 	},
 	"com.adrian-miasik.sdpdota2": {
 		"name": "SDP - Dota 2",
 		"author": "Adrian Miasik",
-		"repository": "https://github.com/adrian-miasik/stream-deck-plugins-dota-2"
+		"repository": "https://github.com/adrian-miasik/stream-deck-plugins-dota-2",
+		"download_url": "https://github.com/adrian-miasik/stream-deck-plugins-dota-2/releases/download/v1.3.1/com.adrian-miasik.sdpdota2.streamDeckPlugin",
+		"description": "A suite of Stream Deck plugins/actions created for Valve's MOBA: Dota 2 ⚔️"
 	},
 	"me.alhazmy13.sensibo": {
 		"name": "Sensibo",
 		"author": "Alhazmy13",
-		"repository": "https://github.com/alhazmy13/streamdeck-sensibo"
+		"repository": "https://github.com/alhazmy13/streamdeck-sensibo",
+		"download_url": "https://github.com/alhazmy13/streamdeck-sensibo/releases/download/1.1.0/me.alhazmy13.sensibo.streamDeckPlugin",
+		"description": "Control your Sensibo air conditioners from stream deck"
 	},
 	"dev.aperez.tado": {
 		"name": "Tado",
 		"author": "aperez",
-		"repository": "https://github.com/aperezm85/streamdeck-tado-plugin"
+		"repository": "https://github.com/aperezm85/streamdeck-tado-plugin",
+		"download_url": "https://github.com/aperezm85/streamdeck-tado-plugin/releases/download/2.1/dev.aperez.tado.streamDeckPlugin",
+		"description": "Basic Stream Deck plugin for manage Tado thermostat"
 	},
 	"fr.arubinu42": {
 		"name": "Arubinu42",
 		"author": "Alvin Pergens",
-		"repository": "https://github.com/Arubinu/streamdeck-plugin"
+		"repository": "https://github.com/Arubinu/streamdeck-plugin",
+		"download_url": "https://github.com/Arubinu/streamdeck-plugin/releases/download/v2.2.0/fr.arubinu42.streamDeckPlugin",
+		"description": "This plugin brings together my different tools."
 	},
 	"com.ascend.japanesereviews": {
 		"name": "Japanese Reviews",
 		"author": "Ascend - Will Eddins",
-		"repository": "https://github.com/ascendedguard/streamdeck-japanesereviews"
+		"repository": "https://github.com/ascendedguard/streamdeck-japanesereviews",
+		"download_url": "https://github.com/ascendedguard/streamdeck-japanesereviews/releases/download/v1.0.3/com.ascend.japanesereviews.streamDeckPlugin",
+		"description": "A collection of review trackers for various Japanese review websites, shown on the Elgato Stream Deck. https://apps.elgato.com/plugins/com.ascend.japanesereviews"
 	},
 	"org.xiphis.ohs": {
 		"name": "OpenHardwareSensor",
 		"author": "Xiphis",
-		"repository": "https://github.com/atcurtis/streamdeck-ohs"
+		"repository": "https://github.com/atcurtis/streamdeck-ohs",
+		"download_url": "https://github.com/atcurtis/streamdeck-ohs/releases/download/1.3.0/org.xiphis.ohs.streamDeckPlugin",
+		"description": "Stream Deck: OpenHardwareMonitor Plugin"
 	},
 	"com.baptiewright.nanoleaf": {
 		"name": "Nanoleaf Controller",
 		"author": "Baptiewright Designs",
 		"repository": "https://github.com/Baptiewright/streamdeck-nanoleaf",
-		"download_url": "https://github.com/Baptiewright/streamdeck-nanoleaf/raw/refs/heads/master/Releases/com.baptiewright.nanoleaf.streamDeckPlugin"
+		"download_url": "https://github.com/Baptiewright/streamdeck-nanoleaf/raw/refs/heads/master/Releases/com.baptiewright.nanoleaf.streamDeckPlugin",
+		"description": "Plugin for Elgato Stream Deck to allow control of Nanoleaf light panels"
 	},
 	"one.blueshift.streamdeck.toggl": {
 		"name": "Toggl",
 		"author": "Blueshift",
-		"repository": "https://github.com/blueshiftone/streamdeck-toggl"
+		"repository": "https://github.com/blueshiftone/streamdeck-toggl",
+		"download_url": "https://github.com/blueshiftone/streamdeck-toggl/releases/download/v1.5.6/one.blueshift.streamdeck.toggl.streamDeckPlugin",
+		"description": "⏱️ Make time tracking a 🍰 piece of cake, with Toggl Track and Elgato Stream Deck (Toggl Track integration for Stream Deck)"
 	},
 	"games.boyne.godot": {
 		"name": "Godot Utilities",
 		"author": "Boyne Games",
-		"repository": "https://github.com/BoyneGames/streamdeck-godot-plugin"
+		"repository": "https://github.com/BoyneGames/streamdeck-godot-plugin",
+		"download_url": "https://github.com/BoyneGames/streamdeck-godot-plugin/releases/download/1.0.0/games.boyne.godot.streamDeckPlugin",
+		"description": "Various utilities for the Godot Engine"
 	},
 	"de.kaleidox.vbandeck": {
 		"name": "VBANDeck",
 		"author": "Kaleidox",
-		"repository": "https://github.com/burdoto/VBANDeck"
+		"repository": "https://github.com/burdoto/VBANDeck",
+		"download_url": "https://github.com/burdoto/VBANDeck/releases/download/1.0.2/de.kaleidox.vbandeck.streamDeckPlugin",
+		"description": "Elgato StreamDeck Plugin supporting VoiceMeeter VBAN remoting"
 	},
 	"com.buzzet.azurepipeline": {
 		"name": "Azure Pipeline",
 		"author": "Jannik Reinefeld",
 		"repository": "https://github.com/Buzzet/streamdeck-azure-pipeline",
-		"download_url": "https://github.com/Buzzet/streamdeck-azure-pipeline/raw/refs/heads/master/Release/com.buzzet.azurepipeline.streamDeckPlugin"
+		"download_url": "https://github.com/Buzzet/streamdeck-azure-pipeline/raw/refs/heads/master/Release/com.buzzet.azurepipeline.streamDeckPlugin",
+		"description": null
 	},
 	"dev.cazzar.streamdeck.vtubestudio": {
 		"name": "VTubeStudio",
 		"author": "Cazzar",
-		"repository": "https://github.com/Cazzar/VTubeStudio-StreamDeck"
+		"repository": "https://github.com/Cazzar/VTubeStudio-StreamDeck",
+		"download_url": "https://github.com/Cazzar/VTubeStudio-StreamDeck/releases/download/3.1.0/dev.cazzar.streamdeck.vtubestudio.streamDeckPlugin",
+		"description": null
 	},
 	"de.perdoctus.streamdeck.homeassistant": {
 		"name": "Home Assistant",
 		"author": "Christoph Giesche",
-		"repository": "https://github.com/cgiesche/streamdeck-homeassistant"
+		"repository": "https://github.com/cgiesche/streamdeck-homeassistant",
+		"download_url": "https://github.com/cgiesche/streamdeck-homeassistant/releases/download/3.6.3/de.perdoctus.streamdeck.homeassistant.streamDeckPlugin",
+		"description": "Control your Home Assistant devices from StreamDeck"
 	},
 	"com.corcules.kmlink": {
 		"name": "KMLink",
 		"author": "Corcules",
 		"repository": "https://github.com/Corcules/KMlink",
-		"download_url": "https://github.com/Corcules/KMlink/raw/refs/heads/master/com.corcules.kmlink.streamDeckPlugin"
+		"download_url": "https://github.com/Corcules/KMlink/raw/refs/heads/master/com.corcules.kmlink.streamDeckPlugin",
+		"description": "Streamdeck plugin to drive Keyboard Maestro"
 	},
 	"net.localhost.streamdeck.clipboard-buddy": {
 		"name": "Clipboard Buddy",
 		"author": "Commit-La-Grenouille",
-		"repository": "https://github.com/Commit-La-Grenouille/streamdeck-clipboard-buddy"
+		"repository": "https://github.com/Commit-La-Grenouille/streamdeck-clipboard-buddy",
+		"download_url": "https://github.com/Commit-La-Grenouille/streamdeck-clipboard-buddy/releases/download/0.7.0/net.localhost.streamdeck.clipboard-buddy.v0.7.0.streamDeckPlugin",
+		"description": null
 	},
 	"cz.danol.discordmixer": {
 		"name": "Discord Volume Mixer",
 		"author": "Danol",
-		"repository": "https://github.com/CZDanol/StreamDeck-DiscordVolumeMixer2"
+		"repository": "https://github.com/CZDanol/StreamDeck-DiscordVolumeMixer2",
+		"download_url": "https://github.com/CZDanol/StreamDeck-DiscordVolumeMixer2/releases/download/v2.0.1.9/cz.danol.discordmixer.streamDeckPlugin",
+		"description": "Discord Volume Mixer plugin for StreamDeck"
 	},
 	"gg.datagram.web-requests": {
 		"name": "Web Requests",
 		"author": "Adrian Mullings",
-		"repository": "https://github.com/data-enabler/streamdeck-web-requests"
+		"repository": "https://github.com/data-enabler/streamdeck-web-requests",
+		"download_url": "https://github.com/data-enabler/streamdeck-web-requests/releases/download/v0.1.0/gg.datagram.web-requests.streamDeckPlugin",
+		"description": "An Elgato Stream Deck plugin for sending web requests"
 	},
 	"com.davidborzek.foobar2000": {
 		"name": "Foobar2000",
 		"author": "David Borzek",
-		"repository": "https://github.com/davidborzek/streamdeck-foobar2000"
+		"repository": "https://github.com/davidborzek/streamdeck-foobar2000",
+		"download_url": "https://github.com/davidborzek/streamdeck-foobar2000/releases/download/v1.5/com.davidborzek.foobar2000.streamDeckPlugin",
+		"description": "An Elgato Stream Deck foobar2000 integration."
 	},
 	"com.dddice.app": {
 		"name": "dddice",
 		"author": "dddice",
-		"repository": "https://github.com/dddice/dddice-stream-deck-plugin"
+		"repository": "https://github.com/dddice/dddice-stream-deck-plugin",
+		"download_url": "https://github.com/dddice/dddice-stream-deck-plugin/releases/download/v0.3.2/com.dddice.app.streamDeckPlugin",
+		"description": null
 	},
 	"com.dim.streamdeck": {
 		"name": "DIM Stream Deck",
 		"author": "fcannizzaro",
-		"repository": "https://github.com/dim-stream-deck/com.dim.streamdeck"
+		"repository": "https://github.com/dim-stream-deck/com.dim.streamdeck",
+		"download_url": "https://github.com/dim-stream-deck/com.dim.streamdeck/releases/download/3.3.2/com.dim.streamdeck.streamDeckPlugin",
+		"description": "A Stream Deck plugin to interact with Destiny Item Manager and Destiny 2"
 	},
 	"com.dlprows.focusvolumecontrol": {
 		"name": "Focused Application Volume",
 		"author": "dlprows",
-		"repository": "https://github.com/dlprows/FocusVolumeControl"
+		"repository": "https://github.com/dlprows/FocusVolumeControl",
+		"download_url": "https://github.com/dlprows/FocusVolumeControl/releases/download/v1.4.0/com.dlprows.focusvolumecontrol.streamDeckPlugin",
+		"description": "Stream Deck+ plugin for controlling the focused application's volume"
 	},
 	"fr.twitchat": {
 		"name": "Twitchat",
 		"author": "Durss",
 		"repository": "https://github.com/Durss/Twitchat",
-		"download_url": "https://github.com/Durss/Twitchat/raw/refs/heads/main/streamdeck_plugin/fr.twitchat.streamDeckPlugin"
+		"download_url": "https://github.com/Durss/Twitchat/raw/refs/heads/main/streamdeck_plugin/fr.twitchat.streamDeckPlugin",
+		"description": "Full featured Twitch chat alternative to fill gaps from the official one."
 	},
 	"com.egg-rp.fxcommands": {
 		"name": "FxCommands",
 		"author": "EggRP",
-		"repository": "https://github.com/EggRP/fxcommands"
+		"repository": "https://github.com/EggRP/fxcommands",
+		"description": ""
 	},
 	"net.ellreka.slack-status": {
 		"name": "Slack Status",
 		"author": "ellreka",
-		"repository": "https://github.com/ellreka/streamdeck-slack-status"
+		"repository": "https://github.com/ellreka/streamdeck-slack-status",
+		"description": ""
 	},
 	"com.f00d4tehg0dz.aipaints": {
 		"name": "AI Paints",
 		"author": "f00d4tehg0dz",
-		"repository": "https://github.com/f00d4tehg0dz/elgato-streamdeck-ai-paints"
+		"repository": "https://github.com/f00d4tehg0dz/elgato-streamdeck-ai-paints",
+		"description": ""
 	},
 	"com.f00d4tehg0dz.cookieclicker": {
 		"name": "CookieClicker",
 		"author": "f00d4tehg0dz",
-		"repository": "https://github.com/f00d4tehg0dz/elgato-streamdeck-cookie-clicker"
+		"repository": "https://github.com/f00d4tehg0dz/elgato-streamdeck-cookie-clicker",
+		"description": ""
 	},
 	"com.f00d4tehg0dz.teslafi": {
 		"name": "TeslaFi",
 		"author": "f00d4tehg0dz",
-		"repository": "https://github.com/f00d4tehg0dz/Teslafi-Status-Plugin-for-Eglato-Streamdeck"
+		"repository": "https://github.com/f00d4tehg0dz/Teslafi-Status-Plugin-for-Eglato-Streamdeck",
+		"description": ""
 	},
 	"com.f1-tools.mvf1": {
 		"name": "MVF1",
 		"author": "F1-Tools",
-		"repository": "https://github.com/f1-tools/MVF1-Streamdeck"
+		"repository": "https://github.com/f1-tools/MVF1-Streamdeck",
+		"description": ""
 	},
 	"de.felitendo.feishin": {
 		"name": "Feishin",
 		"author": "Felitendo",
-		"repository": "https://github.com/FeloDeck/Feishin-Plugin"
+		"repository": "https://github.com/FeloDeck/Feishin-Plugin",
+		"description": ""
 	},
 	"com.feydelight.serialirblaster": {
 		"name": "Serial IR Blaster",
 		"author": "FeyDelight",
-		"repository": "https://github.com/feydelight/StreamDeck-SerialIRBlaster"
+		"repository": "https://github.com/feydelight/StreamDeck-SerialIRBlaster",
+		"description": ""
 	},
 	"de.flexniko.bakkesmodcommands": {
 		"name": "BakkesModCommands",
 		"author": "FlexNiko",
 		"repository": "https://github.com/FlexXx1212/StreamDeckBakkesPlugin",
-		"download_url": "https://github.com/FlexXx1212/StreamDeckBakkesPlugin/raw/refs/heads/main/Release/de.flexniko.bakkesmodcommands.streamDeckPlugin"
+		"download_url": "https://github.com/FlexXx1212/StreamDeckBakkesPlugin/raw/refs/heads/main/Release/de.flexniko.bakkesmodcommands.streamDeckPlugin",
+		"description": ""
 	},
 	"com.fredemmott.micmutetoggle": {
 		"name": "Audio Mute",
 		"author": "Fred Emmott",
-		"repository": "https://github.com/fredemmott/StreamDeck-AudioMute"
+		"repository": "https://github.com/fredemmott/StreamDeck-AudioMute",
+		"description": ""
 	},
 	"com.fredemmott.audiooutputswitch": {
 		"name": "Audio Switcher",
 		"author": "Fred Emmott",
-		"repository": "https://github.com/fredemmott/StreamDeck-AudioSwitcher"
+		"repository": "https://github.com/fredemmott/StreamDeck-AudioSwitcher",
+		"description": ""
 	},
 	"com.fredemmott.streamingremote": {
 		"name": "Streaming Remote",
 		"author": "Fred Emmott",
-		"repository": "https://github.com/fredemmott/streaming-remote"
+		"repository": "https://github.com/fredemmott/streaming-remote",
+		"description": ""
 	},
 	"com.funky.rokuremotejs": {
 		"name": "Roku Remote",
 		"author": "Jasper Cools",
 		"repository": "https://github.com/FUNKYJASPER2/StreamDeck-Roku-Remote-Plugin",
-		"download_url": "https://github.com/FUNKYJASPER2/StreamDeck-Roku-Remote-Plugin/raw/refs/heads/main/Release/com.funky.rokuremotejs.streamDeckPlugin"
+		"download_url": "https://github.com/FUNKYJASPER2/StreamDeck-Roku-Remote-Plugin/raw/refs/heads/main/Release/com.funky.rokuremotejs.streamDeckPlugin",
+		"description": ""
 	},
 	"com.gabrielperales.osascript": {
 		"name": "OSA Script",
 		"author": "Gabriel Perales",
 		"repository": "https://github.com/gabrielperales/streamdeck-osascript",
-		"download_url": "https://github.com/gabrielperales/streamdeck-osascript/raw/refs/heads/master/Release/com.gabrielperales.osascript.streamDeckPlugin"
+		"download_url": "https://github.com/gabrielperales/streamdeck-osascript/raw/refs/heads/master/Release/com.gabrielperales.osascript.streamDeckPlugin",
+		"description": ""
 	},
 	"com.gallowaylabs.tomato": {
 		"name": "Tomato Timer",
 		"author": "Galloway Labs",
-		"repository": "https://github.com/gallowaylabs/streamdeck-tomato-timer"
+		"repository": "https://github.com/gallowaylabs/streamdeck-tomato-timer",
+		"description": ""
 	},
 	"com.geekyeggo.goveecontroller": {
 		"name": "Govee Controller",
 		"author": "GeekyEggo",
-		"repository": "https://github.com/GeekyEggo/GoveeController"
+		"repository": "https://github.com/GeekyEggo/GoveeController",
+		"description": ""
 	},
 	"com.geekyeggo.sounddeck": {
 		"name": "Sound Deck",
 		"author": "GeekyEggo",
-		"repository": "https://github.com/GeekyEggo/SoundDeck"
+		"repository": "https://github.com/GeekyEggo/SoundDeck",
+		"description": ""
 	},
 	"com.geekyeggo.windowsdisplaysettings": {
 		"name": "Windows Display Settings",
 		"author": "GeekyEggo",
-		"repository": "https://github.com/GeekyEggo/windows-display-settings"
+		"repository": "https://github.com/GeekyEggo/windows-display-settings",
+		"description": ""
 	},
 	"warudo.streamdeck": {
 		"name": "Warudo",
 		"author": "Hakuya Labs",
-		"repository": "https://github.com/HakuyaLabs/warudo-streamdeck"
+		"repository": "https://github.com/HakuyaLabs/warudo-streamdeck",
+		"description": ""
 	},
 	"org.danielkennett.xcode-streamdeck-plugin": {
 		"name": "Xcode",
 		"author": "Daniel Kennett",
-		"repository": "https://github.com/iKenndac/xcode-streamdeck-plugin"
+		"repository": "https://github.com/iKenndac/xcode-streamdeck-plugin",
+		"description": ""
 	},
 	"dev.jduabe.obsideck": {
 		"name": "Obsideck",
 		"author": "Jordan Duabe",
-		"repository": "https://github.com/j4ckofalltrades/obsideck"
+		"repository": "https://github.com/j4ckofalltrades/obsideck",
+		"description": ""
 	},
 	"com.jk.weather": {
 		"name": "Weather",
 		"author": "Jaouher Kharrat",
-		"repository": "https://github.com/JaouherK/streamDeck-weatherPlugin"
+		"repository": "https://github.com/JaouherK/streamDeck-weatherPlugin",
+		"description": ""
 	},
 	"me.hckr.airplanemode": {
 		"name": "Airplane mode",
 		"author": "Jarno Le Conté",
-		"repository": "https://github.com/JarnoLeConte/streamdeck-airplanemode"
+		"repository": "https://github.com/JarnoLeConte/streamdeck-airplanemode",
+		"description": ""
 	},
 	"me.hckr.appswitcher": {
 		"name": "App Switcher",
 		"author": "Jarno Le Conté",
-		"repository": "https://github.com/JarnoLeConte/streamdeck-appswitcher"
+		"repository": "https://github.com/JarnoLeConte/streamdeck-appswitcher",
+		"description": ""
 	},
 	"me.hckr.findertags": {
 		"name": "Finder Tags",
 		"author": "Jarno Le Conté",
-		"repository": "https://github.com/JarnoLeConte/streamdeck-findertags"
+		"repository": "https://github.com/JarnoLeConte/streamdeck-findertags",
+		"description": ""
 	},
 	"com.javanpoirier.audiomixer": {
 		"name": "Audio Mixer",
 		"author": "Javan Poirier",
-		"repository": "https://github.com/JavanPoirier/AudioMixer"
+		"repository": "https://github.com/JavanPoirier/AudioMixer",
+		"description": ""
 	},
 	"com.jetbrains.ide": {
 		"name": "JetBrains IDE",
 		"author": "Jacky Liu",
-		"repository": "https://github.com/JetBrains/intellij-streamdeck-plugin"
+		"repository": "https://github.com/JetBrains/intellij-streamdeck-plugin",
+		"description": ""
 	},
 	"com.jetbrains.youtrack": {
 		"name": "YouTrack Ticket Counter",
 		"author": "Konstantin Annikov",
-		"repository": "https://github.com/JetBrains/youtrack-streamdeck-plugin"
+		"repository": "https://github.com/JetBrains/youtrack-streamdeck-plugin",
+		"description": ""
 	},
 	"us.johnholbrook.pihole": {
 		"name": "Pihole",
 		"author": "John Holbrook",
-		"repository": "https://github.com/johnholbrook/streamdeck-pihole"
+		"repository": "https://github.com/johnholbrook/streamdeck-pihole",
+		"description": ""
 	},
 	"us.johnholbrook.vextm": {
 		"name": "VEX Tournament Manager",
 		"author": "John Holbrook",
-		"repository": "https://github.com/johnholbrook/streamdeck-vextm"
+		"repository": "https://github.com/johnholbrook/streamdeck-vextm",
+		"description": ""
 	},
 	"com.kobaltz.wled": {
 		"name": "WLED",
 		"author": "Dave Kimura",
-		"repository": "https://github.com/kobaltz/streamdeck-wled"
+		"repository": "https://github.com/kobaltz/streamdeck-wled",
+		"description": ""
 	},
 	"de.leonmarcel.teamspeak5": {
 		"name": "TeamSpeak 5",
 		"author": "LeonMarcel",
-		"repository": "https://github.com/LeonMarcel-HD/StreamDeck-TeamSpeak5"
+		"repository": "https://github.com/LeonMarcel-HD/StreamDeck-TeamSpeak5",
+		"description": ""
 	},
 	"com.remote.ytmd": {
 		"name": "YTMD Encoder Remote",
 		"author": "Levin Ng",
-		"repository": "https://github.com/levindecaro/streamdeck-ytmd-remote"
+		"repository": "https://github.com/levindecaro/streamdeck-ytmd-remote",
+		"description": ""
 	},
 	"com.cdeenen.materialdeck": {
 		"name": "Material Deck",
 		"author": "Material Foundry",
-		"repository": "https://github.com/MaterialFoundry/MaterialDeck_SD"
+		"repository": "https://github.com/MaterialFoundry/MaterialDeck_SD",
+		"description": ""
 	},
 	"com.mazecreator.udcontrol": {
 		"name": "Universal Devices Control",
 		"author": "Greg Peatfield",
-		"repository": "https://github.com/Mazecreator/udcontrol-streamdeck"
+		"repository": "https://github.com/Mazecreator/udcontrol-streamdeck",
+		"description": ""
 	},
 	"com.mediabounds.streamdeck.jira": {
 		"name": "Jira",
 		"author": "Daniel Pfeiffer",
-		"repository": "https://github.com/mediabounds/streamdeck-jira"
+		"repository": "https://github.com/mediabounds/streamdeck-jira",
+		"description": ""
 	},
 	"com.mitchmckean.mccontrol": {
 		"name": "McControl",
 		"author": "Mitch McKean",
 		"repository": "https://github.com/MitchMcKean/mccontrol",
-		"download_url": "https://github.com/MitchMcKean/mccontrol/raw/refs/heads/master/Release/com.mitchmckean.mccontrol.streamDeckPlugin"
+		"download_url": "https://github.com/MitchMcKean/mccontrol/raw/refs/heads/master/Release/com.mitchmckean.mccontrol.streamDeckPlugin",
+		"description": ""
 	},
 	"com.github.mjbnz.sd-api-request": {
 		"name": "API Request",
 		"author": "Mike Beattie",
-		"repository": "https://github.com/mjbnz/streamdeck-api-request"
+		"repository": "https://github.com/mjbnz/streamdeck-api-request",
+		"description": ""
 	},
 	"com.mongeon.mm": {
 		"name": "MM.StreamDeck",
 		"author": "Gabriel Mongeon",
-		"repository": "https://github.com/mongeon/MattermostAPI"
+		"repository": "https://github.com/mongeon/MattermostAPI",
+		"description": ""
 	},
 	"com.morphclue.wakatime": {
 		"name": "Wakatime",
 		"author": "Morphclue",
-		"repository": "https://github.com/Morphclue/streamdeck-wakatime"
+		"repository": "https://github.com/Morphclue/streamdeck-wakatime",
+		"description": ""
 	},
 	"tech.flighttracker.streamdeck": {
 		"name": "Flight Tracker",
 		"author": "Hy, Pieter and rmroc451",
-		"repository": "https://github.com/nguyenquyhy/Flight-Tracker-StreamDeck"
+		"repository": "https://github.com/nguyenquyhy/Flight-Tracker-StreamDeck",
+		"description": ""
 	},
 	"com.nicollasr.streamdeckvsc": {
 		"name": "Visual Studio Code",
 		"author": "Nicollas Ricas",
-		"repository": "https://github.com/nicollasricas/decks-vscode"
+		"repository": "https://github.com/nicollasricas/decks-vscode",
+		"description": ""
 	},
 	"com.nicollasr.streamdeckvs": {
 		"name": "Visual Studio",
 		"author": "Nicollas Ricas",
-		"repository": "https://github.com/nicollasricas/streamdeckvs"
+		"repository": "https://github.com/nicollasricas/streamdeckvs",
+		"description": ""
 	},
 	"com.nicollasr.streamdeckunity": {
 		"name": "Unity",
 		"author": "Nicollas Ricas",
-		"repository": "https://github.com/nicollasricas/decks-unity"
+		"repository": "https://github.com/nicollasricas/decks-unity",
+		"description": ""
 	},
 	"com.amansprojects.starterpack": {
 		"name": "OpenDeck Starter Pack",
 		"author": "ninjadev64",
-		"repository": "https://github.com/ninjadev64/opendeck-starterpack"
+		"repository": "https://github.com/ninjadev64/opendeck-starterpack",
+		"description": ""
 	},
 	"com.nuagic.myip": {
 		"name": "My IP",
 		"author": "Nuagic",
-		"repository": "https://github.com/Nuagic/streamdeck-myip"
+		"repository": "https://github.com/Nuagic/streamdeck-myip",
+		"description": ""
 	},
 	"net.oksala.azuredevops": {
 		"name": "AzureDevOps",
 		"author": "Panu Oksala",
-		"repository": "https://github.com/panuoksala/streamdeck-azuredevops-plugin"
+		"repository": "https://github.com/panuoksala/streamdeck-azuredevops-plugin",
+		"description": ""
 	},
 	"com.pedrofuentes.ical": {
 		"name": "iCal",
 		"author": "Pedro Fuentes",
-		"repository": "https://github.com/pedrofuentes/stream-deck-ical"
+		"repository": "https://github.com/pedrofuentes/stream-deck-ical",
+		"description": ""
 	},
 	"com.pedropombeiro.streamdeck-busylight": {
 		"name": "Kuando Busylight",
 		"author": "Pedro Pombeiro",
 		"repository": "https://github.com/pedropombeiro/streamdeck-busylight",
-		"download_url": "https://github.com/pedropombeiro/streamdeck-busylight/raw/refs/heads/main/Release/com.pedropombeiro.streamdeck-busylight.streamDeckPlugin"
+		"download_url": "https://github.com/pedropombeiro/streamdeck-busylight/raw/refs/heads/main/Release/com.pedropombeiro.streamdeck-busylight.streamDeckPlugin",
+		"description": ""
 	},
 	"com.philipgerke.awake": {
 		"name": "Awake",
 		"author": "Philip Gerke",
-		"repository": "https://github.com/pgerke/streamdeck-awake"
+		"repository": "https://github.com/pgerke/streamdeck-awake",
+		"description": ""
 	},
 	"in.std.streamdeck.workplace": {
 		"name": "Facebook Workplace",
 		"author": "pgriess",
-		"repository": "https://github.com/pgriess/streamdeck-workrooms"
+		"repository": "https://github.com/pgriess/streamdeck-workrooms",
+		"description": ""
 	},
 	"gg.rcv.league": {
 		"name": "League Observer Tool",
 		"author": "RCVolus",
 		"repository": "https://github.com/RCVolus/league-observer-tool-sdPlugin",
-		"download_url": "https://github.com/RCVolus/league-observer-tool-sdPlugin/raw/refs/heads/main/Release/gg.rcv.league.streamDeckPlugin"
+		"download_url": "https://github.com/RCVolus/league-observer-tool-sdPlugin/raw/refs/heads/main/Release/gg.rcv.league.streamDeckPlugin",
+		"description": ""
 	},
 	"com.reedhaffner.sharex": {
 		"name": "ShareX",
 		"author": "Reed Haffner",
-		"repository": "https://github.com/reedhaffner/ShareX4StreamDeck"
+		"repository": "https://github.com/reedhaffner/ShareX4StreamDeck",
+		"description": ""
 	},
 	"me.reinii.harvest-billables": {
 		"name": "Billables Status",
 		"author": "Emma Litwa-Vulcu",
-		"repository": "https://github.com/reiniiriarios/stream-deck-billables-harvest"
+		"repository": "https://github.com/reiniiriarios/stream-deck-billables-harvest",
+		"description": ""
 	},
 	"com.rgpaul.vlc": {
 		"name": "VLC Remote",
 		"author": "Ralph-Gordon Paul",
-		"repository": "https://github.com/RGPaul/streamdeck-vlc"
+		"repository": "https://github.com/RGPaul/streamdeck-vlc",
+		"description": ""
 	},
 	"com.dms.streamdeck.github": {
 		"name": "DMS Github Plugin",
 		"author": "Ralph-Gordon Paul",
 		"repository": "https://github.com/RGPaul/streamdeck-vlc",
-		"download_url": "https://github.com/rdohms/com.dms.streamdeck.github/raw/refs/heads/main/release/com.dms.streamdeck.github.streamDeckPlugin"
+		"download_url": "https://github.com/rdohms/com.dms.streamdeck.github/raw/refs/heads/main/release/com.dms.streamdeck.github.streamDeckPlugin",
+		"description": ""
 	},
 	"com.mmattdonk.solrock": {
 		"name": "Solrock TTS",
 		"author": "SocksTheWolf",
-		"repository": "https://github.com/SocksTheWolf/streamdeck-solrocktts"
+		"repository": "https://github.com/SocksTheWolf/streamdeck-solrocktts",
+		"description": ""
 	},
 	"com.samhorne.mediamonkey5": {
 		"name": "Mediamonkey 5",
 		"author": "Sam Horne",
-		"repository": "https://github.com/sam-horne/streamdeck-mediamonkey"
+		"repository": "https://github.com/sam-horne/streamdeck-mediamonkey",
+		"description": ""
 	},
 	"dev.santiagomartin.devops": {
 		"name": "DevOps for StreamDeck",
 		"author": "SantiMA10",
-		"repository": "https://github.com/SantiMA10/devops-streamdeck"
+		"repository": "https://github.com/SantiMA10/devops-streamdeck",
+		"description": ""
 	},
 	"com.sergeytihon.homebridge": {
 		"name": "Homebridge",
 		"author": "Sergey Tihon",
-		"repository": "https://github.com/sergey-tihon/streamdeck-homebridge"
+		"repository": "https://github.com/sergey-tihon/streamdeck-homebridge",
+		"description": ""
 	},
 	"com.exension.hwinfo": {
 		"name": "HWiNFO",
 		"author": "exension",
-		"repository": "https://github.com/shayne/hwinfo-streamdeck"
+		"repository": "https://github.com/shayne/hwinfo-streamdeck",
+		"description": ""
 	},
 	"com.exension.stocks": {
 		"name": "Stocks",
 		"author": "exension",
-		"repository": "https://github.com/shayne/stock-ticker-stream-deck-plugin"
+		"repository": "https://github.com/shayne/stock-ticker-stream-deck-plugin",
+		"description": ""
 	},
 	"de.shells.totalmix": {
 		"name": "RME TotalMix FX",
 		"author": "shells",
-		"repository": "https://github.com/shells-dw/streamdeck-totalmix"
+		"repository": "https://github.com/shells-dw/streamdeck-totalmix",
+		"description": ""
 	},
 	"com.sobolevn.bluetooth": {
 		"name": "Bluetooth Switcher",
 		"author": "Nikita Sobolev",
-		"repository": "https://github.com/sobolevn/bluetooth-streamdeck-plugin"
+		"repository": "https://github.com/sobolevn/bluetooth-streamdeck-plugin",
+		"description": ""
 	},
 	"com.start-automating.scriptdeck": {
 		"name": "ScriptDeck",
 		"author": "Start-Automating",
-		"repository": "https://github.com/StartAutomating/ScriptDeck"
+		"repository": "https://github.com/StartAutomating/ScriptDeck",
+		"description": ""
 	},
 	"de.sven-wiegand.ultraschall": {
 		"name": "Ultraschall (Alternative)",
 		"author": "Sven Wiegand",
-		"repository": "https://github.com/svenwiegand/streamdeck-ultraschall"
+		"repository": "https://github.com/svenwiegand/streamdeck-ultraschall",
+		"description": ""
 	},
 	"dev.theca11.multiobs": {
 		"name": "Multi OBS Controller",
 		"author": "the_ca11",
-		"repository": "https://github.com/theca11/multi-obs-controller"
+		"repository": "https://github.com/theca11/multi-obs-controller",
+		"description": ""
 	},
 	"dev.theca11.whack-a-mole": {
 		"name": "Whack-A-Mole",
 		"author": "the_ca11",
-		"repository": "https://github.com/theca11/whack-a-mole"
+		"repository": "https://github.com/theca11/whack-a-mole",
+		"description": ""
 	},
 	"com.thejoeiaut.bitwarden": {
 		"name": "Bitwarden Tools",
 		"author": "TheJoeIaut",
-		"repository": "https://github.com/TheJoeIaut/Bitwarden-Streamdeck-Plugin"
+		"repository": "https://github.com/TheJoeIaut/Bitwarden-Streamdeck-Plugin",
+		"description": ""
 	},
 	"dev.timeblaster.leaguedeck": {
 		"name": "LeagueDeck",
 		"author": "TimeBlaster",
-		"repository": "https://github.com/TimeBlaster/LeagueDeck"
+		"repository": "https://github.com/TimeBlaster/LeagueDeck",
+		"description": ""
 	},
 	"de.tobimori.streamdeck.ifttt": {
 		"name": "IFTTT",
 		"author": "tobimori",
-		"repository": "https://github.com/tobimori/streamdeck-ifttt"
+		"repository": "https://github.com/tobimori/streamdeck-ifttt",
+		"description": ""
 	},
 	"com.courcelle.cryptoticker": {
 		"name": "Crypto ticker PRO",
 		"author": "Vincent Courcelle",
 		"repository": "https://github.com/tubededentifrice/streamdeck-crypto",
-		"download_url": "https://github.com/tubededentifrice/streamdeck-crypto/raw/refs/heads/master/Release/com.courcelle.cryptoticker.streamDeckPlugin"
+		"download_url": "https://github.com/tubededentifrice/streamdeck-crypto/raw/refs/heads/master/Release/com.courcelle.cryptoticker.streamDeckPlugin",
+		"description": ""
 	},
 	"com.courcelle.reminder": {
 		"name": "Reminder",
 		"author": "Vincent Courcelle",
 		"repository": "https://github.com/tubededentifrice/streamdeck-reminder",
-		"download_url": "https://github.com/tubededentifrice/streamdeck-reminder/raw/refs/heads/master/Release/com.courcelle.reminder.streamDeckPlugin"
+		"download_url": "https://github.com/tubededentifrice/streamdeck-reminder/raw/refs/heads/master/Release/com.courcelle.reminder.streamDeckPlugin",
+		"description": null
 	},
 	"co.uk.clarionmusic.midibutton": {
 		"name": "Midi Button",
 		"author": "Tom Kelly",
 		"repository": "https://github.com/tsbkelly/Streamdeck-Midibutton",
-		"download_url": "https://github.com/tsbkelly/Streamdeck-Midibutton/raw/refs/heads/master/Release/co.uk.clarionmusic.midibutton.streamDeckPlugin"
+		"download_url": "https://github.com/tsbkelly/Streamdeck-Midibutton/raw/refs/heads/master/Release/co.uk.clarionmusic.midibutton.streamDeckPlugin",
+		"description": null
 	},
 	"com.victorgrycuk.colorpicker": {
 		"name": "Color Picker",
 		"author": "Victor Grycuk",
-		"repository": "https://github.com/VictorGrycuk/streamdeck-color-picker"
+		"repository": "https://github.com/VictorGrycuk/streamdeck-color-picker",
+		"description": ""
 	},
 	"com.victorgrycuk.keepass": {
 		"name": "StreamDeck-KeePass",
 		"author": "Victor Grycuk",
-		"repository": "https://github.com/VictorGrycuk/StreamDeck-KeePass"
+		"repository": "https://github.com/VictorGrycuk/StreamDeck-KeePass",
+		"description": ""
 	},
 	"com.victorgrycuk.magnifier": {
 		"name": "Magnifier",
 		"author": "Victor Grycuk",
-		"repository": "https://github.com/VictorGrycuk/streamdeck-magnifier"
+		"repository": "https://github.com/VictorGrycuk/streamdeck-magnifier",
+		"description": ""
 	},
 	"com.victorgrycuk.repositorywatcher": {
 		"name": "Repository Watcher",
 		"author": "Victor Grycuk",
-		"repository": "https://github.com/VictorGrycuk/streamdeck-repository-watcher"
+		"repository": "https://github.com/VictorGrycuk/streamdeck-repository-watcher",
+		"description": ""
 	},
 	"com.viddie.dice": {
 		"name": "Dice",
 		"author": "viddie",
-		"repository": "https://github.com/viddie/sdDice"
+		"repository": "https://github.com/viddie/sdDice",
+		"description": ""
 	},
 	"co.weimeng.streamdeck-gitlab": {
 		"name": "GitLab Dashboard",
@@ -572,21 +701,25 @@
 	"fail.marc.onairclock": {
 		"name": "On Air Clock",
 		"author": "Marc Herrmann",
-		"repository": "https://github.com/wortkrieg/streamdeck-onairclock"
+		"repository": "https://github.com/wortkrieg/streamdeck-onairclock",
+		"description": ""
 	},
 	"fun.shiro.ytmd": {
 		"name": "YouTube Music Desktop Connector",
 		"author": "XeroxDev",
-		"repository": "https://github.com/XeroxDev/YTMD-StreamDeck"
+		"repository": "https://github.com/XeroxDev/YTMD-StreamDeck",
+		"description": ""
 	},
 	"org.tynsoe.streamdeck.wsproxy": {
 		"name": "WebSocket Proxy",
 		"author": "Yann Bizeul",
-		"repository": "https://github.com/ybizeul/StreamDeckWS"
+		"repository": "https://github.com/ybizeul/StreamDeckWS",
+		"description": ""
 	},
 	"com.zergo0.teamspeak3integration": {
 		"name": "TeamSpeak 3 Integration",
 		"author": "ZerGo0",
-		"repository": "https://github.com/ZerGo0/streamdeck-teamspeak3integration"
+		"repository": "https://github.com/ZerGo0/streamdeck-teamspeak3integration",
+		"description": ""
 	}
 }
