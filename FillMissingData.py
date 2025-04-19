@@ -30,23 +30,6 @@ def get_repo_info(owner_repo):
     response.encoding = 'utf-8'
     return response.json()
 
-def find_download_url(owner_repo):
-    releases = requests.get(f"{GITHUB_API}/{owner_repo}/releases", headers=HEADERS)
-    if releases.status_code != 200:
-        return None
-    for release in releases.json():
-        for asset in release.get("assets", []):
-            if asset["name"].endswith(".streamDeckPlugin"):
-                return asset["browser_download_url"]
-
-    # fallback to raw master if a known file exists
-    raw_url = f"https://github.com/{owner_repo}/raw/master/Release/"
-    filename = f"{owner_repo.split('/')[-1]}.streamDeckPlugin"
-    test_url = raw_url + filename
-    if requests.head(test_url).status_code == 200:
-        return test_url
-    return None
-
 def download_icon(owner_repo, json_key):
     try:
         owner = owner_repo.split("/")[0]
@@ -76,11 +59,10 @@ def fill_missing_fields(data, update_description=False):
         # Check what data is actually missing
         missing_name = "name" not in plugin
         missing_author = "author" not in plugin
-        missing_download = "download_url" not in plugin
         missing_description = update_description or "description" not in plugin
         missing_icon = not os.path.exists(os.path.join(ICON_DIR, f"{key}.png"))
 
-        if not (missing_name or missing_author or missing_download or missing_icon or missing_description):
+        if not (missing_name or missing_author or missing_icon or missing_description):
             continue  # All good, skip this plugin
 
         owner_repo = "/".join(urlparse(repo_url).path.strip("/").split("/")[:2])
@@ -99,11 +81,6 @@ def fill_missing_fields(data, update_description=False):
 
         if missing_author:
             plugin["author"] = repo_info["owner"]["login"]
-
-        if missing_download:
-            dl_url = find_download_url(owner_repo)
-            if dl_url:
-                plugin["download_url"] = dl_url
 
         if "description" not in plugin:
             plugin["description"] = repo_info.get("description", "")
