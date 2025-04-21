@@ -1,0 +1,14 @@
+[project]
+name = "plugins"
+version = "0.0.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=11.2",
+    "tqdm>=4.67",
+]
+
+[tool.ruff]
+line-length = 100
+[tool.ruff.format]
+indent-style = "tab"
+line-ending = "lf"
