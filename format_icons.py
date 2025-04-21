@@ -43,6 +43,10 @@ def process_images(input_dir, quality, palette_colors):
 				if img.mode == "RGB":
 					img = img.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
 
+				# Remove metadata to reduce file size
+				img.info.pop("exif", None)  # JPEG
+				img.info.pop("icc_profile", None)  # PNG
+
 				# Prepare new filename
 				new_filename = Path(filename).stem + target_ext
 				temp_filepath = os.path.join(temp_dir, new_filename)
