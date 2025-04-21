@@ -7,50 +7,23 @@ from pathlib import Path
 from tqdm import tqdm
 
 
-def optimize_with_palette(image, use_palette, palette_colors=256):
+def optimize_with_palette(image, palette_colors=256):
 	"""Convert to palette-based image if enabled and beneficial"""
-	if not use_palette:
-		return image
 
 	# Only convert images that can benefit from palette
 	if image.mode not in ["RGB", "RGBA", "L", "LA"]:
 		return image
 
-	# Create temporary files for comparison
-	temp_original = Path("temp_original.png")
-	temp_palette = Path("temp_palette.png")
+	# Convert to palette mode
+	palette_img = image.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
+	if image.mode == "RGBA":
+		palette_img.putalpha(image.split()[-1])
 
-	# Save original version
-	image.save(temp_original, "PNG")
-	original_size = temp_original.stat().st_size
-
-	try:
-		# Convert to palette mode
-		palette_img = image.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
-		if image.mode == "RGBA":
-			palette_img.putalpha(image.split()[-1])
-
-		palette_img.save(temp_palette, "PNG")
-		palette_size = temp_palette.stat().st_size
-
-		# Use whichever is smaller
-		if palette_size < original_size:
-			return palette_img
-	except Exception as e:
-		logging.debug(f"Palette conversion failed: {e}")
-	finally:
-		# Clean up temp files
-		if temp_original.exists():
-			temp_original.unlink()
-		if temp_palette.exists():
-			temp_palette.unlink()
-
-	return image
+	return palette_img
 
 
 def process_images(
 	input_dir,
-	force_reformat,
 	quality=99,
 	use_palette=True,
 	palette_colors=256,
@@ -83,24 +56,13 @@ def process_images(
 
 		try:
 			with Image.open(filepath) as img:
-				original_width, original_height = img.size
-				needs_resize = original_width > max_size[0] or original_height > max_size[1]
-
-				# Determine if we need to process this file
-				needs_processing = force_reformat or needs_resize
-
-				if not needs_processing:
-					continue
-
 				total_files += 1
 				original_size += os.path.getsize(filepath)
 
-				# Resize if needed
-				if needs_resize:
-					img.thumbnail(max_size, Image.LANCZOS)
+				img.thumbnail(max_size, Image.LANCZOS)
 
 				if use_palette:
-					img = optimize_with_palette(img, use_palette, palette_colors)
+					img = optimize_with_palette(img, palette_colors)
 
 				# Prepare new filename
 				new_filename = Path(filename).stem + target_ext
@@ -109,14 +71,6 @@ def process_images(
 				# Save with optimized settings
 				save_kwargs = {"compress_level": 9 - int((quality / 100) * 9), "optimize": True}
 				img.save(temp_filepath, "PNG", **save_kwargs)
-
-				# Check if the new file is actually smaller (if not replacing due to force_reformat)
-				if not force_reformat and os.path.exists(os.path.join(input_dir, new_filename)):
-					existing_size = os.path.getsize(os.path.join(input_dir, new_filename))
-					new_file_size = os.path.getsize(temp_filepath)
-					if new_file_size >= existing_size:
-						os.remove(temp_filepath)
-						continue
 
 				# Count as modified only if we actually created a new file
 				modified_files += 1
@@ -145,11 +99,6 @@ def process_images(
 def main():
 	parser = argparse.ArgumentParser(
 		description="Process images in ./icons directory to max 144x144 resolution."
-	)
-	parser.add_argument(
-		"--force",
-		action="store_true",
-		help="Force reformatting of all images, even if they match the target format and size.",
 	)
 
 	# Quality settings
@@ -181,11 +130,8 @@ def main():
 		print(f"Error: Directory '{input_dir}' does not exist.")
 		return
 
-	force_reformat = args.force
-
 	total_files, modified_files, original_size, new_size = process_images(
 		input_dir=input_dir,
-		force_reformat=force_reformat,
 		quality=args.quality,
 		use_palette=args.use_palette,
 		palette_colors=args.palette_colors,
