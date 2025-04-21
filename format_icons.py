@@ -6,15 +6,6 @@ from pathlib import Path
 from tqdm import tqdm
 
 
-def optimize_with_palette(image, palette_colors):
-	"""Convert to palette-based image"""
-
-	if image.mode != "RGB":
-		return image
-
-	return image.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
-
-
 def process_images(input_dir, quality, palette_colors):
 	total_files = 0
 	modified_files = 0
@@ -49,7 +40,8 @@ def process_images(input_dir, quality, palette_colors):
 
 				img.thumbnail(max_size, Image.LANCZOS)
 
-				img = optimize_with_palette(img, palette_colors)
+				if img.mode == "RGB":
+					img = img.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
 
 				# Prepare new filename
 				new_filename = Path(filename).stem + target_ext
