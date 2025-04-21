@@ -26,12 +26,9 @@ def optimize_with_palette(image, use_palette, palette_colors=256):
 
 	try:
 		# Convert to palette mode
-		if image.mode in ["RGB", "RGBA"]:
-			palette_img = image.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
-			if image.mode == "RGBA":
-				palette_img.putalpha(image.split()[-1])
-		elif image.mode in ["L", "LA"]:
-			palette_img = image.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
+		palette_img = image.convert("P", palette=Image.Palette.ADAPTIVE, colors=palette_colors)
+		if image.mode == "RGBA":
+			palette_img.putalpha(image.split()[-1])
 
 		palette_img.save(temp_palette, "PNG")
 		palette_size = temp_palette.stat().st_size
@@ -53,11 +50,8 @@ def optimize_with_palette(image, use_palette, palette_colors=256):
 
 def process_images(
 	input_dir,
-	preferred_format,
 	force_reformat,
-	png_quality=99,
-	jpeg_quality=95,
-	webp_quality=90,
+	quality=99,
 	use_palette=True,
 	palette_colors=256,
 ):
@@ -66,16 +60,7 @@ def process_images(
 	original_size = 0
 	new_size = 0
 
-	# Supported formats and their extensions
-	format_extensions = {"webp": ".webp", "jpeg": ".jpg", "png": ".png", "gif": ".gif"}
-
-	if preferred_format.lower() not in format_extensions:
-		logging.error(
-			f"Unsupported format: {preferred_format}. Supported formats are: {', '.join(format_extensions.keys())}"
-		)
-		return
-
-	target_ext = format_extensions[preferred_format.lower()]
+	target_ext = ".png"
 	max_size = (144, 144)
 
 	# Create a temporary directory for processed images
@@ -98,17 +83,11 @@ def process_images(
 
 		try:
 			with Image.open(filepath) as img:
-				original_format = img.format.lower() if img.format else ""
 				original_width, original_height = img.size
 				needs_resize = original_width > max_size[0] or original_height > max_size[1]
 
 				# Determine if we need to process this file
-				needs_processing = (
-					force_reformat
-					or needs_resize
-					or Path(filename).suffix.lower() != target_ext
-					or original_format != preferred_format.lower()
-				)
+				needs_processing = force_reformat or needs_resize
 
 				if not needs_processing:
 					continue
@@ -120,27 +99,16 @@ def process_images(
 				if needs_resize:
 					img.thumbnail(max_size, Image.LANCZOS)
 
-				# Apply palette optimization if enabled for this format
-				if preferred_format.lower() in ["png", "gif"] and use_palette:
+				if use_palette:
 					img = optimize_with_palette(img, use_palette, palette_colors)
 
 				# Prepare new filename
 				new_filename = Path(filename).stem + target_ext
 				temp_filepath = os.path.join(temp_dir, new_filename)
 
-				# Save with format-specific optimized settings
-				save_kwargs = {}
-				if preferred_format.lower() == "webp":
-					save_kwargs["quality"] = webp_quality
-					save_kwargs["method"] = 6
-				elif preferred_format.lower() == "jpeg":
-					save_kwargs["quality"] = jpeg_quality
-					save_kwargs["optimize"] = True
-				elif preferred_format.lower() == "png":
-					save_kwargs["compress_level"] = 9 - int((png_quality / 100) * 9)
-					save_kwargs["optimize"] = True
-
-				img.save(temp_filepath, preferred_format.upper(), **save_kwargs)
+				# Save with optimized settings
+				save_kwargs = {"compress_level": 9 - int((quality / 100) * 9), "optimize": True}
+				img.save(temp_filepath, "PNG", **save_kwargs)
 
 				# Check if the new file is actually smaller (if not replacing due to force_reformat)
 				if not force_reformat and os.path.exists(os.path.join(input_dir, new_filename)):
@@ -153,10 +121,6 @@ def process_images(
 				# Count as modified only if we actually created a new file
 				modified_files += 1
 				new_size += os.path.getsize(temp_filepath)
-
-				# Remove old file if the name changed (format conversion)
-				if new_filename != filename:
-					os.remove(filepath)
 
 		except Exception as e:
 			logging.warning(f"Could not process {filename}: {str(e)}")
@@ -183,12 +147,6 @@ def main():
 		description="Process images in ./icons directory to max 144x144 resolution."
 	)
 	parser.add_argument(
-		"--format",
-		type=str,
-		default="png",
-		help="Preferred output format (webp, jpeg, png, gif). Default: png",
-	)
-	parser.add_argument(
 		"--force",
 		action="store_true",
 		help="Force reformatting of all images, even if they match the target format and size.",
@@ -196,16 +154,10 @@ def main():
 
 	# Quality settings
 	parser.add_argument(
-		"--png-quality",
+		"--quality",
 		type=int,
 		default=99,
 		help="PNG quality (0-100, higher is better). Default: 99",
-	)
-	parser.add_argument(
-		"--jpeg-quality", type=int, default=95, help="JPEG quality (0-100). Default: 95"
-	)
-	parser.add_argument(
-		"--webp-quality", type=int, default=90, help="WebP quality (0-100). Default: 90"
 	)
 
 	# Palette settings
@@ -213,7 +165,7 @@ def main():
 		"--no-palette",
 		action="store_false",
 		dest="use_palette",
-		help="Disable palette optimization for PNG/GIF",
+		help="Disable palette optimization",
 	)
 	parser.add_argument(
 		"--palette-colors",
@@ -229,16 +181,12 @@ def main():
 		print(f"Error: Directory '{input_dir}' does not exist.")
 		return
 
-	preferred_format = args.format.lower()
 	force_reformat = args.force
 
 	total_files, modified_files, original_size, new_size = process_images(
 		input_dir=input_dir,
-		preferred_format=preferred_format,
 		force_reformat=force_reformat,
-		png_quality=args.png_quality,
-		jpeg_quality=args.jpeg_quality,
-		webp_quality=args.webp_quality,
+		quality=args.quality,
 		use_palette=args.use_palette,
 		palette_colors=args.palette_colors,
 	)
