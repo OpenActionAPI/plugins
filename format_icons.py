@@ -1,5 +1,4 @@
 import os
-import argparse
 from PIL import Image
 import shutil
 import logging
@@ -97,34 +96,6 @@ def process_images(
 
 
 def main():
-	parser = argparse.ArgumentParser(
-		description="Process images in ./icons directory to max 144x144 resolution."
-	)
-
-	# Quality settings
-	parser.add_argument(
-		"--quality",
-		type=int,
-		default=99,
-		help="PNG quality (0-100, higher is better). Default: 99",
-	)
-
-	# Palette settings
-	parser.add_argument(
-		"--no-palette",
-		action="store_false",
-		dest="use_palette",
-		help="Disable palette optimization",
-	)
-	parser.add_argument(
-		"--palette-colors",
-		type=int,
-		default=256,
-		help="Number of colors to use in palette (2-256). Default: 256",
-	)
-
-	args = parser.parse_args()
-
 	input_dir = "./icons"
 	if not os.path.exists(input_dir):
 		print(f"Error: Directory '{input_dir}' does not exist.")
@@ -132,9 +103,9 @@ def main():
 
 	total_files, modified_files, original_size, new_size = process_images(
 		input_dir=input_dir,
-		quality=args.quality,
-		use_palette=args.use_palette,
-		palette_colors=args.palette_colors,
+		quality=99,
+		use_palette=True,
+		palette_colors=256,
 	)
 
 	# Print results
