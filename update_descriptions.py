@@ -1,7 +1,6 @@
 import sys
 import json
 import time
-import numbers
 import requests
 from urllib.parse import urlparse
 from tqdm import tqdm
@@ -12,17 +11,21 @@ HEADERS = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "202
 
 CATALOG_FILE = "catalogue.json"
 
-# Configurations set in args
+RED = "\033[91m"
+GREEN = "\033[92m"
+YELLOW = "\033[93m"
+CLEAR = "\033[0m"
+
+# Parameters set by arguments to script
 skip_update = False
 wait_on_rate_limit = False
-log = False
 
-# stats
+# Statistics
 failed = 0
 invalid_repo = 0
 performed = 0
-skiped = 0
-success = 0
+skipped = 0
+succeeded = 0
 
 
 def get_repo_info(owner_repo):
@@ -31,104 +34,75 @@ def get_repo_info(owner_repo):
 	return response
 
 
-def UpdateDescription(key, plugin):
+def update_description(id, plugin):
 	global failed
 	global invalid_repo
 	global performed
-	global skiped
-	global success
+	global skipped
+	global succeeded
 
 	performed += 1
 
 	if skip_update and "description" in plugin:
-		if log:
-			tqdm.write(key + ": \033[94mSkipping update for plugin\033[0m")
-		skiped += 1
-		return 208
+		tqdm.write(GREEN + id + ": Description already present. Skipping." + CLEAR)
+		skipped += 1
+		return
+
 	repo_url = plugin.get("repository")
 	if not repo_url or "github.com" not in repo_url:
-		if log:
-			# TODO: add a support for other git providers like gitlab, bitbucket, etc.
-			tqdm.write(key + ": \033[93mNo GitHub repository found. Skipping.\033[0m")
+		# TODO: add support for other Git providers like GitLab, Bitbucket, etc.
+		tqdm.write(YELLOW + id + ": No GitHub repository found. Skipping." + CLEAR)
 		invalid_repo += 1
-		return 404
+		return
 
-	repo_info = 403
+	owner_repo = "/".join(urlparse(repo_url).path.strip("/").split("/")[:2])
 
-	timesFailed = 0
+	repo_info = get_repo_info(owner_repo)
 
-	# Do while loop
-	while True:
-		owner_repo = "/".join(urlparse(repo_url).path.strip("/").split("/")[:2])
+	if repo_info.status_code == 403 and wait_on_rate_limit:
+		tqdm.write(YELLOW + "GitHub API rate limit reached. Waiting for 5 minutes..." + CLEAR)
+		time.sleep(300)
 		repo_info = get_repo_info(owner_repo)
 
+	if repo_info.status_code < 200 or repo_info.status_code >= 300:
+		tqdm.write(YELLOW + id + ": Failed to fetch repository info: unsuccessful HTTP request." + CLEAR)
+		failed += 1
 		if repo_info.status_code == 403:
-			timesFailed += 1
-
-			if log and timesFailed == 1:
-				tqdm.write(key + ": \033[91mFailed to fetch repository info.\033[0m")
-
-			if wait_on_rate_limit:
-				tqdm.write("\033[93mGitHub API rate limit reached. Waiting for 5 minutes...\033[0m")
-				try:
-					time.sleep(300)
-				except KeyboardInterrupt:
-					tqdm.write("\033[93mProcess interrupted by user.\033[0m")
-					failed += 1
-					return 403
-				continue
-			else:
-				failed += 1
-				return 403
-		break
+			raise Exception("rate_limited")
+		else:
+			return
 
 	json = repo_info.json()
 	if not json:
-		if log:
-			tqdm.write(key + ": No JSON response. Skipping update.")
+		tqdm.write(YELLOW + id + ": Failed to fetch repository info: no JSON response." + CLEAR)
 		failed += 1
-		return 204
-
-	if log:
-		tqdm.write(key + ": \033[92mDone.\033[0m")
+		return
 
 	plugin["description"] = json.get("description", "")
 
-	success += 1
+	tqdm.write(id + ": Successfully updated description.")
+	succeeded += 1
+
 	return plugin
 
 
-def UpdateDescriptions(data):
-	# if its only one plugin, we can skip the for loop
-	if len(data) == 1:
-		key, plugin = list(data.items())[0]
-		plugin = UpdateDescription(key, plugin)
+def update_descriptions(data, ids):
+	progress_bar = tqdm(ids, desc="Filling catalogue", unit="plugin")
 
-		if plugin == 403:
-			print("\033[91mGitHub API rate limit reached. Stopping further requests.\033[0m")
-			return 403
-
-		elif not isinstance(plugin, numbers.Number):
-			data[key] = plugin
-
-		return data
-
-	progress_bar = tqdm(data.items(), desc="Filling catalogue", unit="plugin")
-	# if we have multiple plugins, we need to loop through them while displaying a progress bar
-	for key, plugin in progress_bar:
-		updatedPlugin = UpdateDescription(key, plugin)
-
-		if updatedPlugin == 403:
-			progress_bar.leave = False
-			progress_bar.close()
-			print("\033[91mGitHub API rate limit reached. Stopping further requests.\033[0m")
-			print("Stoped at plugin: " + key)
-			break
-
-		elif isinstance(plugin, numbers.Number):
-			continue
-
-		plugin = updatedPlugin
+	for id in progress_bar:
+		try:
+			updated = update_description(id, data[id])
+			if updated is not None:
+				data[id] = updated
+		except Exception as error:
+			if "rate_limited" in error.args:
+				progress_bar.leave = False
+				progress_bar.close()
+				print(RED + "GitHub API rate limit reached. Stopping further requests." + CLEAR)
+				print(YELLOW + "Stopped at plugin: " + id + CLEAR)
+				break
+			else:
+				raise error
 
 	return data
 
@@ -136,96 +110,60 @@ def UpdateDescriptions(data):
 def main():
 	with open(CATALOG_FILE, "r", encoding="utf-8") as f:
 		data = json.load(f)
+	all_ids = list(data.keys())
+	ids = []
 
 	args = sys.argv[1:]
-	update_all = True
 	start_from = False
 
 	global skip_update
 	global wait_on_rate_limit
-	global log
 
 	global failed
 	global invalid_repo
 	global performed
-	global skiped
-	global success
+	global skipped
+	global succeeded
 
 	for arg in args:
-		if arg == "--help" or arg == "-h":
-			print(
-				"Usage: python update_descriptions.py --skip-update --wait-on-rate-limit [plugin_key1] [plugin_key2] ..."
-			)
-			print(
-				"  plugin_key: Specify a plugin key to update only that plugin. If non are provided, all plugins will be updated. (Configs will only be applied of writen before the plugin_key)"
-			)
-			print("  --skip-update: Skip updating the description if it already exists.")
-			print(
-				"  --wait-on-rate-limit: In the case you get API rate limited, the program will retry until requests are allowed again."
-			)
-			print("  --log: Logs the plugins and some info about them to the console.")
-			print(
-				"  --start-from [plugin_key]: Specify a plugin key to start updating from. (Useful for when you want to resume a full update from a specific plugin)"
-			)
-			return
-		elif arg == "--skip-update":
+		if arg.lower() == "--skip-update":
 			skip_update = True
-			continue
-		elif arg == "--wait-on-rate-limit":
+		elif arg.lower() == "--wait-on-rate-limit":
 			wait_on_rate_limit = True
-			continue
-		elif arg == "--log":
-			log = True
-			continue
-		elif arg.startswith("--start-from"):
+		elif arg.lower() == "--start-from":
 			start_from = True
-			continue
-		elif arg.startswith("--") or arg.startswith("-"):
-			print(f"Unknown argument: {arg}")
-			return
-		elif arg in data:
-			update_all = False
-
+		elif arg in all_ids:
 			if start_from:
-				start_from = False
+				ids = all_ids[all_ids.index(arg):]
+			else:
+				ids.append(arg)
+		else:
+			print(RED + "Unrecognised argument: " + arg + CLEAR)
+			exit(1)
 
-				# if startFrom is true, we need to update all plugins starting at arg
-				updateKeys = list(data.keys())
-				startIndex = updateKeys.index(arg)
-				for key in updateKeys[startIndex:]:
-					subset = {key: data[key]}
-					updated = UpdateDescriptions(subset)
-					if updated == 403:
-						return
-					data[key] = updated[key]
-				continue
+	if len(ids) == 0:
+		if start_from:
+			print(RED + "No plugins to be updated." + CLEAR)
+			exit(1)
+		ids = all_ids
 
-			subset = {arg: data[arg]}
-			updated = UpdateDescriptions(subset)
-			if updated == 403:
-				return
-			data[arg] = updated[arg]
-
-	if update_all:
-		data = UpdateDescriptions(
-			data,
-		)
+	data = update_descriptions(data, ids)
 
 	with open(CATALOG_FILE, "w", encoding="utf-8") as f:
 		json.dump(data, f, indent="\t", ensure_ascii=False)
+		f.write("\n")
 
 	print("Catalogue updated.")
-	print("Plugins checked: " + str(performed))
-	print("Plugins skipped: " + str(skiped))
-	print("Plugins failed: " + str(failed))
-	print("Plugins with invalid repo: " + str(invalid_repo))
-	print("Plugins success: " + str(success))
-
+	print(f"Plugins checked: {performed}")
+	print(f"Plugins skipped: {skipped}")
+	print(f"Plugins failed: {failed}")
+	print(f"Plugins with invalid repo: {invalid_repo}")
+	print(f"Plugins succeeded: {succeeded}")
 	print(
-		"Plugins succeded or skiped: "
-		+ str(success + skiped)
+		"Plugins succeeded or skipped: "
+		+ str(succeeded + skipped)
 		+ " "
-		+ "{:.2f}%".format((success + skiped) / performed * 100)
+		+ "{:.2f}%".format((succeeded + skipped) / performed * 100)
 	)
 
 
