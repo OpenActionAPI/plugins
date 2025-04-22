@@ -34,6 +34,10 @@ def get_repo_info(owner_repo):
 	return response
 
 
+class RateLimitedException(BaseException):
+	pass
+
+
 def update_description(id, plugin):
 	global failed
 	global invalid_repo
@@ -65,10 +69,12 @@ def update_description(id, plugin):
 		repo_info = get_repo_info(owner_repo)
 
 	if repo_info.status_code < 200 or repo_info.status_code >= 300:
-		tqdm.write(YELLOW + id + ": Failed to fetch repository info: unsuccessful HTTP request." + CLEAR)
+		tqdm.write(
+			YELLOW + id + ": Failed to fetch repository info: unsuccessful HTTP request." + CLEAR
+		)
 		failed += 1
 		if repo_info.status_code == 403:
-			raise Exception("rate_limited")
+			raise RateLimitedException
 		else:
 			return
 
@@ -94,15 +100,12 @@ def update_descriptions(data, ids):
 			updated = update_description(id, data[id])
 			if updated is not None:
 				data[id] = updated
-		except Exception as error:
-			if "rate_limited" in error.args:
-				progress_bar.leave = False
-				progress_bar.close()
-				print(RED + "GitHub API rate limit reached. Stopping further requests." + CLEAR)
-				print(YELLOW + "Stopped at plugin: " + id + CLEAR)
-				break
-			else:
-				raise error
+		except RateLimitedException:
+			progress_bar.leave = False
+			progress_bar.close()
+			print(RED + "GitHub API rate limit reached. Stopping further requests." + CLEAR)
+			print(YELLOW + "Stopped at plugin: " + id + CLEAR)
+			break
 
 	return data
 
@@ -134,7 +137,7 @@ def main():
 			start_from = True
 		elif arg in all_ids:
 			if start_from:
-				ids = all_ids[all_ids.index(arg):]
+				ids = all_ids[all_ids.index(arg) :]
 			else:
 				ids.append(arg)
 		else:
