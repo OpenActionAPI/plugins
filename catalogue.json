@@ -456,12 +456,6 @@
 		"repository": "https://github.com/nicollasricas/decks-unity",
 		"description": "Enables Stream Deck integration with Unity."
 	},
-	"com.amansprojects.starterpack": {
-		"name": "OpenDeck Starter Pack",
-		"author": "ninjadev64",
-		"repository": "https://github.com/ninjadev64/opendeck-starterpack",
-		"description": "This repository contains an OpenAction plugin that provides basic actions for use in OpenDeck."
-	},
 	"com.nuagic.myip": {
 		"name": "My IP",
 		"author": "Nuagic",
