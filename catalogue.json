@@ -5,6 +5,18 @@
 		"repository": "https://github.com/nekename/oampris",
 		"description": "An OpenAction (OpenDeck) plugin for controlling media players on Linux using the MPRIS protocol."
 	},
+	"st.lynx.plugins.opendeck-akp03": {
+		"name": "Ajazz AKP03 / Mirabox N3",
+		"author": "Andrey Viktorov",
+		"repository": "https://github.com/4ndv/opendeck-akp03",
+		"description": "An unofficial OpenDeck plugin for Ajazz Akp03 / Mirabox N3-family devices"
+	},
+	"st.lynx.plugins.opendeck-akp153": {
+		"name": "Ajazz AKP153 / Mirabox HSV293",
+		"author": "Andrey Viktorov",
+		"repository": "https://github.com/4ndv/opendeck-akp153",
+		"description": "An unofficial OpenDeck plugin for Ajazz Akp153 / Mirabox HSV293S-family devices"
+	},
 	"com.elgato.analogclock": {
 		"name": "Analog Clock",
 		"author": "Elgato",
