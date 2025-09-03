@@ -468,6 +468,12 @@
 		"repository": "https://github.com/nicollasricas/decks-unity",
 		"description": "Enables Stream Deck integration with Unity."
 	},
+	"com.ntanis.essentials-for-spotify": {
+		"name": "Essentials for Spotify",
+		"author": "Ntanis",
+		"repository": "https://github.com/ntanis-dev/essentials-for-spotify",
+		"description": "Effortlessly control your Spotify through your Elgato Stream Deck. A Spotify Premium account is required to use the full functionality of this plugin."
+	},
 	"com.nuagic.myip": {
 		"name": "My IP",
 		"author": "Nuagic",
