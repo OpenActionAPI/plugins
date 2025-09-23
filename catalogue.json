@@ -52,6 +52,39 @@
 		"download_url": "https://github.com/elgatosf/streamdeck-philipshue/raw/master/Release/com.elgato.philips-hue.streamDeckPlugin",
 		"description": "Stream Deck SDK: Philips Hue sample plugin"
 	},
+	"com.5e.hwinfo-reader": {
+		"name": "HWiNFO Reader",
+		"author": "5e",
+		"repository": "https://github.com/5e/streamdeck-hwinfo-plugin",
+		"download_url": "https://github.com/5e/streamdeck-hwinfo-plugin/raw/refs/heads/main/com.5e.hwinfo-reader.streamDeckPlugin",
+		"description": "HWiNFO Reader - A Stream Deck plugin to show HWiNFO sensors without using the time limited 'Shared Memory Support' feature. Only 79KB 🌟"
+	},
+	"com.nagopy.streamdeck.tasktimer": {
+		"name": "Task Timer",
+		"author": "75py",
+		"repository": "https://github.com/75py/streamdeck-tasktimer",
+		"description": null
+	},
+	"com.nicoohagedorn.pythonscriptdeck": {
+		"name": "PythonScriptDeck",
+		"author": "Nicco Hagedorn",
+		"repository": "https://github.com/9h03n1x/pythonscriptdeck",
+		"description": null
+	},
+	"com.niccohagedorn.steam-status-update": {
+		"name": "Steam Status Update",
+		"author": "Nicco Hagedorn",
+		"repository": "https://github.com/9h03n1x/steam-status-update",
+		"download_url": "https://github.com/9h03n1x/steam-status-update/raw/refs/heads/main/com.niccohagedorn.steam-status-update.streamDeckPlugin",
+		"description": null
+	},
+	"com.niccohagedorn.teamsnavigator": {
+		"name": "TeamsNavigator",
+		"author": "Nicco Hagedorn",
+		"repository": "https://github.com/9h03n1x/teams-navigator",
+		"download_url": "https://github.com/9h03n1x/teams-navigator/raw/refs/heads/main/com.niccohagedorn.teamsnavigator.streamDeckPlugin",
+		"description": null
+	},
 	"com.arkyasmal.windowactions": {
 		"name": "Window Actions",
 		"author": "Arky Asmal",
@@ -82,6 +115,19 @@
 		"repository": "https://github.com/aperezm85/streamdeck-tado-plugin",
 		"description": "Basic Stream Deck plugin for manage Tado thermostat"
 	},
+	"com.arkkis.nowplaying": {
+		"name": "Now Playing Command",
+		"author": "Arkkis",
+		"repository": "https://github.com/Arkkis/StreamDeckNowPlayingPlugin",
+		"description": null
+	},
+	"de.artus.fileexplorer": {
+		"name": "FileExplorer",
+		"author": "Artus",
+		"repository": "https://github.com/ArtusLama/streamdeck-fileexplorer",
+		"download_url": "https://github.com/ArtusLama/streamdeck-fileexplorer/raw/refs/heads/main/de.artus.fileexplorer.streamDeckPlugin",
+		"description": null
+	},
 	"fr.arubinu42": {
 		"name": "Arubinu42",
 		"author": "Alvin Pergens",
@@ -99,6 +145,18 @@
 		"author": "Xiphis",
 		"repository": "https://github.com/atcurtis/streamdeck-ohs",
 		"description": "Stream Deck: OpenHardwareMonitor Plugin"
+	},
+	"com.zaphop.quickalarm": {
+		"name": "Quick Alarm",
+		"author": "Nick Pirocanac",
+		"repository": "https://github.com/BackTrak/StreamDeckQuickAlarm",
+		"description": null
+	},
+	"com.zaphop.visualizer": {
+		"name": "Visualizer",
+		"author": "Nick Pirocanac",
+		"repository": "https://github.com/BackTrak/StreamDeckVisualizerPlugin",
+		"description": "A Stream Deck plugin that can visualize input and output audio."
 	},
 	"com.baptiewright.nanoleaf": {
 		"name": "Nanoleaf Controller",
@@ -132,17 +190,48 @@
 		"download_url": "https://github.com/Buzzet/streamdeck-azure-pipeline/raw/refs/heads/master/Release/com.buzzet.azurepipeline.streamDeckPlugin",
 		"description": null
 	},
+	"com.cael-gomes.bt-controller": {
+		"name": "Bluetooth LE Controller",
+		"author": "Cael Gomes",
+		"repository": "https://github.com/cael-gomes/streamdeck-ble-plugin",
+		"description": "Control BLE devices from your Stream Deck; scan, select a characteristic, and send commands on keypress."
+	},
+	"com.carlesbalsach.waterreminder": {
+		"name": "Water Reminder",
+		"author": "Carles Balsach",
+		"repository": "https://github.com/CarlesBalsach/water-reminder-elgato-plugin",
+		"download_url": "https://github.com/CarlesBalsach/water-reminder-elgato-plugin/raw/refs/heads/main/Release/com.carlesbalsach.waterreminder.streamDeckPlugin",
+		"description": "A simple Water Reminder plugin for the El Gato Stream Decks."
+	},
 	"dev.cazzar.streamdeck.vtubestudio": {
 		"name": "VTubeStudio",
 		"author": "Cazzar",
 		"repository": "https://github.com/Cazzar/VTubeStudio-StreamDeck",
 		"description": null
 	},
+	"com.ceridwen.audio": {
+		"name": "Ceridwen Audio Tools",
+		"author": "M. J. Dovey",
+		"repository": "https://github.com/ceridwen-com/CeridwenAudioTools",
+		"description": "StreamDeck+ plugin for changing the default audio device of the foreground application under Windows 10 and later."
+	},
 	"de.perdoctus.streamdeck.homeassistant": {
 		"name": "Home Assistant",
 		"author": "Christoph Giesche",
 		"repository": "https://github.com/cgiesche/streamdeck-homeassistant",
 		"description": "Control your Home Assistant devices from StreamDeck"
+	},
+	"sh.cider.streamdeck": {
+		"name": "CiderDeck",
+		"author": "Cider Collective",
+		"repository": "https://github.com/ciderapp/CiderDeck",
+		"description": "Cider's official Stream Deck implementation for playback management and information."
+	},
+	"net.localhost.streamdeck.clipboard-buddy": {
+		"name": "Clipboard Buddy",
+		"author": "Commit-La-Grenouille",
+		"repository": "https://github.com/Commit-La-Grenouille/streamdeck-clipboard-buddy",
+		"description": null
 	},
 	"com.corcules.kmlink": {
 		"name": "KMLink",
@@ -151,17 +240,17 @@
 		"download_url": "https://github.com/Corcules/KMlink/raw/refs/heads/master/com.corcules.kmlink.streamDeckPlugin",
 		"description": "Streamdeck plugin to drive Keyboard Maestro"
 	},
-	"net.localhost.streamdeck.clipboard-buddy": {
-		"name": "Clipboard Buddy",
-		"author": "Commit-La-Grenouille",
-		"repository": "https://github.com/Commit-La-Grenouille/streamdeck-clipboard-buddy",
-		"description": null
-	},
 	"cz.danol.discordmixer": {
 		"name": "Discord Volume Mixer",
 		"author": "Danol",
 		"repository": "https://github.com/CZDanol/StreamDeck-DiscordVolumeMixer2",
 		"description": "Discord Volume Mixer plugin for StreamDeck"
+	},
+	"com.darkdragon14.elgato-docker": {
+		"name": "elgato-docker",
+		"author": "darkdragon14",
+		"repository": "https://github.com/Darkdragon14/streamdeck-docker",
+		"description": "A Stream Deck plugin that allows you to manage Docker containers directly from your Elgato Stream Deck. Start, stop, and monitor the status of your Docker containers with ease, all from the convenience of your Stream Deck keys."
 	},
 	"gg.datagram.web-requests": {
 		"name": "Web Requests",
@@ -175,11 +264,37 @@
 		"repository": "https://github.com/davidborzek/streamdeck-foobar2000",
 		"description": "An Elgato Stream Deck foobar2000 integration."
 	},
+	"com.davidgolunski.autoclicker": {
+		"name": "Autoclicker",
+		"author": "David Golunski",
+		"repository": "https://github.com/DavidGolunski/Autoclicker",
+		"download_url": "https://github.com/DavidGolunski/Autoclicker/raw/refs/heads/main/Plugin/com.davidgolunski.autoclicker.streamDeckPlugin",
+		"description": "An Autoclicker plugin for the Stream Deck"
+	},
+	"com.davidgolunski.goveelightcontroller": {
+		"name": "Govee Light Controller",
+		"author": "David Golunski",
+		"repository": "https://github.com/DavidGolunski/GoveeLightController",
+		"download_url": "https://github.com/DavidGolunski/GoveeLightController/raw/refs/heads/main/Plugin/com.davidgolunski.goveelightcontroller.streamDeckPlugin",
+		"description": "A C# Application for the Streamdeck. It allows you to control compatible Govee lights using \"LAN Control\", which does not require an API Key"
+	},
 	"com.dddice.app": {
 		"name": "dddice",
 		"author": "dddice",
 		"repository": "https://github.com/dddice/dddice-stream-deck-plugin",
 		"description": null
+	},
+	"audio.dhd.s52": {
+		"name": "DHD Stream Deck",
+		"author": "DHD audio",
+		"repository": "https://github.com/DHD-audio/streamdeck-DHD",
+		"description": "Stream Deck Plugin to work with DHD control API"
+	},
+	"audio.dhd.rm1": {
+		"name": "RM1 Control",
+		"author": "DHD audio",
+		"repository": "https://github.com/dhd-audio/streamdeck-rm1",
+		"description": "RM1 Control plugin for Stream Deck"
 	},
 	"com.dim.streamdeck": {
 		"name": "DIM Stream Deck",
@@ -193,6 +308,12 @@
 		"repository": "https://github.com/dlprows/FocusVolumeControl",
 		"description": "Stream Deck+ plugin for controlling the focused application's volume"
 	},
+	"me.duncte123.livesplit": {
+		"name": "LiveSplit",
+		"author": "Duncan Sterken",
+		"repository": "https://github.com/duncte123/LiveSplit.StreamDeck",
+		"description": "I dislike hotkeys :)"
+	},
 	"fr.twitchat": {
 		"name": "Twitchat",
 		"author": "Durss",
@@ -205,6 +326,18 @@
 		"author": "EggRP",
 		"repository": "https://github.com/EggRP/fxcommands",
 		"description": "Streamdeck Plugin for FiveM commands"
+	},
+	"com.eladavron.litra-glow-commander": {
+		"name": "Litra Glow Commander",
+		"author": "Elad Avron",
+		"repository": "https://github.com/eladavron/litra-glow-commander",
+		"description": "A Litra Glow plugin for StreamDeck"
+	},
+	"com.github.eliankars.multiple-counters": {
+		"name": "Multiple Counters",
+		"author": "Elian Kars",
+		"repository": "https://github.com/ElianKars/StreamDeck-Multiple-Counters",
+		"description": "Elgato Stream Deck plugin that lets you group multiple counters and reset them all with a single button press. Perfect for stream sessions, production tracking, quality control counts, or any situation where you need to monitor and reset multiple counts together."
 	},
 	"net.ellreka.slack-status": {
 		"name": "Slack Status",
@@ -223,6 +356,12 @@
 		"author": "f00d4tehg0dz",
 		"repository": "https://github.com/f00d4tehg0dz/elgato-streamdeck-cookie-clicker",
 		"description": "cookie-clicker for elgato"
+	},
+	"com.f00d4tehg0dz.star-citizen-status": {
+		"name": "Star Citizen Status",
+		"author": "f00d4tehg0dz",
+		"repository": "https://github.com/f00d4tehg0dz/starcitizen-server-status-plugin-for-elgato-streamdeck",
+		"description": "A StarCitizen server status plugin for Elgato Streamdeck"
 	},
 	"com.f00d4tehg0dz.teslafi": {
 		"name": "TeslaFi",
@@ -273,12 +412,30 @@
 		"repository": "https://github.com/fredemmott/streaming-remote",
 		"description": "Control OBS Studio or XSplit Broadcaster over a network"
 	},
+	"gg.frontpage.streamdeck-stemplayer": {
+		"name": "Stem Player",
+		"author": "frontpage e.V.",
+		"repository": "https://github.com/frontpage-ev/streamdeck-stemplayer-plugin",
+		"description": null
+	},
+	"com.ftt.apimonkey": {
+		"name": "API Monkey",
+		"author": "FT-T",
+		"repository": "https://github.com/ft-t/apimonkey",
+		"description": "http(s) client for StreamDeck"
+	},
 	"com.funky.rokuremotejs": {
 		"name": "Roku Remote",
 		"author": "Jasper Cools",
 		"repository": "https://github.com/FUNKYJASPER2/StreamDeck-Roku-Remote-Plugin",
 		"download_url": "https://github.com/FUNKYJASPER2/StreamDeck-Roku-Remote-Plugin/raw/refs/heads/main/Release/com.funky.rokuremotejs.streamDeckPlugin",
 		"description": "Stream Deck Plugin to control your Roku TV"
+	},
+	"com.gabe565.stopwatch": {
+		"name": "Stopwatch Timekeeper",
+		"author": "gabe565",
+		"repository": "https://github.com/gabe565/streamdeck-stopwatch",
+		"description": "⏱️ A stopwatch plugin for the Elgato Stream Deck"
 	},
 	"com.gabrielperales.osascript": {
 		"name": "OSA Script",
@@ -316,6 +473,24 @@
 		"author": "Hakuya Labs",
 		"repository": "https://github.com/HakuyaLabs/warudo-streamdeck",
 		"description": "A Elgato Stream Deck plugin for Warudo."
+	},
+	"com.simonedenadai.motu-avb": {
+		"name": "MOTU AVB",
+		"author": "Hecsa",
+		"repository": "https://github.com/Hecsall/streamdeck-motu-avb",
+		"description": "MOTU AVB Audio Interface Plugin for Stream Deck (Unofficial)"
+	},
+	"com.hmarr.amphetamine": {
+		"name": "Amphetamine",
+		"author": "Harry Marr",
+		"repository": "https://github.com/hmarr/streamdeck-amphetamine",
+		"description": "💊 Stream Deck plugin for Amphetamine"
+	},
+	"org.smyck.reaper-osc-action": {
+		"name": "Reaper OSC Action",
+		"author": "hukl",
+		"repository": "https://github.com/hukl/reaper_osc_action",
+		"description": "A Streamdeck Plugin to send OSC Commands to Reaper"
 	},
 	"org.danielkennett.xcode-streamdeck-plugin": {
 		"name": "Xcode",
@@ -383,6 +558,18 @@
 		"repository": "https://github.com/johnholbrook/streamdeck-vextm",
 		"description": "Stream Deck plugin for controlling VEX Tournament Manager"
 	},
+	"tf.josh.fxcommands": {
+		"name": "FXCommands",
+		"author": "josh-tf",
+		"repository": "https://github.com/josh-tf/fxcommands",
+		"description": "Streamdeck Plugin for FiveM commands"
+	},
+	"com.justpush": {
+		"name": "JustPush!",
+		"author": "JustPush! SimRacing",
+		"repository": "https://github.com/justpush-simracing/JustPush-Plugin",
+		"description": "Go-based Stream Deck plugin for ultimate simracing button box"
+	},
 	"com.kobaltz.wled": {
 		"name": "WLED",
 		"author": "Dave Kimura",
@@ -400,6 +587,18 @@
 		"author": "Levin Ng",
 		"repository": "https://github.com/levindecaro/streamdeck-ytmd-remote",
 		"description": "A Plugin to control YTMD from your StreamDeck Plus"
+	},
+	"com.dahnandpartners.ytticker": {
+		"name": "YouTube Ticker",
+		"author": "Zevedei & Partner Ltd.",
+		"repository": "https://github.com/MajMcCloud/Streamdeck-YoutubeTicker",
+		"description": "Streamdeck-YoutubeTicker is a plugin for Elgato StreamDeck that displays live YouTube channel information on your device. Link any button to a channel, show logos or video thumbnails, and get real-time updates. Compatible with Windows and Mac OS."
+	},
+	"com.marlburrow.uptime-kuma": {
+		"name": "Uptime Kuma",
+		"author": "Nicolas Varrot MarlburroW",
+		"repository": "https://github.com/MarlBurroW/Streamdeck-Uptime-Kuma",
+		"description": "Display your Uptime Kuma monitors on your streamdeck"
 	},
 	"com.cdeenen.materialdeck": {
 		"name": "Material Deck",
@@ -444,11 +643,35 @@
 		"repository": "https://github.com/Morphclue/streamdeck-wakatime",
 		"description": "WakaTime-Plugin for the Elgato Streamdeck "
 	},
+	"com.mosadie.effectmc": {
+		"name": "EffectMC",
+		"author": "MoSadie",
+		"repository": "https://github.com/MoSadie/EffectMC",
+		"description": "Various effects triggered in Minecraft by a Elgato Stream Deck"
+	},
+	"com.neil-enns.trackaudio": {
+		"name": "TrackAudio",
+		"author": "Neil Enns",
+		"repository": "https://github.com/neilenns/streamdeck-trackaudio",
+		"description": "TrackAudio actions for Stream Deck"
+	},
+	"com.neil-enns.vatis": {
+		"name": "vATIS",
+		"author": "Neil Enns",
+		"repository": "https://github.com/neilenns/streamdeck-vatis",
+		"description": "vATIS actions for Stream Deck"
+	},
 	"tech.flighttracker.streamdeck": {
 		"name": "Flight Tracker",
 		"author": "Hy, Pieter and rmroc451",
 		"repository": "https://github.com/nguyenquyhy/Flight-Tracker-StreamDeck",
 		"description": "A Stream Deck plugin to interact with Microsoft Flight Simulation"
+	},
+	"com.nicollasr.streamdeckunity": {
+		"name": "Unity",
+		"author": "Nicollas Ricas",
+		"repository": "https://github.com/nicollasricas/decks-unity",
+		"description": "Enables Stream Deck integration with Unity."
 	},
 	"com.nicollasr.streamdeckvsc": {
 		"name": "Visual Studio Code",
@@ -462,12 +685,6 @@
 		"repository": "https://github.com/nicollasricas/streamdeckvs",
 		"description": "Enables Stream Deck integration with Visual Studio 2017, 2019 & 2022."
 	},
-	"com.nicollasr.streamdeckunity": {
-		"name": "Unity",
-		"author": "Nicollas Ricas",
-		"repository": "https://github.com/nicollasricas/decks-unity",
-		"description": "Enables Stream Deck integration with Unity."
-	},
 	"com.ntanis.essentials-for-spotify": {
 		"name": "Essentials for Spotify",
 		"author": "Ntanis",
@@ -479,6 +696,18 @@
 		"author": "Nuagic",
 		"repository": "https://github.com/Nuagic/streamdeck-myip",
 		"description": "My IP is a litle plugin to Display your public IP address on your Elgato Stream Deck"
+	},
+	"com.ozgurkececioglu.random-text-generator": {
+		"name": "Random Text Generator",
+		"author": "OzgurKececioglu",
+		"repository": "https://github.com/ozgurkececioglu/random-text-generator-StreamDeck",
+		"description": "Stream deck plugin for generating random text"
+	},
+	"com.vlad-gramuzov.stream-deck-stateful-executor": {
+		"name": "Stateful Executor",
+		"author": "Vlad Gramuzov",
+		"repository": "https://github.com/pandomic/stream-deck-stateful-executor",
+		"description": "Execute HTTP Requests, Apple Shortcuts, Terminal Commands, and Shell Scripts with dynamic button state updates based on execution results"
 	},
 	"net.oksala.azuredevops": {
 		"name": "AzureDevOps",
@@ -511,12 +740,25 @@
 		"repository": "https://github.com/pgriess/streamdeck-workrooms",
 		"description": "A Stream Deck plugin for Facebook's Workplace Rooms product."
 	},
+	"com.bi0s.mqtt": {
+		"name": "MQTT",
+		"author": "Patrick Herting",
+		"repository": "https://github.com/pherting/streamdeck-mqtt",
+		"description": "Simple MQTT Client Plugin for Elgato Stream Deck."
+	},
 	"gg.rcv.league": {
 		"name": "League Observer Tool",
 		"author": "RCVolus",
 		"repository": "https://github.com/RCVolus/league-observer-tool-sdPlugin",
 		"download_url": "https://github.com/RCVolus/league-observer-tool-sdPlugin/raw/refs/heads/main/Release/gg.rcv.league.streamDeckPlugin",
 		"description": "Stream Deck Plugin for RCV League Observer Tool"
+	},
+	"com.dms.streamdeck.github": {
+		"name": "DMS Github Plugin",
+		"author": "Rafael Dohms",
+		"repository": "https://github.com/rdohms/com.dms.streamdeck.github",
+		"download_url": "https://github.com/rdohms/com.dms.streamdeck.github/raw/refs/heads/main/release/com.dms.streamdeck.github.streamDeckPlugin",
+		"description": "A Stream Deck Plugin for interfacing with Github"
 	},
 	"com.reedhaffner.sharex": {
 		"name": "ShareX",
@@ -536,18 +778,12 @@
 		"repository": "https://github.com/RGPaul/streamdeck-vlc",
 		"description": "Stream Deck Plugin for VLC media player"
 	},
-	"com.dms.streamdeck.github": {
-		"name": "DMS Github Plugin",
-		"author": "Ralph-Gordon Paul",
-		"repository": "https://github.com/RGPaul/streamdeck-vlc",
-		"download_url": "https://github.com/rdohms/com.dms.streamdeck.github/raw/refs/heads/main/release/com.dms.streamdeck.github.streamDeckPlugin",
-		"description": "Stream Deck Plugin for VLC media player"
-	},
-	"com.mmattdonk.solrock": {
-		"name": "Solrock TTS",
-		"author": "SocksTheWolf",
-		"repository": "https://github.com/SocksTheWolf/streamdeck-solrocktts",
-		"description": "A plugin for the Elgato Streamdeck to manage your Solrock TTS"
+	"com.richardplucker.pvp": {
+		"name": "PVP",
+		"author": "Richard Plucker",
+		"repository": "https://github.com/rplucker/streamdeckpvp",
+		"download_url": "https://github.com/rplucker/streamdeckpvp/raw/refs/heads/main/release/com.richardplucker.pvp.streamDeckPlugin",
+		"description": null
 	},
 	"com.samhorne.mediamonkey5": {
 		"name": "Mediamonkey 5",
@@ -579,6 +815,12 @@
 		"repository": "https://github.com/shayne/stock-ticker-stream-deck-plugin",
 		"description": "A stock ticker plugin for Stream Deck"
 	},
+	"dude.serveny.tile-rain-matrix": {
+		"name": "Tile Rain Matrix",
+		"author": "Serveny",
+		"repository": "https://github.com/Serveny/streamdeck-matrix",
+		"description": "Interactive streamdeck matrix code rain animation"
+	},
 	"de.shells.totalmix": {
 		"name": "RME TotalMix FX",
 		"author": "shells",
@@ -590,6 +832,12 @@
 		"author": "Nikita Sobolev",
 		"repository": "https://github.com/sobolevn/bluetooth-streamdeck-plugin",
 		"description": "Elgato StreamDeck Bluetooth Plugin"
+	},
+	"com.mmattdonk.solrock": {
+		"name": "Solrock TTS",
+		"author": "SocksTheWolf",
+		"repository": "https://github.com/SocksTheWolf/streamdeck-solrocktts",
+		"description": "A plugin for the Elgato Streamdeck to manage your Solrock TTS"
 	},
 	"com.start-automating.scriptdeck": {
 		"name": "ScriptDeck",
@@ -603,11 +851,29 @@
 		"repository": "https://github.com/svenwiegand/streamdeck-ultraschall",
 		"description": "A plugin for Elgato's Stream Deck which makes recording with the awesome podcast software Ultraschall even more fun."
 	},
+	"dev.tattn.streamdeck.switchbot-control": {
+		"name": "SwitchBot",
+		"author": "tattn",
+		"repository": "https://github.com/tattn/streamdeck-switchbot-control",
+		"description": null
+	},
+	"com.tbye.datetime": {
+		"name": "DateTime Segments",
+		"author": "Ty Bye",
+		"repository": "https://github.com/tbye/tbye-sdp-datetime",
+		"description": "Plugin for the Elgato StreamDeck Family of Devices.  Display date, time, and segments of dates and times."
+	},
 	"dev.theca11.multiobs": {
 		"name": "Multi OBS Controller",
 		"author": "the_ca11",
 		"repository": "https://github.com/theca11/multi-obs-controller",
 		"description": "Multi OBS Controller Stream Deck Plugin"
+	},
+	"dev.theca11.steam-price-tracker": {
+		"name": "Steam Price Tracker",
+		"author": "the_ca11",
+		"repository": "https://github.com/theca11/steam-price-tracker",
+		"description": "Steam Price Tracker Plugin for Stream Deck"
 	},
 	"dev.theca11.whack-a-mole": {
 		"name": "Whack-A-Mole",
@@ -621,6 +887,12 @@
 		"repository": "https://github.com/TheJoeIaut/Bitwarden-Streamdeck-Plugin",
 		"description": "Bitwarden Streamdeck Plugin"
 	},
+	"com.nthompson.gpu": {
+		"name": "GPU Metrics",
+		"author": "Noah Thompson",
+		"repository": "https://github.com/thompsonnoahe/StreamDeckGpu",
+		"description": "A plugin for monitoring metrics of your GPU on the Elgato Stream Deck."
+	},
 	"dev.timeblaster.leaguedeck": {
 		"name": "LeagueDeck",
 		"author": "TimeBlaster",
@@ -632,6 +904,13 @@
 		"author": "tobimori",
 		"repository": "https://github.com/tobimori/streamdeck-ifttt",
 		"description": "💡 Easily integrate Stream Deck in your IFTTT setup and control smart home devices"
+	},
+	"co.uk.clarionmusic.midibutton": {
+		"name": "Midi Button",
+		"author": "Tom Kelly",
+		"repository": "https://github.com/tsbkelly/Streamdeck-Midibutton",
+		"download_url": "https://github.com/tsbkelly/Streamdeck-Midibutton/raw/refs/heads/master/Release/co.uk.clarionmusic.midibutton.streamDeckPlugin",
+		"description": null
 	},
 	"com.courcelle.cryptoticker": {
 		"name": "Crypto ticker PRO",
@@ -647,12 +926,17 @@
 		"download_url": "https://github.com/tubededentifrice/streamdeck-reminder/raw/refs/heads/master/Release/com.courcelle.reminder.streamDeckPlugin",
 		"description": null
 	},
-	"co.uk.clarionmusic.midibutton": {
-		"name": "Midi Button",
-		"author": "Tom Kelly",
-		"repository": "https://github.com/tsbkelly/Streamdeck-Midibutton",
-		"download_url": "https://github.com/tsbkelly/Streamdeck-Midibutton/raw/refs/heads/master/Release/co.uk.clarionmusic.midibutton.streamDeckPlugin",
-		"description": null
+	"com.unaigonzalez.xbatt.ch": {
+		"name": "xBatt",
+		"author": "Unai González",
+		"repository": "https://github.com/unaigonzalezz/xBatt",
+		"description": "Display XInput and XBOX controllers battery on Stream Deck!"
+	},
+	"com.verringer.lastfm": {
+		"name": "Stream Deck LastFM",
+		"author": "Verringer",
+		"repository": "https://github.com/Verringer/streamdeck-lastfm",
+		"description": "Seamlessly integrates Last.fm features into your Elgato StreamDeck, providing you with quick access to your scrobbles, profile, reports, and more."
 	},
 	"com.victorgrycuk.colorpicker": {
 		"name": "Color Picker",
@@ -684,11 +968,12 @@
 		"repository": "https://github.com/viddie/sdDice",
 		"description": "A simple plugin to allow a dice roll (or any other range you want)."
 	},
-	"co.weimeng.streamdeck-gitlab": {
-		"name": "GitLab Dashboard",
-		"author": "Wei-Meng Lee",
-		"repository": "https://gitlab.com/weimeng/streamdeck-gitlab",
-		"download_url": "https://gitlab.com/weimeng/streamdeck-gitlab/-/raw/main/Release/co.weimeng.streamdeck-gitlab.streamDeckPlugin"
+	"hu.voji.keyboard": {
+		"name": "SendKey",
+		"author": "voji",
+		"repository": "https://github.com/voji/sendkey_sd",
+		"download_url": "https://github.com/voji/sendkey_sd/raw/refs/heads/main/hu.voji.keyboard.streamDeckPlugin",
+		"description": "SendKey is an Elgato Stream Deck plugin that enables sending native keyboard events directly to the operating system. The plugin allows control of application features that require hold key behavior — such as push-to-talk, etc."
 	},
 	"fail.marc.onairclock": {
 		"name": "On Air Clock",
@@ -708,10 +993,22 @@
 		"repository": "https://github.com/ybizeul/StreamDeckWS",
 		"description": "A WebServices proxy to connect an Elgato Stream Deck to a Node-RED server"
 	},
+	"zayik.commandsender": {
+		"name": "CommandSender",
+		"author": "Zayik",
+		"repository": "https://github.com/Zayik/CommandSender",
+		"description": "Stream Deck plugin for sending UDP/TCP messages from a key press. "
+	},
 	"com.zergo0.teamspeak3integration": {
 		"name": "TeamSpeak 3 Integration",
 		"author": "ZerGo0",
 		"repository": "https://github.com/ZerGo0/streamdeck-teamspeak3integration",
 		"description": null
+	},
+	"com.zstefanovic.steamscroll": {
+		"name": "Steamscroll",
+		"author": "Zoran Stefanovic",
+		"repository": "https://github.com/zoran-stefanovic/SteamScroll",
+		"description": "Plugin for Elgato Stream Deck + to scroll through installed Steam games and launch them"
 	}
 }
