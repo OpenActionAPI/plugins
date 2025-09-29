@@ -1,9 +1,21 @@
 {
+	"me.amankhanna.oacounter": {
+		"name": "Counter",
+		"author": "nekename",
+		"repository": "https://github.com/OpenActionPlugins/counter",
+		"description": "An OpenAction plugin for incrementing a counter"
+	},
+	"me.amankhanna.oasystem": {
+		"name": "System Information",
+		"author": "nekename",
+		"repository": "https://github.com/OpenActionPlugins/system",
+		"description": "An OpenAction plugin for displaying system information"
+	},
 	"me.amankhanna.oampris": {
 		"name": "Linux Media",
 		"author": "nekename",
-		"repository": "https://github.com/nekename/oampris",
-		"description": "An OpenAction (OpenDeck) plugin for controlling media players on Linux using the MPRIS protocol."
+		"repository": "https://github.com/OpenActionPlugins/mpris",
+		"description": "An OpenAction plugin for controlling media players on Linux using the MPRIS protocol"
 	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
