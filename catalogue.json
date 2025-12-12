@@ -29,6 +29,12 @@
 		"repository": "https://github.com/4ndv/opendeck-akp153",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp153 / Mirabox HSV293S-family devices"
 	},
+	"com.github.ambiso.opendeck-akp05": {
+		"name": "Ajazz AKP05 / Mirabox N4",
+		"author": "ambiso",
+		"repository": "https://github.com/ambiso/opendeck-akp05",
+		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
+	},
 	"com.elgato.analogclock": {
 		"name": "Analog Clock",
 		"author": "Elgato",
