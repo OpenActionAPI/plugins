@@ -183,6 +183,12 @@
 		"download_url": "https://github.com/Baptiewright/streamdeck-nanoleaf/raw/refs/heads/master/Releases/com.baptiewright.nanoleaf.streamDeckPlugin",
 		"description": "Plugin for Elgato Stream Deck to allow control of Nanoleaf light panels"
 	},
+	"io.bitfocus.companion-plugin": {
+		"name": "Bitfocus Companion Plugin",
+		"author": "Bitfocus AS",
+		"repository": "https://github.com/bitfocus/io.bitfocus.companion-plugin",
+		"description": "Companion plugin for the native Stream Deck application"
+	},
 	"one.blueshift.streamdeck.toggl": {
 		"name": "Toggl",
 		"author": "Blueshift",
