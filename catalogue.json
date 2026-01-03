@@ -35,41 +35,6 @@
 		"repository": "https://github.com/ambiso/opendeck-akp05",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
 	},
-	"com.elgato.analogclock": {
-		"name": "Analog Clock",
-		"author": "Elgato",
-		"repository": "https://github.com/elgatosf/streamdeck-analogclock",
-		"download_url": "https://github.com/elgatosf/streamdeck-analogclock/raw/master/Release/com.elgato.analogclock.streamDeckPlugin",
-		"description": "Stream Deck SDK: Analog Clock sample plugin"
-	},
-	"com.elgato.applemail": {
-		"name": "Apple Mail",
-		"author": "Elgato",
-		"repository": "https://github.com/elgatosf/streamdeck-applemail",
-		"download_url": "https://github.com/elgatosf/streamdeck-applemail/raw/master/Release/com.elgato.applemail.streamDeckPlugin",
-		"description": "Stream Deck SDK: AppleMail sample plugin"
-	},
-	"com.elgato.counter": {
-		"name": "Counter",
-		"author": "Elgato",
-		"repository": "https://github.com/elgatosf/streamdeck-counter",
-		"download_url": "https://github.com/elgatosf/streamdeck-counter/raw/master/Release/com.elgato.counter.streamDeckPlugin",
-		"description": "Stream Deck SDK: Counter sample plugin"
-	},
-	"com.elgato.cpu": {
-		"name": "CPU",
-		"author": "Elgato",
-		"repository": "https://github.com/elgatosf/streamdeck-cpu",
-		"download_url": "https://github.com/elgatosf/streamdeck-cpu/releases/download/1.2/com.elgato.cpu.streamDeckPlugin",
-		"description": "Stream Deck SDK: CPU sample plugin"
-	},
-	"com.elgato.philips-hue": {
-		"name": "Philips Hue",
-		"author": "Elgato",
-		"repository": "https://github.com/elgatosf/streamdeck-philipshue",
-		"download_url": "https://github.com/elgatosf/streamdeck-philipshue/raw/master/Release/com.elgato.philips-hue.streamDeckPlugin",
-		"description": "Stream Deck SDK: Philips Hue sample plugin"
-	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
 		"author": "5e",
@@ -356,6 +321,41 @@
 		"author": "Elad Avron",
 		"repository": "https://github.com/eladavron/litra-glow-commander",
 		"description": "A Litra Glow plugin for StreamDeck"
+	},
+	"com.elgato.analogclock": {
+		"name": "Analog Clock",
+		"author": "Elgato",
+		"repository": "https://github.com/elgatosf/streamdeck-analogclock",
+		"download_url": "https://github.com/elgatosf/streamdeck-analogclock/raw/master/Release/com.elgato.analogclock.streamDeckPlugin",
+		"description": "Stream Deck SDK: Analog Clock sample plugin"
+	},
+	"com.elgato.applemail": {
+		"name": "Apple Mail",
+		"author": "Elgato",
+		"repository": "https://github.com/elgatosf/streamdeck-applemail",
+		"download_url": "https://github.com/elgatosf/streamdeck-applemail/raw/master/Release/com.elgato.applemail.streamDeckPlugin",
+		"description": "Stream Deck SDK: AppleMail sample plugin"
+	},
+	"com.elgato.counter": {
+		"name": "Counter",
+		"author": "Elgato",
+		"repository": "https://github.com/elgatosf/streamdeck-counter",
+		"download_url": "https://github.com/elgatosf/streamdeck-counter/raw/master/Release/com.elgato.counter.streamDeckPlugin",
+		"description": "Stream Deck SDK: Counter sample plugin"
+	},
+	"com.elgato.cpu": {
+		"name": "CPU",
+		"author": "Elgato",
+		"repository": "https://github.com/elgatosf/streamdeck-cpu",
+		"download_url": "https://github.com/elgatosf/streamdeck-cpu/releases/download/1.2/com.elgato.cpu.streamDeckPlugin",
+		"description": "Stream Deck SDK: CPU sample plugin"
+	},
+	"com.elgato.philips-hue": {
+		"name": "Philips Hue",
+		"author": "Elgato",
+		"repository": "https://github.com/elgatosf/streamdeck-philipshue",
+		"download_url": "https://github.com/elgatosf/streamdeck-philipshue/raw/master/Release/com.elgato.philips-hue.streamDeckPlugin",
+		"description": "Stream Deck SDK: Philips Hue sample plugin"
 	},
 	"com.github.eliankars.multiple-counters": {
 		"name": "Multiple Counters",
