@@ -5,6 +5,12 @@
 		"repository": "https://github.com/OpenActionPlugins/counter",
 		"description": "An OpenAction plugin for incrementing a counter"
 	},
+	"me.amankhanna.oadesktopentry": {
+		"name": "Linux App Launcher",
+		"author": "nekename",
+		"repository": "https://github.com/OpenActionPlugins/desktopentry",
+		"description": "An OpenAction plugin for launching desktop applications on Linux"
+	},
 	"me.amankhanna.oampris": {
 		"name": "Linux Media",
 		"author": "nekename",
