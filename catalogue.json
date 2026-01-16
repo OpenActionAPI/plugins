@@ -45,7 +45,7 @@
 		"name": "VSD Inside M18 / Mirabox M18",
 		"author": "ibanks42",
 		"repository": "https://github.com/ibanks42/opendeck-m18",
-		"description": "An unofficial plugin for VSD Inside M18 / Mirabox M18 devices"
+		"description": "An unofficial OpenDeck plugin for VSD Inside M18 / Mirabox M18 devices"
 	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
