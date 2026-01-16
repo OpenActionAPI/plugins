@@ -41,6 +41,12 @@
 		"repository": "https://github.com/ambiso/opendeck-akp05",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
 	},
+	"com.github.ibanks42.opendeck-m18": {
+		"name": "VSD Inside M18 / Mirabox M18",
+		"author": "ibanks42",
+		"repository": "https://github.com/ibanks42/opendeck-m18",
+		"description": "An unofficial OpenDeck plugin for Mirabox M18 / VSD Inside M18-family devices"
+	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
 		"author": "5e",
