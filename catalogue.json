@@ -504,6 +504,12 @@
 		"repository": "https://github.com/GeekyEggo/windows-display-settings",
 		"description": "Stream Deck plug-in for controlling your Windows display settings."
 	},
+	"com.frostycoolslug.goxlr-utility": {
+		"name": "GoXLR Utility for StreamDeck",
+		"author": "Craig McLure",
+		"repository": "https://github.com/GoXLR-on-Linux/goxlr-utility-streamdeck",
+		"description": "A StreamDeck Plugin for use with the GoXLR Utility"
+	},
 	"warudo.streamdeck": {
 		"name": "Warudo",
 		"author": "Hakuya Labs",
