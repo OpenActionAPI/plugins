@@ -648,6 +648,12 @@
 		"repository": "https://github.com/MaterialFoundry/MaterialDeck_SD",
 		"description": null
 	},
+	"com.matextrem.tickertap": {
+		"name": "Tickertap",
+		"author": "Matextrem",
+		"repository": "https://github.com/matextrem/streamdeck-tickertap",
+		"description": "A Stream Deck plugin to visualize real-time asset values"
+	},
 	"com.mazecreator.udcontrol": {
 		"name": "Universal Devices Control",
 		"author": "Greg Peatfield",
