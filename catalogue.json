@@ -23,6 +23,12 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
+	"com.victormarin.graphs": {
+		"name": "Graphs",
+		"author": "Victor Marin",
+		"repository": "https://github.com/mdvictor/opendeck-graphs",
+		"description": "A configurable OpenDeck plugin that displays real-time hardware sensor data"
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
