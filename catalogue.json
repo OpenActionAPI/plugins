@@ -29,6 +29,12 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
+	"com.sfgrimes.pipewire-audio": {
+		"name": "PipeWire Audio Control",
+		"author": "sfgrimes",
+		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
+		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
