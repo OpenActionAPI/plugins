@@ -47,6 +47,12 @@
 		"repository": "https://github.com/mdvictor/opendeck-graphs",
 		"description": "A configurable OpenDeck plugin that displays real-time hardware sensor data"
 	},
+	"com.victormarin.volume-controller": {
+		"name": "Volume Controller",
+		"author": "Victor Marin",
+		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
+		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
