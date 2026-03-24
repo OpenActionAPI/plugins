@@ -1088,5 +1088,11 @@
 		"author": "Zoran Stefanovic",
 		"repository": "https://github.com/zoran-stefanovic/SteamScroll",
 		"description": "Plugin for Elgato Stream Deck + to scroll through installed Steam games and launch them"
+	},
+	"com.github.asetapen.linux-gpu-monitor": {
+		"name": "Linux GPU Monitor",
+		"author": "Adam Setapen",
+		"repository": "https://github.com/asetapen/linux-gpu-monitor",
+		"description": "An unofficial OpenDeck plugin for displaying GPU utilization, temperature, memory, and power on Linux"
 	}
 }
