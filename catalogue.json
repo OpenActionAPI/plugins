@@ -41,6 +41,12 @@
 		"repository": "https://github.com/Havner/uinput-simulation",
 		"description": "Simple plugin for nekename/OpenDeck with uinput keyboard + mouse simulation"
 	},
+	"com.kahikara.opendeck-redline.sdplugin": {
+		"name": "Redline Monitor",
+		"author": "Ming",
+		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
+		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
@@ -1088,12 +1094,5 @@
 		"author": "Zoran Stefanovic",
 		"repository": "https://github.com/zoran-stefanovic/SteamScroll",
 		"description": "Plugin for Elgato Stream Deck + to scroll through installed Steam games and launch them"
-	},
-	"com.kahikara.opendeck-redline.sdplugin": {
-		"name": "Redline Monitor",
-		"author": "Ming",
-		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
-		"download_url": "https://github.com/kahikara/opendeck-redline-monitor/releases/latest",
-		"description": "An OpenDeck plugin for AMD focused Linux monitoring"
 	}
 }
