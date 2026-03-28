@@ -29,6 +29,12 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
+	"com.sfgrimes.corsaircontrol": {
+		"name": "Fan Profile Control",
+		"author": "sfgrimes",
+		"repository": "https://github.com/CronusAK/OpenLinkHub-OpenDeck-Controller",
+		"description": "OpenDeck plugin to control devices via OpenLinkHub."
+	},
 	"com.sfgrimes.pipewire-audio": {
 		"name": "PipeWire Audio Control",
 		"author": "sfgrimes",
