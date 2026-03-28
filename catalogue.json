@@ -1088,5 +1088,12 @@
 		"author": "Zoran Stefanovic",
 		"repository": "https://github.com/zoran-stefanovic/SteamScroll",
 		"description": "Plugin for Elgato Stream Deck + to scroll through installed Steam games and launch them"
+	},
+	"com.kahikara.opendeck-redline.sdplugin": {
+		"name": "Redline Monitor",
+		"author": "Ming",
+		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
+		"download_url": "https://github.com/kahikara/opendeck-redline-monitor/releases/latest",
+		"description": "An OpenDeck plugin for AMD focused Linux monitoring"
 	}
 }
