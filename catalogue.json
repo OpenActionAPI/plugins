@@ -12,7 +12,7 @@
 		"description": "An OpenAction plugin for launching desktop applications on Linux"
 	},
 	"me.amankhanna.oadiscord": {
-		"name": "Discord",
+		"name": "Discord (alpha)",
 		"author": "nekename",
 		"repository": "https://github.com/OpenActionPlugins/discord",
 		"description": "An OpenAction plugin for controlling the Discord desktop client"
