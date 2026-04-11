@@ -661,7 +661,8 @@
 		"description": "A Stream Deck Plugin to interact with the TeamSpeak 5 Client trough Remote Apps"
 	},
 	"com.linuxcitizen.starcitizen.plugin": {
-		"author": "Linux Citizen",
+		"name": "Linux Citizen",
+		"author": "Boomer42",
 		"repository": "https://github.com/Boomer42/linux-citizen-plugin.git",
 		"description": "Star Citizen Helper for Linux - Telemetry, Macros, and Keybinds."
 	},
