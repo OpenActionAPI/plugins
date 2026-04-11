@@ -660,6 +660,11 @@
 		"repository": "https://github.com/LeonMarcel-HD/StreamDeck-TeamSpeak5",
 		"description": "A Stream Deck Plugin to interact with the TeamSpeak 5 Client trough Remote Apps"
 	},
+	"com.linuxcitizen.starcitizen.plugin": {
+		"author": "Linux Citizen",
+		"repository": "https://github.com/Boomer42/linux-citizen-plugin.git",
+		"description": "Star Citizen Helper for Linux - Telemetry, Macros, and Keybinds."
+	},
 	"com.remote.ytmd": {
 		"name": "YTMD Encoder Remote",
 		"author": "Levin Ng",
