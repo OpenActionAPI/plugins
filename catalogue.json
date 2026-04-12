@@ -258,6 +258,12 @@
 		"repository": "https://github.com/cgiesche/streamdeck-homeassistant",
 		"description": "Control your Home Assistant devices from StreamDeck"
 	},
+	"com.chrisregado.googlemeet": {
+		"name": "Google Meet",
+		"author": "Chris Regado",
+		"repository": "https://github.com/ChrisRegado/streamdeck-googlemeet",
+		"description": "A Stream Deck plugin to manage your Google Meet microphone and camera."
+	},
 	"sh.cider.streamdeck": {
 		"name": "CiderDeck",
 		"author": "Cider Collective",
