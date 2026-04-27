@@ -41,7 +41,7 @@
 		"repository": "https://github.com/Havner/uinput-simulation",
 		"description": "Simple plugin for nekename/OpenDeck with uinput keyboard + mouse simulation"
 	},
-	"com.kahikara.opendeck-redline.sdplugin": {
+	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
