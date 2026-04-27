@@ -1106,5 +1106,11 @@
 		"author": "Zoran Stefanovic",
 		"repository": "https://github.com/zoran-stefanovic/SteamScroll",
 		"description": "Plugin for Elgato Stream Deck + to scroll through installed Steam games and launch them"
+	},
+	"de.mircoblitz.reflective-pipewire": {
+		"name": "Reflective PipeWire",
+		"author": "MircoBlitz",
+		"repository": "https://github.com/MircoBlitz/reflective-pipewire",
+		"description": "Reactive PipeWire audio suite for OpenDeck — mute toggle, volume knobs and buttons with real-time state sync across all Stream Deck buttons"
 	}
 }
