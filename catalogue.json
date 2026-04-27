@@ -47,6 +47,12 @@
 		"repository": "https://github.com/Havner/uinput-simulation",
 		"description": "Simple plugin for nekename/OpenDeck with uinput keyboard + mouse simulation"
 	},
+	"com.kahikara.opendeck-redline": {
+		"name": "Redline Monitor",
+		"author": "Ming",
+		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
+		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
