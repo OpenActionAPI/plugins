@@ -676,7 +676,7 @@
 		"name": "Linux Citizen",
 		"author": "Boomer42",
 		"repository": "https://github.com/Boomer42/linux-citizen-plugin",
-		"description": "This Star Citizen plugin allows you to sync in-game keybinds, create complex macros, and monitor live game telemetry directly on your OpenDeck. "
+		"description": "This Star Citizen plugin allows you to sync in-game keybinds, create complex macros, and monitor live game telemetry directly on your OpenDeck."
 	},
 	"com.remote.ytmd": {
 		"name": "YTMD Encoder Remote",
