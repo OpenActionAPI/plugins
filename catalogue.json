@@ -65,6 +65,12 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"info.degois.damien.opendeck.plugins.rotary-command": {
+		"name": "Rotary Generic Command",
+		"author": "babs",
+		"repository": "https://github.com/babs/opendeck-plugins-rotary-command",
+		"description": "Run custom shell commands on rotary encoder actions (CW, CCW, press, long press)"
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
