@@ -59,6 +59,12 @@
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
+	"dev.maugap.oagpustats": {
+		"name": "GPU Stats",
+		"author": "maugap",
+		"repository": "https://github.com/MauGaP/openaction-gpu-stats",
+		"description": "An OpenAction plugin for displaying NVIDIA GPU stats on Linux: usage, temperature, memory, power"
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
