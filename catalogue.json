@@ -95,6 +95,12 @@
 		"repository": "https://github.com/ibanks42/opendeck-m18",
 		"description": "An unofficial OpenDeck plugin for Mirabox M18 / VSD Inside M18-family devices"
 	},
+	"com.github.mean-ui-thread.opendeck-stream-dock-xl": {
+		"name": "VSD Inside / Mirabox Stream Dock XL",
+		"author": "Mean-UI-Thread",
+		"repository": "https://github.com/mean-ui-thread/opendeck-stream-dock-xl",
+		"description": "An unofficial plugin for VSD Inside / Mirabox Stream Dock XL-family devices"
+	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
 		"author": "5e",
