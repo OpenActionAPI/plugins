@@ -105,7 +105,7 @@
 		"name": "Redragon Streamcraft SS550",
 		"author": "MonkeyKiller",
 		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
-		"description": "Device support plugin for the Redragon Streamcraft SS550"
+		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
 	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
