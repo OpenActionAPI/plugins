@@ -101,6 +101,12 @@
 		"repository": "https://github.com/mean-ui-thread/opendeck-stream-dock-xl",
 		"description": "An unofficial plugin for VSD Inside / Mirabox Stream Dock XL-family devices"
 	},
+	"com.monkeykiller.plugins.opendeck-ss550": {
+		"name": "Redragon Streamcraft SS550",
+		"author": "MonkeyKiller",
+		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
+		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
+	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
 		"author": "5e",
