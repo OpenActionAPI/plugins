@@ -97,7 +97,7 @@
 	},
 	"com.glmagalhaes.ulanzi.d200": {
 		"name": "Ulanzi D200",
-		"author": "glmagalhaes, mquest, mtesseract",
+		"author": "glmagalhaes, MQuest and MTesseracT",
 		"repository": "https://github.com/glmagalhaes/rs-ulanzi-d200",
 		"description": "An unofficial plugin for [OpenDeck](https://github.com/nekename/OpenDeck) that adds support for the Ulanzi D200 and D200H devices."
 	},
