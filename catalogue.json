@@ -95,6 +95,12 @@
 		"repository": "https://github.com/ibanks42/opendeck-m18",
 		"description": "An unofficial OpenDeck plugin for Mirabox M18 / VSD Inside M18-family devices"
 	},
+	"com.glmagalhaes.ulanzi.d200": {
+		"name": "Ulanzi D200",
+		"author": "glmagalhaes, mquest, mtesseract",
+		"repository": "https://github.com/glmagalhaes/rs-ulanzi-d200",
+		"description": "An unofficial plugin for [OpenDeck](https://github.com/nekename/OpenDeck) that adds support for the Ulanzi D200 and D200H devices."
+	},
 	"com.github.mean-ui-thread.opendeck-stream-dock-xl": {
 		"name": "VSD Inside / Mirabox Stream Dock XL",
 		"author": "Mean-UI-Thread",
