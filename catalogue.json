@@ -89,6 +89,12 @@
 		"repository": "https://github.com/ambiso/opendeck-akp05",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
 	},
+	"com.glmagalhaes.ulanzi.d200": {
+		"name": "Ulanzi D200",
+		"author": "glmagalhaes, MQuest and MTesseracT",
+		"repository": "https://github.com/glmagalhaes/rs-ulanzi-d200",
+		"description": "An unofficial plugin to use Ulanzi D200(H) with OpenDeck"
+	},
 	"com.github.ibanks42.opendeck-m18": {
 		"name": "VSD Inside M18 / Mirabox M18",
 		"author": "ibanks42",
