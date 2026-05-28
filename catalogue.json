@@ -71,6 +71,12 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"com.github.saad780.opendeck-steam-games": {
+		"name": "Steam Games",
+		"author": "Saad Sheikh",
+		"repository": "https://github.com/saad780/opendeck-steam-games",
+		"description": "OpenDeck plugin for launching installed Steam games"
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
