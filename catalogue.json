@@ -1,4 +1,10 @@
 {
+		"com.linuxcitizen.starcitizen": {
+		"name": "Linux Citizen",
+		"author": "Boomer42",
+		"repository": "https://github.com/Boomer42/linux-citizen-plugin",
+		"description": "A Star Citizen OpenDeck plugin for Linux. Features include in game keybind syncing, macro execution, system/game telemetry display and system volume control."
+	},
 	"me.amankhanna.oacounter": {
 		"name": "Counter",
 		"author": "nekename",
@@ -140,7 +146,7 @@
 		"repository": "https://github.com/adrian-miasik/stream-deck-plugins-dota-2",
 		"description": "A suite of Stream Deck plugins/actions created for Valve's MOBA: Dota 2 ⚔️"
 	},
-	"me.alhazmy13.sensibo": {
+	"me.alhazmy13.sensibo": {Also, this is an OpenAction-native plugin, so it should go in the top section, not the third/bottom section.
 		"name": "Sensibo",
 		"author": "Alhazmy13",
 		"repository": "https://github.com/alhazmy13/streamdeck-sensibo",
@@ -194,7 +200,7 @@
 		"author": "Nick Pirocanac",
 		"repository": "https://github.com/BackTrak/StreamDeckVisualizerPlugin",
 		"description": "A Stream Deck plugin that can visualize input and output audio."
-	},
+	},Also, this is an OpenAction-native plugin, so it should go in the top section, not the third/bottom section.
 	"com.baptiewright.nanoleaf": {
 		"name": "Nanoleaf Controller",
 		"author": "Baptiewright Designs",
@@ -413,7 +419,7 @@
 	"com.elgato.philips-hue": {
 		"name": "Philips Hue",
 		"author": "Elgato",
-		"repository": "https://github.com/elgatosf/streamdeck-philipshue",
+		"repository": "https://github.com/elgatosf/streamdeck-philipshue", 
 		"download_url": "https://github.com/elgatosf/streamdeck-philipshue/raw/master/Release/com.elgato.philips-hue.streamDeckPlugin",
 		"description": "Stream Deck SDK: Philips Hue sample plugin"
 	},
@@ -478,7 +484,7 @@
 		"download_url": "https://github.com/FlexXx1212/StreamDeckBakkesPlugin/raw/refs/heads/main/Release/de.flexniko.bakkesmodcommands.streamDeckPlugin",
 		"description": "Stream Deck Plugin to execute Bakkes mod (Rocket League) commands"
 	},
-	"com.fredemmott.micmutetoggle": {
+	"com.fredemmott.micmutetoggle": { 
 		"name": "Audio Mute",
 		"author": "Fred Emmott",
 		"repository": "https://github.com/fredemmott/StreamDeck-AudioMute",
@@ -517,7 +523,7 @@
 	},
 	"com.gabe565.stopwatch": {
 		"name": "Stopwatch Timekeeper",
-		"author": "gabe565",
+		"author": "gabe565", 
 		"repository": "https://github.com/gabe565/streamdeck-stopwatch",
 		"description": "⏱️ A stopwatch plugin for the Elgato Stream Deck"
 	},
@@ -617,7 +623,7 @@
 		"author": "Jarno Le Conté",
 		"repository": "https://github.com/JarnoLeConte/streamdeck-findertags",
 		"description": null
-	},
+	}, 
 	"com.javanpoirier.audiomixer": {
 		"name": "Audio Mixer",
 		"author": "Javan Poirier",
@@ -671,12 +677,6 @@
 		"author": "LeonMarcel",
 		"repository": "https://github.com/LeonMarcel-HD/StreamDeck-TeamSpeak5",
 		"description": "A Stream Deck Plugin to interact with the TeamSpeak 5 Client trough Remote Apps"
-	},
-	"com.linuxcitizen.starcitizen.plugin": {
-		"name": "Linux Citizen",
-		"author": "Boomer42",
-		"repository": "https://github.com/Boomer42/linux-citizen-plugin",
-		"description": "This Star Citizen plugin allows you to sync in-game keybinds, create complex macros, and monitor live game telemetry directly on your OpenDeck."
 	},
 	"com.remote.ytmd": {
 		"name": "YTMD Encoder Remote",
@@ -1017,7 +1017,7 @@
 	"com.courcelle.cryptoticker": {
 		"name": "Crypto ticker PRO",
 		"author": "Vincent Courcelle",
-		"repository": "https://github.com/tubededentifrice/streamdeck-crypto",
+		"repository": "https://github.com/tubededentifrice/streamdeck-crypto", 
 		"download_url": "https://github.com/tubededentifrice/streamdeck-crypto/raw/refs/heads/master/Release/com.courcelle.cryptoticker.streamDeckPlugin",
 		"description": "StreamDeck plugin for cryptocurrencies"
 	},
