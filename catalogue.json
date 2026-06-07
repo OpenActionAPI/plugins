@@ -781,6 +781,12 @@
 		"repository": "https://github.com/neilenns/streamdeck-vatis",
 		"description": "vATIS actions for Stream Deck"
 	},
+	"com.hotspot.streamdock.discord": {
+		"name": "Discord (alternative)",
+		"author": "Mirabox and nekename",
+		"repository": "https://github.com/nekename/mirabox-discord-plugin-opendeck",
+		"description": "Cleaned up fork of the Discord plugin for Mirabox Stream Dock, modified for OpenDeck compatibility"
+	},
 	"tech.flighttracker.streamdeck": {
 		"name": "Flight Tracker",
 		"author": "Hy, Pieter and rmroc451",
