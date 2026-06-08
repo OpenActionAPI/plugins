@@ -47,6 +47,12 @@
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
 	},
+	"com.danmaxis.hyprstream": {
+		"name": "Hyprstream",
+		"author": "danmaxis",
+		"repository": "https://github.com/danmaxis/hyprstream",
+		"description": "OpenDeck/Stream Deck plugin for Hyprland — workspaces, window state, audio, capture, MPRIS with album art, and system displays."
+	},
 	"com.havner.uinput": {
 		"name": "Linux Uinput Simulation",
 		"author": "Lukasz Pawelczyk",
