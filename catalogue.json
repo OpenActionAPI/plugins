@@ -47,6 +47,12 @@
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
 	},
+	"com.fazal.caffeine": {
+		"name": "Caffeine",
+		"author": "fazal",
+		"repository": "https://github.com/FazalAAli/opendeck-caffeine",
+		"description": "OpenDeck plugin to toggle the GNOME Caffeine extension, with a key icon that stays synced to Caffeine's real state"
+	},
 	"com.havner.uinput": {
 		"name": "Linux Uinput Simulation",
 		"author": "Lukasz Pawelczyk",
