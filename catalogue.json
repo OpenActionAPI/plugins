@@ -71,6 +71,12 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"pablovuela.xplanecom": {
+		"name": "X-Plane COM Radio",
+		"author": "pablovuela",
+		"repository": "https://github.com/pablovuela/XplaneCom",
+		"description": "Complete controls for Xplane com1 com2, frequencies adjustment and stby swaps"
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
