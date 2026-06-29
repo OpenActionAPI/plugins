@@ -75,7 +75,6 @@
 		"name": "X-Plane COM Radio",
 		"author": "pablovuela",
 		"repository": "https://github.com/pablovuela/XplaneCom",
-		"download_url": "https://github.com/pablovuela/XplaneCom/releases/download/v1.0.2/XplaneCom-v1.0.2.streamDeckPlugin",
 		"description": "Complete controls for Xplane com1 com2, frequencies adjustment and stby swaps"
 	},
 	"st.lynx.plugins.opendeck-akp03": {
