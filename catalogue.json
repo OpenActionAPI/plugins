@@ -29,6 +29,12 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
+	"com.ags.info_clock": {
+		"name": "Info Clock",
+		"author": "Alex Godinez",
+		"repository": "https://github.com/AlexGdevGT/infobar_clock",
+		"description": "Infobar clock for StreamDeck Neo with OpenDeck software"
+	},
 	"info.degois.damien.opendeck.plugins.rotary-command": {
 		"name": "Rotary Generic Command",
 		"author": "babs",
