@@ -119,6 +119,12 @@
 		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
 		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
 	},
+	"com.github.pomeo.opendeck-mirabox-n1": {
+		"name": "Mirabox N1",
+		"author": "Sergey Ovechkin",
+		"repository": "https://github.com/pomeo/opendeck-mirabox-n1",
+		"description": "An unofficial OpenDeck plugin for the Mirabox N1"
+	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
 		"author": "5e",
