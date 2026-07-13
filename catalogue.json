@@ -51,7 +51,7 @@
 		"name": "Hyprstream",
 		"author": "danmaxis",
 		"repository": "https://github.com/danmaxis/hyprstream",
-		"description": "OpenDeck/Stream Deck plugin for Hyprland — workspaces, window state, audio, capture, MPRIS with album art, and system displays."
+		"description": "Control the Hyprland Wayland compositor from a Stream Deck — workspaces, windows, monitors, and live config."
 	},
 	"com.havner.uinput": {
 		"name": "Linux Uinput Simulation",
