@@ -776,11 +776,11 @@
 		"description": "Various effects triggered in Minecraft by a Elgato Stream Deck"
 	},
 	"com.hovell.agentdeck": {
-		"name": "AKP03 Agent Deck",
+		"name": "Claude Code Deck (Windows)",
 		"author": "Hovell",
 		"repository": "https://github.com/MSHovell/akp03-agent-deck",
 		"download_url": "https://github.com/MSHovell/akp03-agent-deck/releases/latest/download/akp03-agent-deck.plugin.zip",
-		"description": "Turn a cheap Ajazz AKP03 into a physical control surface for Claude Code on Windows: approve tool calls with a real key, watch agent state on the key art, dictate — including Chinese."
+		"description": "A physical control surface for Claude Code on Windows: approve tool calls with a real key, watch agent state on the key art, dictate — including Chinese. Requires Node.js 22+."
 	},
 	"com.neil-enns.trackaudio": {
 		"name": "TrackAudio",
