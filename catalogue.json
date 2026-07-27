@@ -53,6 +53,12 @@
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
 	},
+	"com.gdwhisper.tikclock": {
+		"name": "TikClock",
+		"author": "GDWhisper",
+		"repository": "https://github.com/GDWhisper/opendeck-tikclock",
+		"description": "An OpenAction plugin that displays a digital clock across keys, one digit per key"
+	},
 	"com.havner.uinput": {
 		"name": "Linux Uinput Simulation",
 		"author": "Lukasz Pawelczyk",
