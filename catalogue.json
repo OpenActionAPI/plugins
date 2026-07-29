@@ -763,6 +763,12 @@
 		"repository": "https://github.com/mjbnz/streamdeck-api-request",
 		"description": "StreamDeck API Request Plugin"
 	},
+	"com.moeilijk.lhm": {
+		"name": "Libre Hardware Monitor",
+		"author": "moeilijk",
+		"repository": "https://github.com/moeilijk/lhm-streamdeck",
+		"description": "Monitor sensor readings with this LibreHardwareMonitor Stream Deck Plugin"
+	},
 	"com.mongeon.mm": {
 		"name": "MM.StreamDeck",
 		"author": "Gabriel Mongeon",
