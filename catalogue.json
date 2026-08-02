@@ -71,6 +71,12 @@
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
+	"com.lilithmoder.lifx": {
+		"name": "LIFX",
+		"author": "lilithmoder",
+		"repository": "https://github.com/lilithmoder/lifx-opendeck-plugin",
+		"description": "Native Rust OpenDeck plugin for LIFX smart lights over the local LAN protocol - no cloud, no Wine"
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
