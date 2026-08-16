@@ -125,6 +125,12 @@
 		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
 		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
 	},
+	"io.github.raphaelbarreiros.opendeck-galleon": {
+		"name": "Galleon 100 SD device support",
+		"author": "Raphael Barreiros and contributors",
+		"repository": "https://github.com/raphaelbarreiros/opendeck-galleon",
+		"description": "Unofficial OpenDeck device support for the Corsair Galleon 100 SD"
+	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
 		"author": "5e",
