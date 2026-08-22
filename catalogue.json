@@ -83,6 +83,12 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"io.github.tehfred.focusedvolume": {
+		"name": "Focused App Volume",
+		"author": "tehFred",
+		"repository": "https://github.com/tehFred/opendeck-focused-volume",
+		"description": "OpenDeck plugin for controlling the volume of the currently focused application on KDE Plasma/Linux"
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
