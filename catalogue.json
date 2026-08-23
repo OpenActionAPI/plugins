@@ -84,10 +84,10 @@
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
 	"io.github.tehfred.focusedvolume": {
-		"name": "Focused App Volume",
+		"name": "KDE Focused App Volume",
 		"author": "tehFred",
 		"repository": "https://github.com/tehFred/opendeck-focused-volume",
-		"description": "OpenDeck plugin for controlling the volume of the currently focused application on KDE Plasma/Linux"
+		"description": "KDE Focused App Volume for OpenDeck - control the PipeWire volume of the currently focused application"
 	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
@@ -136,7 +136,7 @@
 		"author": "5e",
 		"repository": "https://github.com/5e/streamdeck-hwinfo-plugin",
 		"download_url": "https://github.com/5e/streamdeck-hwinfo-plugin/raw/refs/heads/main/com.5e.hwinfo-reader.streamDeckPlugin",
-		"description": "HWiNFO Reader - A Stream Deck plugin to show HWiNFO sensors without using the time limited 'Shared Memory Support' feature. Only 79KB 🌟"
+		"description": "HWiNFO Reader - A Stream Deck plugin to show HWiNFO sensors without using the time limited 'Shared Memory Support' feature. Only 79KB \ud83c\udf1f"
 	},
 	"com.nagopy.streamdeck.tasktimer": {
 		"name": "Task Timer",
@@ -172,7 +172,7 @@
 	},
 	"com.adamcarballo.unity-integration": {
 		"name": "Unity Integration",
-		"author": "Àdam Carballo",
+		"author": "\u00c0dam Carballo",
 		"repository": "https://github.com/AdamCarballo/streamdeck-unity-plugin",
 		"description": "Stream Deck SDK plugin allowing support for custom Unity actions"
 	},
@@ -180,7 +180,7 @@
 		"name": "SDP - Dota 2",
 		"author": "Adrian Miasik",
 		"repository": "https://github.com/adrian-miasik/stream-deck-plugins-dota-2",
-		"description": "A suite of Stream Deck plugins/actions created for Valve's MOBA: Dota 2 ⚔️"
+		"description": "A suite of Stream Deck plugins/actions created for Valve's MOBA: Dota 2 \u2694\ufe0f"
 	},
 	"me.alhazmy13.sensibo": {
 		"name": "Sensibo",
@@ -254,7 +254,7 @@
 		"name": "Toggl",
 		"author": "Blueshift",
 		"repository": "https://github.com/blueshiftone/streamdeck-toggl",
-		"description": "⏱️ Make time tracking a 🍰 piece of cake, with Toggl Track and Elgato Stream Deck (Toggl Track integration for Stream Deck)"
+		"description": "\u23f1\ufe0f Make time tracking a \ud83c\udf70 piece of cake, with Toggl Track and Elgato Stream Deck (Toggl Track integration for Stream Deck)"
 	},
 	"games.boyne.godot": {
 		"name": "Godot Utilities",
@@ -561,7 +561,7 @@
 		"name": "Stopwatch Timekeeper",
 		"author": "gabe565",
 		"repository": "https://github.com/gabe565/streamdeck-stopwatch",
-		"description": "⏱️ A stopwatch plugin for the Elgato Stream Deck"
+		"description": "\u23f1\ufe0f A stopwatch plugin for the Elgato Stream Deck"
 	},
 	"com.gabrielperales.osascript": {
 		"name": "OSA Script",
@@ -616,7 +616,7 @@
 		"name": "Amphetamine",
 		"author": "Harry Marr",
 		"repository": "https://github.com/hmarr/streamdeck-amphetamine",
-		"description": "💊 Stream Deck plugin for Amphetamine"
+		"description": "\ud83d\udc8a Stream Deck plugin for Amphetamine"
 	},
 	"org.smyck.reaper-osc-action": {
 		"name": "Reaper OSC Action",
@@ -644,19 +644,19 @@
 	},
 	"me.hckr.airplanemode": {
 		"name": "Airplane mode",
-		"author": "Jarno Le Conté",
+		"author": "Jarno Le Cont\u00e9",
 		"repository": "https://github.com/JarnoLeConte/streamdeck-airplanemode",
 		"description": "Enable airplane mode on macOS directly from your Stream Deck"
 	},
 	"me.hckr.appswitcher": {
 		"name": "App Switcher",
-		"author": "Jarno Le Conté",
+		"author": "Jarno Le Cont\u00e9",
 		"repository": "https://github.com/JarnoLeConte/streamdeck-appswitcher",
 		"description": "StreamDeck plugin to easily switch between apps on macOS"
 	},
 	"me.hckr.findertags": {
 		"name": "Finder Tags",
-		"author": "Jarno Le Conté",
+		"author": "Jarno Le Cont\u00e9",
 		"repository": "https://github.com/JarnoLeConte/streamdeck-findertags",
 		"description": null
 	},
@@ -939,7 +939,7 @@
 		"name": "DevOps for StreamDeck",
 		"author": "SantiMA10",
 		"repository": "https://github.com/SantiMA10/devops-streamdeck",
-		"description": "👀 Check the status of your CI/CD environments using your Stream Deck."
+		"description": "\ud83d\udc40 Check the status of your CI/CD environments using your Stream Deck."
 	},
 	"com.sergeytihon.homebridge": {
 		"name": "Homebridge",
@@ -1047,7 +1047,7 @@
 		"name": "IFTTT",
 		"author": "tobimori",
 		"repository": "https://github.com/tobimori/streamdeck-ifttt",
-		"description": "💡 Easily integrate Stream Deck in your IFTTT setup and control smart home devices"
+		"description": "\ud83d\udca1 Easily integrate Stream Deck in your IFTTT setup and control smart home devices"
 	},
 	"co.uk.clarionmusic.midibutton": {
 		"name": "Midi Button",
@@ -1072,7 +1072,7 @@
 	},
 	"com.unaigonzalez.xbatt.ch": {
 		"name": "xBatt",
-		"author": "Unai González",
+		"author": "Unai Gonz\u00e1lez",
 		"repository": "https://github.com/unaigonzalezz/xBatt",
 		"description": "Display XInput and XBOX controllers battery on Stream Deck!"
 	},
@@ -1117,7 +1117,7 @@
 		"author": "voji",
 		"repository": "https://github.com/voji/sendkey_sd",
 		"download_url": "https://github.com/voji/sendkey_sd/raw/refs/heads/main/hu.voji.keyboard.streamDeckPlugin",
-		"description": "SendKey is an Elgato Stream Deck plugin that enables sending native keyboard events directly to the operating system. The plugin allows control of application features that require hold key behavior — such as push-to-talk, etc."
+		"description": "SendKey is an Elgato Stream Deck plugin that enables sending native keyboard events directly to the operating system. The plugin allows control of application features that require hold key behavior \u2014 such as push-to-talk, etc."
 	},
 	"fail.marc.onairclock": {
 		"name": "On Air Clock",
