@@ -29,12 +29,6 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
-    "at.terrorwolf.linkwarden": {
-    "name": "Linkwarden",
-    "author": "Terrorwolf",
-    "repository": "https://github.com/Terrorwolf01/streamdeck-linkwarden",
-    "description": "Add links to Linkwarden and open your instance, right from your Stream Deck."
-  },
 	"com.ags.info_clock": {
 		"name": "Info Clock",
 		"author": "Alex Godinez",
@@ -77,6 +71,12 @@
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
+	"at.terrorwolf.linkwarden": {
+    	"name": "Linkwarden",
+    	"author": "Terrorwolf",
+    	"repository": "https://github.com/Terrorwolf01/streamdeck-linkwarden",
+    	"description": "Add links to Linkwarden and open your instance, right from your Stream Deck."
+  	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
