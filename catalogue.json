@@ -857,7 +857,6 @@
 		"name": "Windows Essentials",
 		"author": "Xavi Parrec",
 		"repository": "https://github.com/xaviparrec/windows-essentials-opendeck",
-		"download_url": "https://github.com/xaviparrec/windows-essentials-opendeck/releases/download/v0.16.3/Windows-Essentials-0.16.3.streamDeckPlugin",
 		"description": "Windows volume, media, application and power controls for OpenDeck."
 	},
 	"com.pedrofuentes.ical": {
