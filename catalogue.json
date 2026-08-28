@@ -53,6 +53,12 @@
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
 	},
+	"com.emaspa.openxlr": {
+		"name": "OpenXLR",
+		"author": "Emanuele Sparvoli",
+		"repository": "https://github.com/emaspa/openxlr",
+		"description": "Linux control suite, PipeWire submixer, and OpenDeck plugin for Elgato XLR interfaces (Wave XLR Pro, XLR Dock, Wave XLR, MK.2)"
+	},
 	"com.gdwhisper.tikclock": {
 		"name": "TikClock",
 		"author": "GDWhisper",
