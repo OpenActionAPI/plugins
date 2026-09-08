@@ -65,6 +65,12 @@
 		"repository": "https://github.com/Havner/uinput-simulation",
 		"description": "Simple plugin for nekename/OpenDeck with uinput keyboard + mouse simulation"
 	},
+	"com.opendeck.opencodeusage": {
+		"name": "OpenCode Usage",
+		"author": "ImDevinC",
+		"repository": "https://github.com/ImDevinC/opendeck-opencode-usage",
+		"description": "An OpenAction plugin for OpenDeck that shows your opencode API usage on a key"
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
