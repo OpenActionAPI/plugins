@@ -65,6 +65,12 @@
 		"repository": "https://github.com/Havner/uinput-simulation",
 		"description": "Simple plugin for nekename/OpenDeck with uinput keyboard + mouse simulation"
 	},
+	"com.imdevinc.openroutercredits": {
+		"name": "OpenRouter Credits",
+		"author": "ImDevinC",
+		"repository": "https://github.com/ImDevinC/opendeck-openrouter-usage",
+		"description": "Shows your remaining OpenRouter credits as USD on an OpenDeck key."
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
