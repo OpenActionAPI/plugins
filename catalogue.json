@@ -796,6 +796,12 @@
 		"repository": "https://github.com/mjbnz/streamdeck-api-request",
 		"description": "StreamDeck API Request Plugin"
 	},
+	"com.moeilijk.hwinfo": {
+		"name": "HWiNFO",
+		"author": "moeilijk",
+		"repository": "https://github.com/moeilijk/hwinfo-streamdeck",
+		"description": "Monitor sensor readings with this HWiNFO64 Stream Deck Plugin"
+	},
 	"com.mongeon.mm": {
 		"name": "MM.StreamDeck",
 		"author": "Gabriel Mongeon",
@@ -973,12 +979,6 @@
 		"author": "Sergey Tihon",
 		"repository": "https://github.com/sergey-tihon/streamdeck-homebridge",
 		"description": "Control devices connected to your Homebridge server from Elgato Stream Deck"
-	},
-	"com.exension.hwinfo": {
-		"name": "HWiNFO",
-		"author": "exension",
-		"repository": "https://github.com/shayne/hwinfo-streamdeck",
-		"description": "Monitor sensor readings with this HWiNFO64 Stream Deck Plugin"
 	},
 	"com.exension.stocks": {
 		"name": "Stocks",
