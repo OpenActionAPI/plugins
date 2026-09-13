@@ -161,6 +161,12 @@
 		"repository": "https://github.com/ambiso/opendeck-akp05",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
 	},
+	"com.coreparadox.opendeck.magtran-m3": {
+		"name": "MagTran M3",
+		"author": "CoreParadox",
+		"repository": "https://github.com/CoreParadox/opendeck-magtran-m3",
+		"description": "An unofficial OpenDeck plugin adding device support for MagTran M3 devices."
+	},
 	"com.geeksville.touchypad": {
 		"name": "Touchy-Pad",
 		"author": "Geeksville",
