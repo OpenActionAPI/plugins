@@ -18,6 +18,7 @@ To submit your plugin to the OpenAction Marketplace, please follow these steps:
     - The key should be your plugin's **bundle ID**.
     - The `name` and `author` fields must exactly match the values in your plugin's manifest file.
     - The `description` field should match the sidebar description of your plugin's GitHub repository.
+    - If your plugin is AI-assisted, add the `"ai_assisted": true` flag to the `flags` object in your entry. If your plugin is not AI-assisted, you can omit this field.
 3. **Correct Placement**: Ensure your entry is added to the correct logical section in `catalogue.json`. The catalog is organized in the following order:
     1. **Official plugins from the OpenAction project**
     2. **Native OpenAction plugins** (probably where you want to add your plugin)

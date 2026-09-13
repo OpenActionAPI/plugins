@@ -57,7 +57,10 @@
 		"name": "TikClock",
 		"author": "GDWhisper",
 		"repository": "https://github.com/GDWhisper/opendeck-tikclock",
-		"description": "An OpenAction plugin that displays a digital clock across keys, one digit per key"
+		"description": "An OpenAction plugin that displays a digital clock across keys, one digit per key",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.havner.uinput": {
 		"name": "Linux Uinput Simulation",
