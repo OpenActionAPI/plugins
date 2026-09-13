@@ -119,6 +119,12 @@
 			"ai_assisted": true
 		}
 	},
+	"net.parrec.deck.windows-essentials": {
+		"name": "Windows Essentials",
+		"author": "Xavi Parrec",
+		"repository": "https://github.com/xaviparrec/windows-essentials-opendeck",
+		"description": "Windows volume, media, application and power controls for OpenDeck."
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
