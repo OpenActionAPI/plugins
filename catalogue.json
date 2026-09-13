@@ -92,6 +92,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.imdevinc.openroutercredits": {
+		"name": "OpenRouter Credits",
+		"author": "ImDevinC",
+		"repository": "https://github.com/ImDevinC/opendeck-openrouter-usage",
+		"description": "Shows your remaining OpenRouter credits as USD on an OpenDeck key.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
