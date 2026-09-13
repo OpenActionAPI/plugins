@@ -87,7 +87,10 @@
 		"name": "Linkwarden",
 		"author": "Terrorwolf",
 		"repository": "https://github.com/Terrorwolf01/streamdeck-linkwarden",
-		"description": "Add links to Linkwarden and open your instance, right from your Stream Deck."
+		"description": "Add links to Linkwarden and open your instance, right from your Stream Deck.",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
