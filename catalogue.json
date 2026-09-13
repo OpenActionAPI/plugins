@@ -89,6 +89,12 @@
 		"repository": "https://github.com/ambiso/opendeck-akp05",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
 	},
+	"com.geeksville.touchypad": {
+		"name": "Touchy-Pad",
+		"author": "Geeksville",
+		"repository": "https://github.com/geeksville/touchy-pad",
+		"description": "An open-source graphical touchpad/macropad project"
+	},
 	"com.glmagalhaes.ulanzi.d200": {
 		"name": "Ulanzi D200",
 		"author": "glmagalhaes, MQuest and MTesseracT",
@@ -107,12 +113,6 @@
 		"repository": "https://github.com/mean-ui-thread/opendeck-stream-dock-xl",
 		"description": "An unofficial plugin for VSD Inside / Mirabox Stream Dock XL-family devices"
 	},
-	"com.geeksville.touchypad": {
-		"name": "Touchy-Pad",
-		"author": "Geeksville",
-		"repository": "https://github.com/geeksville/touchy-pad",
-		"description": "An open-source graphical touchpad/macropad project"
-	},	
 	"com.monkeykiller.plugins.opendeck-ss550": {
 		"name": "Redragon Streamcraft SS550",
 		"author": "MonkeyKiller",
