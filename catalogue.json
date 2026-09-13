@@ -119,6 +119,15 @@
 		"repository": "https://github.com/ambiso/opendeck-akp05",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
 	},
+	"com.geeksville.touchypad": {
+		"name": "Touchy-Pad",
+		"author": "Geeksville",
+		"repository": "https://github.com/geeksville/touchy-pad",
+		"description": "An open-source graphical touchpad/macropad project",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.glmagalhaes.ulanzi.d200": {
 		"name": "Ulanzi D200",
 		"author": "glmagalhaes, MQuest and MTesseracT",
