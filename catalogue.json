@@ -155,6 +155,12 @@
 		"repository": "https://github.com/mean-ui-thread/opendeck-stream-dock-xl",
 		"description": "An unofficial plugin for VSD Inside / Mirabox Stream Dock XL-family devices"
 	},
+	"com.mika.plugins.opendeck-duo87": {
+		"name": "Womier DUO87",
+		"author": "Mika",
+		"repository": "https://github.com/MikaBust/opendeck-duo87",
+		"description": "An unofficial plugin for the Womier DUO87 keyboard's detachable screen module."
+	},
 	"com.monkeykiller.plugins.opendeck-ss550": {
 		"name": "Redragon Streamcraft SS550",
 		"author": "MonkeyKiller",
