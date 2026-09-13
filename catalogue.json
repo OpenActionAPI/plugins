@@ -84,11 +84,11 @@
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
 	"at.terrorwolf.linkwarden": {
-    	"name": "Linkwarden",
-    	"author": "Terrorwolf",
-    	"repository": "https://github.com/Terrorwolf01/streamdeck-linkwarden",
-    	"description": "Add links to Linkwarden and open your instance, right from your Stream Deck."
-  	},
+		"name": "Linkwarden",
+		"author": "Terrorwolf",
+		"repository": "https://github.com/Terrorwolf01/streamdeck-linkwarden",
+		"description": "Add links to Linkwarden and open your instance, right from your Stream Deck."
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
