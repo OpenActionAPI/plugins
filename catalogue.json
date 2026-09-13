@@ -75,7 +75,10 @@
 		"name": "LIFX",
 		"author": "lilithmoder",
 		"repository": "https://github.com/lilithmoder/lifx-opendeck-plugin",
-		"description": "Native Rust OpenDeck plugin for LIFX smart lights over the local LAN protocol - no cloud, no Wine"
+		"description": "Native Rust OpenDeck plugin for LIFX smart lights over the local LAN protocol - no cloud, no Wine",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
