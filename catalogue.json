@@ -35,6 +35,12 @@
 		"repository": "https://github.com/AlexGdevGT/infobar_clock",
 		"description": "Infobar clock for StreamDeck Neo with OpenDeck software"
 	},
+	"com.marikar.rocrailcontrol": {
+		"name": "RocRail Client",
+		"author": "Achim Marikar",
+		"repository": "https://github.com/am1337/OpenDeck-RocRail-Plugin",
+		"description": "Plugin for OpenDeck that connects to RocRail and enables to control your model train via stream deck"
+	},
 	"info.degois.damien.opendeck.plugins.rotary-command": {
 		"name": "Rotary Generic Command",
 		"author": "babs",
@@ -57,7 +63,10 @@
 		"name": "TikClock",
 		"author": "GDWhisper",
 		"repository": "https://github.com/GDWhisper/opendeck-tikclock",
-		"description": "An OpenAction plugin that displays a digital clock across keys, one digit per key"
+		"description": "An OpenAction plugin that displays a digital clock across keys, one digit per key",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.havner.uinput": {
 		"name": "Linux Uinput Simulation",
@@ -71,6 +80,15 @@
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
+	"com.lilithmoder.lifx": {
+		"name": "LIFX",
+		"author": "lilithmoder",
+		"repository": "https://github.com/lilithmoder/lifx-opendeck-plugin",
+		"description": "Native Rust OpenDeck plugin for LIFX smart lights over the local LAN protocol - no cloud, no Wine",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
@@ -82,6 +100,24 @@
 		"author": "Victor Marin",
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
+	},
+	"fr.jourdois.pipewire": {
+		"name": "PipeWire Audio (Native)",
+		"author": "Stephane Jourdois",
+		"repository": "https://github.com/sjourdois/opendeck-pipewire",
+		"description": "Native Rust PipeWire/WirePlumber audio control plugin for OpenDeck — no Node.js",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"at.terrorwolf.linkwarden": {
+		"name": "Linkwarden",
+		"author": "Terrorwolf",
+		"repository": "https://github.com/Terrorwolf01/streamdeck-linkwarden",
+		"description": "Add links to Linkwarden and open your instance, right from your Stream Deck.",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"net.parrec.deck.windows-essentials": {
 		"name": "Windows Essentials",
@@ -107,6 +143,15 @@
 		"repository": "https://github.com/ambiso/opendeck-akp05",
 		"description": "An unofficial OpenDeck plugin for Ajazz Akp05 / Mirabox N4-family devices"
 	},
+	"com.geeksville.touchypad": {
+		"name": "Touchy-Pad",
+		"author": "Geeksville",
+		"repository": "https://github.com/geeksville/touchy-pad",
+		"description": "An open-source graphical touchpad/macropad project",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.glmagalhaes.ulanzi.d200": {
 		"name": "Ulanzi D200",
 		"author": "glmagalhaes, MQuest and MTesseracT",
@@ -125,11 +170,23 @@
 		"repository": "https://github.com/mean-ui-thread/opendeck-stream-dock-xl",
 		"description": "An unofficial plugin for VSD Inside / Mirabox Stream Dock XL-family devices"
 	},
+	"com.mika.plugins.opendeck-duo87": {
+		"name": "Womier DUO87",
+		"author": "Mika",
+		"repository": "https://github.com/MikaBust/opendeck-duo87",
+		"description": "An unofficial plugin for the Womier DUO87 keyboard's detachable screen module."
+	},
 	"com.monkeykiller.plugins.opendeck-ss550": {
 		"name": "Redragon Streamcraft SS550",
 		"author": "MonkeyKiller",
 		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
 		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
+	},
+	"com.github.pomeo.opendeck-mirabox-n1": {
+		"name": "Mirabox N1",
+		"author": "Sergey Ovechkin",
+		"repository": "https://github.com/pomeo/opendeck-mirabox-n1",
+		"description": "An unofficial OpenDeck plugin for the Mirabox N1"
 	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
@@ -769,6 +826,18 @@
 		"repository": "https://github.com/mjbnz/streamdeck-api-request",
 		"description": "StreamDeck API Request Plugin"
 	},
+	"com.moeilijk.hwinfo": {
+		"name": "HWiNFO",
+		"author": "moeilijk",
+		"repository": "https://github.com/moeilijk/hwinfo-streamdeck",
+		"description": "Monitor sensor readings with this HWiNFO64 Stream Deck Plugin"
+	},
+	"com.moeilijk.lhm": {
+		"name": "Libre Hardware Monitor",
+		"author": "moeilijk",
+		"repository": "https://github.com/moeilijk/lhm-streamdeck",
+		"description": "Monitor sensor readings with this LibreHardwareMonitor Stream Deck Plugin"
+	},
 	"com.mongeon.mm": {
 		"name": "MM.StreamDeck",
 		"author": "Gabriel Mongeon",
@@ -946,12 +1015,6 @@
 		"author": "Sergey Tihon",
 		"repository": "https://github.com/sergey-tihon/streamdeck-homebridge",
 		"description": "Control devices connected to your Homebridge server from Elgato Stream Deck"
-	},
-	"com.exension.hwinfo": {
-		"name": "HWiNFO",
-		"author": "exension",
-		"repository": "https://github.com/shayne/hwinfo-streamdeck",
-		"description": "Monitor sensor readings with this HWiNFO64 Stream Deck Plugin"
 	},
 	"com.exension.stocks": {
 		"name": "Stocks",
