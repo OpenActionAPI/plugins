@@ -93,7 +93,10 @@
 		"name": "Touchy-Pad",
 		"author": "Geeksville",
 		"repository": "https://github.com/geeksville/touchy-pad",
-		"description": "An open-source graphical touchpad/macropad project"
+		"description": "An open-source graphical touchpad/macropad project",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.glmagalhaes.ulanzi.d200": {
 		"name": "Ulanzi D200",
