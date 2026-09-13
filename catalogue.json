@@ -802,6 +802,12 @@
 		"repository": "https://github.com/moeilijk/hwinfo-streamdeck",
 		"description": "Monitor sensor readings with this HWiNFO64 Stream Deck Plugin"
 	},
+	"com.moeilijk.lhm": {
+		"name": "Libre Hardware Monitor",
+		"author": "moeilijk",
+		"repository": "https://github.com/moeilijk/lhm-streamdeck",
+		"description": "Monitor sensor readings with this LibreHardwareMonitor Stream Deck Plugin"
+	},
 	"com.mongeon.mm": {
 		"name": "MM.StreamDeck",
 		"author": "Gabriel Mongeon",
