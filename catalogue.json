@@ -69,7 +69,10 @@
 		"name": "OpenCode Usage",
 		"author": "ImDevinC",
 		"repository": "https://github.com/ImDevinC/opendeck-opencode-usage",
-		"description": "An OpenAction plugin for OpenDeck that shows your opencode API usage on a key"
+		"description": "An OpenAction plugin for OpenDeck that shows your opencode API usage on a key",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
