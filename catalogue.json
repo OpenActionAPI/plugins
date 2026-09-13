@@ -83,6 +83,12 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"net.parrec.deck.windows-essentials": {
+		"name": "Windows Essentials",
+		"author": "Xavi Parrec",
+		"repository": "https://github.com/xaviparrec/windows-essentials-opendeck",
+		"description": "Windows volume, media, application and power controls for OpenDeck."
+	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
 		"author": "Andrey Viktorov",
@@ -852,12 +858,6 @@
 		"author": "Panu Oksala",
 		"repository": "https://github.com/panuoksala/streamdeck-azuredevops-plugin",
 		"description": "AzureDevOps plugin for Stream Deck devices"
-	},
-	"net.parrec.deck.windows-essentials": {
-		"name": "Windows Essentials",
-		"author": "Xavi Parrec",
-		"repository": "https://github.com/xaviparrec/windows-essentials-opendeck",
-		"description": "Windows volume, media, application and power controls for OpenDeck."
 	},
 	"com.pedrofuentes.ical": {
 		"name": "iCal",
