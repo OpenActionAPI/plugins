@@ -72,10 +72,13 @@
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
 	"fr.jourdois.pipewire": {
-		"name": "PipeWire Audio Control",
+		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
 		"repository": "https://github.com/sjourdois/opendeck-pipewire",
-		"description": "Native Rust PipeWire/WirePlumber audio control plugin for OpenDeck — no Node.js, no Wine"
+		"description": "Native Rust PipeWire/WirePlumber audio control plugin for OpenDeck — no Node.js",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"st.lynx.plugins.opendeck-akp03": {
 		"name": "Ajazz AKP03 / Mirabox N3",
