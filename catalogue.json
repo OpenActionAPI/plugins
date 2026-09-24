@@ -1250,5 +1250,14 @@
 		"author": "Zoran Stefanovic",
 		"repository": "https://github.com/zoran-stefanovic/SteamScroll",
 		"description": "Plugin for Elgato Stream Deck + to scroll through installed Steam games and launch them"
+	},
+	"com.iwo24pl.rs-ulanzi-d200": {
+		"name": "Ulanzi D200",
+		"author": "Iwo24pl",
+		"repository": "https://github.com/Iwo24pl/rs-ulanzi-d200",
+		"description": "Ulanzi D200 support on Linux and Windows",
+		"flags": {
+			"ai_assisted": true
+		}
 	}
 }
