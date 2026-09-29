@@ -137,6 +137,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.t01ik.macoscontrols": {
+		"name": "macOS Controls",
+		"author": "Anatoliy Shulika",
+		"repository": "https://github.com/T01iK/opendeck-mac-controls",
+		"description": "Native macOS controls: volume, media, brightness, Control Center switches, launchers, Shortcuts, apps and a hardware monitor.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"at.terrorwolf.linkwarden": {
 		"name": "Linkwarden",
 		"author": "Terrorwolf",
