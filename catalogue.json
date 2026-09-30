@@ -1145,6 +1145,15 @@
 		"repository": "https://github.com/tobimori/streamdeck-ifttt",
 		"description": "💡 Easily integrate Stream Deck in your IFTTT setup and control smart home devices"
 	},
+	"com.trsaur.helldivers2": {
+		"name": "Helldivers 2",
+		"author": "TrSaur",
+		"repository": "https://github.com/trsaur/hd2-plugin-opendeck",
+		"description": "Trigger Helldivers 2 Stratagems directly from your Stream Deck device on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"co.uk.clarionmusic.midibutton": {
 		"name": "Midi Button",
 		"author": "Tom Kelly",
