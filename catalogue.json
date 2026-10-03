@@ -128,6 +128,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"io.github.millenniumambiguity.warthunder": {
+		"name": "War Thunder Telemetry",
+		"author": "millennIumAMbiguity",
+		"repository": "https://github.com/millennIumAMbiguity/opendeck-warthunder",
+		"description": "Live War Thunder flight data on Stream Deck keys and the Saitek Multi Panel, for OpenDeck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"fr.jourdois.pipewire": {
 		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
@@ -208,6 +217,15 @@
 		"author": "Mika",
 		"repository": "https://github.com/MikaBust/opendeck-duo87",
 		"description": "An unofficial plugin for the Womier DUO87 keyboard's detachable screen module."
+	},
+	"io.github.millenniumambiguity.saitekmultipanel": {
+		"name": "Saitek Pro Flight Multi Panel",
+		"author": "millennIumAMbiguity",
+		"repository": "https://github.com/millennIumAMbiguity/opendeck-saitek-multipanel",
+		"description": "OpenDeck device plugin for the Logitech/Saitek Pro Flight Multi Panel",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.monkeykiller.plugins.opendeck-ss550": {
 		"name": "Redragon Streamcraft SS550",
