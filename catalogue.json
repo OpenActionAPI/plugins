@@ -47,6 +47,15 @@
 		"repository": "https://github.com/babs/opendeck-plugins-rotary-command",
 		"description": "Run custom shell commands on rotary encoder actions (CW, CCW, press, long press)"
 	},
+	"io.github.cdcxd.herdr": {
+		"name": "herdr agent status",
+		"author": "cdcxd",
+		"repository": "https://github.com/cdcxd/opendeck-herdr-plugin",
+		"description": "Live herdr agent status on a Stream Deck, for OpenDeck on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.sfgrimes.corsaircontrol": {
 		"name": "Fan Profile Control",
 		"author": "sfgrimes",
