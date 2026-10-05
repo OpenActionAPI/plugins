@@ -138,11 +138,11 @@
 		}
 	},
 	"at.terrorwolf.helldivers2": {
-                "name": "Helldivers2",
-                "author": "Terrorwolf",
-                "repository": "https://github.com/Terrorwolf01/opendeck-helldivers2",
-                "description": "A Plugin Providing all Helldivers2 Stratagems."
-        },
+		"name": "Helldivers2",
+		"author": "Terrorwolf",
+		"repository": "https://github.com/Terrorwolf01/opendeck-helldivers2",
+		"description": "A Plugin Providing all Helldivers2 Stratagems."
+	},
 	"at.terrorwolf.linkwarden": {
 		"name": "Linkwarden",
 		"author": "Terrorwolf",
