@@ -146,6 +146,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.trsaur.helldivers2": {
+		"name": "Helldivers 2",
+		"author": "TrSaur",
+		"repository": "https://github.com/trsaur/hd2-plugin-opendeck",
+		"description": "Trigger Helldivers 2 Stratagems directly from your Stream Deck device on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"net.parrec.deck.windows-essentials": {
 		"name": "Windows Essentials",
 		"author": "Xavi Parrec",
