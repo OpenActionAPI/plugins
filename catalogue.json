@@ -59,6 +59,15 @@
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
 	},
+	"me.dwot.keylight": {
+		"name": "Key Light Direct",
+		"author": "dwot",
+		"repository": "https://github.com/dwot/opendeck-keylight",
+		"description": "Control Elgato Key Lights from OpenDeck, directly over the network. No companion app needed.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.emaspa.openxlr": {
 		"name": "OpenXLR",
 		"author": "Emanuele Sparvoli",
