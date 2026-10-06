@@ -47,6 +47,15 @@
 		"repository": "https://github.com/babs/opendeck-plugins-rotary-command",
 		"description": "Run custom shell commands on rotary encoder actions (CW, CCW, press, long press)"
 	},
+	"com.cadufpolis.monitor-brightness": {
+		"name": "Linux Monitor Brightness",
+		"author": "cadufpolis",
+		"repository": "https://github.com/cadufpolis/linux-monitor-brightness",
+		"description": "Control monitor brightness over DDC/CI from a Stream Deck+ dial (Linux only)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.sfgrimes.corsaircontrol": {
 		"name": "Fan Profile Control",
 		"author": "sfgrimes",
