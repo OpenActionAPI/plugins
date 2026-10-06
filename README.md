@@ -29,3 +29,5 @@ To submit your plugin to the OpenAction Marketplace, please follow these steps:
 4. **Add an Icon**: Add a high-resolution icon representing your plugin to the `icons/` directory. The icon should match the icon provided in your plugin's manifest / bundle. The file should be named matching your plugin's bundle ID (e.g. `com.yourname.plugin.png`). *Note: You do not need to run the `format_icons.py` script yourself; a maintainer will run it in a standardised environment to format your icon when reviewing your submission.*
 
 Once you have added your entry to the appropriate section, submit a Pull Request to this repository for review.
+
+Pull requests that change the catalogue are checked automatically. The check verifies the repository topic, manifest metadata, repository description, bundle ID, latest-release artifacts, icon format and resolution, section placement, and repository URL ordering before maintainers review the submission.
