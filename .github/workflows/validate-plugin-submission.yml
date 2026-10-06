@@ -1,0 +1,31 @@
+name: Validate plugin submission
+
+on:
+  pull_request:
+    paths:
+      - "catalogue.json"
+      - "icons/**"
+      - "validate_submission.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate plugin submission
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate catalogue submission
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python validate_submission.py --base "${{ github.event.pull_request.base.sha }}" --head "${{ github.event.pull_request.head.sha }}"
