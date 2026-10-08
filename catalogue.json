@@ -68,6 +68,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.ez.sho-metrics-linux": {
+		"name": "Sho Metrics Linux - System Monitoring",
+		"author": "ez",
+		"repository": "https://github.com/emaspa/sho-metrics-linux",
+		"description": "Sho Metrics Stream Deck plugin for Linux under OpenDeck, with a native sensor helper (hwmon, LACT, MangoHud). Community fork of ShoMetrics/sho_metrics.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.gdwhisper.tikclock": {
 		"name": "TikClock",
 		"author": "GDWhisper",
