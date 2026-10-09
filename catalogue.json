@@ -107,6 +107,15 @@
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
+	"com.verso.claudeusage": {
+		"name": "Claude Usage",
+		"author": "verso",
+		"repository": "https://github.com/lilian-17/opendeck-claude-usage",
+		"description": "OpenDeck plugin showing your Claude subscription usage and Claude Code status (unofficial)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.lilithmoder.lifx": {
 		"name": "LIFX",
 		"author": "lilithmoder",
