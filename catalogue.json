@@ -221,6 +221,15 @@
 		"repository": "https://github.com/pomeo/opendeck-mirabox-n1",
 		"description": "An unofficial OpenDeck plugin for the Mirabox N1"
 	},
+	"io.github.shanelord01.galleon100sd": {
+		"name": "Corsair Galleon 100 SD",
+		"author": "Shane Lord",
+		"repository": "https://github.com/shanelord01/opendeck-galleon",
+		"description": "OpenDeck device plugin for the Stream Deck built into the Corsair Galleon 100 SD keyboard",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.5e.hwinfo-reader": {
 		"name": "HWiNFO Reader",
 		"author": "5e",
