@@ -120,6 +120,7 @@ def validate_order(catalogue: dict[str, dict], relevant_ids: set[str]) -> None:
 			raise ValidationError(f"{plugin_id}: plugin is not sorted by repository URL")
 		if (
 			index + 1 < len(ids)
+			and section_for(ids[index + 1], catalogue) == section
 			and repository.casefold() > catalogue[ids[index + 1]].get("repository", "").casefold()
 		):
 			raise ValidationError(f"{plugin_id}: plugin is not sorted by repository URL")
