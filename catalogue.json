@@ -101,6 +101,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.infamous-pattern.openhomeb": {
+		"name": "OpenHomeB",
+		"author": "Infamous Pattern",
+		"repository": "https://github.com/infamous-pattern/OpenHome",
+		"description": "A Homebridge plugin for OpenDeck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
