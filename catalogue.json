@@ -1255,7 +1255,7 @@
 		"name": "Ulanzi D200",
 		"author": "Iwo24pl",
 		"repository": "https://github.com/Iwo24pl/rs-ulanzi-d200",
-		"description": "Ulanzi D200 support on Linux and Windows",
+		"description": "An unofficial plugin to use Ulanzi D200(H) with OpenDeck, ported to Windows",
 		"flags": {
 			"ai_assisted": true
 		}
