@@ -1253,7 +1253,7 @@
 	},
 	"com.iwo24pl.rs-ulanzi-d200": {
 		"name": "Ulanzi D200",
-		"author": "Iwo24pl",
+		"author": "glmagalhaes, mquest, mtesseract, Iwo24pl",
 		"repository": "https://github.com/Iwo24pl/rs-ulanzi-d200",
 		"description": "An unofficial plugin to use Ulanzi D200(H) with OpenDeck, ported to Windows",
 		"flags": {
