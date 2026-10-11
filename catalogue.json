@@ -47,6 +47,15 @@
 		"repository": "https://github.com/babs/opendeck-plugins-rotary-command",
 		"description": "Run custom shell commands on rotary encoder actions (CW, CCW, press, long press)"
 	},
+	"us.echo.wavesink": {
+		"name": "WaveSink",
+		"author": "calmasacow",
+		"repository": "https://github.com/calmasacow/opendeck-wavesink",
+		"description": "Control the WaveSink mixer from your Stream Deck: levels, mutes, routes, solo and profiles, with live meters on Stream Deck+ dials",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.sfgrimes.corsaircontrol": {
 		"name": "Fan Profile Control",
 		"author": "sfgrimes",
