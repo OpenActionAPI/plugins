@@ -29,6 +29,15 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
+	"cloud.caesium.applaunch": {
+		"name": "App Launch",
+		"author": "Caesium Cloud",
+		"repository": "https://github.com/alanmur/opendeck-app-launcher",
+		"description": "Add Linux application launcher buttons in one click",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.ags.info_clock": {
 		"name": "Info Clock",
 		"author": "Alex Godinez",
