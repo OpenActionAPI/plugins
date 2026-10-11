@@ -108,10 +108,10 @@
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
 	"com.verso.claudeusage": {
-		"name": "Claude Usage",
+		"name": "Claude Pulse",
 		"author": "verso",
 		"repository": "https://github.com/lilian-17/opendeck-claude-usage",
-		"description": "OpenDeck plugin showing your Claude subscription usage and Claude Code status (unofficial)",
+		"description": "OpenDeck plugin showing what Claude Code is doing and your Claude subscription usage (unofficial)",
 		"flags": {
 			"ai_assisted": true
 		}
