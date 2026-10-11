@@ -185,12 +185,15 @@
 			"ai_assisted": true
 		}
 	},
-	"com.glmagalhaes.ulanzi.d200": {
+	"com.iwo24pl.rs-ulanzi-d200": {
 		"name": "Ulanzi D200",
-		"author": "glmagalhaes, MQuest and MTesseracT",
-		"repository": "https://github.com/glmagalhaes/rs-ulanzi-d200",
-		"description": "An unofficial plugin to use Ulanzi D200(H) with OpenDeck"
-	},
+		"author": "glmagalhaes, mquest, mtesseract, Iwo24pl",
+		"repository": "https://github.com/Iwo24pl/rs-ulanzi-d200",
+		"description": "An unofficial plugin to use Ulanzi D200(H) with OpenDeck.",
+		"flags": {
+			"ai_assisted": true
+		}
+	}
 	"com.github.ibanks42.opendeck-m18": {
 		"name": "VSD Inside M18 / Mirabox M18",
 		"author": "ibanks42",
