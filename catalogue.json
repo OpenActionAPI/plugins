@@ -128,6 +128,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"systems.garcia.openwave": {
+		"name": "OpenWave",
+		"author": "NyleGarcia",
+		"repository": "https://github.com/NyleGarcia/openwave-opendeck",
+		"description": "OpenDeck plugin for OpenWave — mix, microphone and source volumes plus microphone-group switching from a Stream Deck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"fr.jourdois.pipewire": {
 		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
