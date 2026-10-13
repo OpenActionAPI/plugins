@@ -1,8 +1,9 @@
-import os
-from PIL import Image
-import shutil
 import logging
+import os
+import shutil
 from pathlib import Path
+
+from PIL import Image
 from tqdm import tqdm
 
 
@@ -70,8 +71,8 @@ def process_images(input_dir, quality, palette_colors):
 				modified_files += 1
 				new_size += os.path.getsize(temp_filepath)
 
-		except Exception as e:
-			logging.warning(f"Could not process {filename}: {str(e)}")
+		except Exception as e:  # noqa: BLE001
+			logging.getLogger(__name__).warning(f"Could not process {filename}: {e!s}")
 			continue
 
 	# Replace original files with processed ones
