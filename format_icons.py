@@ -6,6 +6,12 @@ from pathlib import Path
 from tqdm import tqdm
 
 
+def same_pixels(a, b):
+	"""Compare decoded pixels, ignoring PNG compression differences."""
+	with Image.open(a) as ia, Image.open(b) as ib:
+		return ia.size == ib.size and ia.convert("RGBA").tobytes() == ib.convert("RGBA").tobytes()
+
+
 def process_images(input_dir, quality, palette_colors):
 	total_files = 0
 	modified_files = 0
@@ -54,7 +60,13 @@ def process_images(input_dir, quality, palette_colors):
 				save_kwargs = {"compress_level": 9 - int((quality / 100) * 9), "optimize": True}
 				img.save(temp_filepath, "PNG", **save_kwargs)
 
-				# Count as modified only if we actually created a new file
+				# Keep the existing file if the pixels are identical (zlib output differs per platform)
+				existing = os.path.join(input_dir, new_filename)
+				if os.path.exists(existing) and same_pixels(temp_filepath, existing):
+					os.remove(temp_filepath)
+					new_size += os.path.getsize(existing)
+					continue
+
 				modified_files += 1
 				new_size += os.path.getsize(temp_filepath)
 
