@@ -68,6 +68,15 @@
 			"ai_assisted": true
 		}
 	},
+	"de.felitendo.obs-tools": {
+		"name": "OBS Tools",
+		"author": "Felitendo",
+		"repository": "https://github.com/FeloDeck/obs-tools",
+		"description": "OBS Studio plugin for OpenDeck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.gdwhisper.tikclock": {
 		"name": "TikClock",
 		"author": "GDWhisper",
