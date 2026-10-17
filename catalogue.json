@@ -134,6 +134,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"systems.garcia.gsr": {
+		"name": "GPU Screen Recorder",
+		"author": "NyleGarcia",
+		"repository": "https://github.com/NyleGarcia/gpu-screen-recorder-opendeck",
+		"description": "OpenDeck plugin for GPU Screen Recorder: replay buffer, recording and stream on Stream Deck keys, with one key that saves the buffer.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"fr.jourdois.pipewire": {
 		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
