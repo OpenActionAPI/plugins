@@ -128,6 +128,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"systems.garcia.countdown": {
+		"name": "Countdown",
+		"author": "NyleGarcia",
+		"repository": "https://github.com/NyleGarcia/countdown-opendeck",
+		"description": "Countdown timer plugin for OpenDeck (Stream Deck on Linux)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"fr.jourdois.pipewire": {
 		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
