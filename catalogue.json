@@ -68,6 +68,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.esteban-dcp.claudecodeusage": {
+		"name": "Claude Code Usage",
+		"author": "esteban-dcp",
+		"repository": "https://github.com/esteban-dcp/opendeck-claude-usage",
+		"description": "An OpenAction plugin for OpenDeck that shows Claude Code session/weekly usage on your deck, read from the local file Claude Code's statusLine hook writes -- no API key needed",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.gdwhisper.tikclock": {
 		"name": "TikClock",
 		"author": "GDWhisper",
