@@ -1,0 +1,139 @@
+name: Format PR icons
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Pull request number to format
+        required: true
+        type: number
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: read
+  pull-requests: read
+
+jobs:
+  format:
+    name: Format added icons
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event_name == 'issue_comment' &&
+        github.event.issue.pull_request &&
+        startsWith(github.event.comment.body, '/format-icons') &&
+        (
+          github.event.comment.author_association == 'OWNER' ||
+          github.event.comment.author_association == 'MEMBER' ||
+          github.event.comment.author_association == 'COLLABORATOR'
+        )
+      )
+    runs-on: ubuntu-latest
+    env:
+      PR_NUMBER: ${{ inputs.pr_number || github.event.issue.number }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check out trusted formatter
+        uses: actions/checkout@v4
+        with:
+          path: base
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: Get pull request head
+        id: pr
+        run: |
+          gh pr view "$PR_NUMBER" --repo "${{ github.repository }}" --json \
+            headRefName,headRepository,headRefOid,maintainerCanModify \
+            --jq '"head_ref=\(.headRefName)\nhead_repository=\(.headRepository.nameWithOwner)\nhead_sha=\(.headRefOid)\nmaintainer_can_modify=\(.maintainerCanModify)"' >> "$GITHUB_OUTPUT"
+
+      - name: Require maintainer edits
+        if: >-
+          steps.pr.outputs.head_repository != github.repository &&
+          steps.pr.outputs.maintainer_can_modify != 'true'
+        run: |
+          echo "This PR does not allow edits from maintainers." >&2
+          exit 1
+
+      - name: Check out pull request
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ steps.pr.outputs.head_repository }}
+          ref: ${{ steps.pr.outputs.head_sha }}
+          path: pr
+          token: ${{ github.token }}
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Format added icons
+        id: format
+        run: |
+          set -euo pipefail
+          mkdir -p format/icons
+
+          mapfile -t added_icons < <(
+            gh api --paginate "repos/${{ github.repository }}/pulls/$PR_NUMBER/files" \
+              --jq '.[] | select(.status == "added" and (.filename | startswith("icons/"))) | .filename'
+          )
+
+          if ((${#added_icons[@]} == 0)); then
+            echo "No added icons found in PR #$PR_NUMBER."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          for path in "${added_icons[@]}"; do
+            relative_path="${path#icons/}"
+            if [[ "$relative_path" == */* ]]; then
+              echo "Icon path must be directly under icons/: $path" >&2
+              exit 1
+            fi
+            cp "pr/$path" "format/icons/$relative_path"
+          done
+
+          (
+            cd format
+            uv run --project ../base --locked python ../base/format_icons.py
+          )
+
+          changed=false
+          for path in "${added_icons[@]}"; do
+            relative_path="${path#icons/}"
+            if ! cmp -s "format/icons/$relative_path" "pr/$path"; then
+              cp "format/icons/$relative_path" "pr/$path"
+              changed=true
+            fi
+          done
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+
+      - name: Commit formatted icons to pull request
+        if: steps.format.outputs.changed == 'true'
+        working-directory: pr
+        env:
+          HEAD_REF: ${{ steps.pr.outputs.head_ref }}
+          PUSH_TOKEN: >-
+            ${{ steps.pr.outputs.head_repository == github.repository &&
+                github.token ||
+                secrets.MAINTAINER_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [[ -z "$PUSH_TOKEN" ]]; then
+            echo "MAINTAINER_TOKEN is required to push to fork PR branches." >&2
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- icons
+          git commit -m "Format icons"
+          git -c "http.extraheader=AUTHORIZATION: bearer $PUSH_TOKEN" \
+            push origin "HEAD:$HEAD_REF"
