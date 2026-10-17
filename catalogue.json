@@ -59,6 +59,15 @@
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
 	},
+	"com.heatguyj.bashstatus": {
+		"name": "Bash Status",
+		"author": "HeatguyJ",
+		"repository": "https://github.com/HeatGuyJ/opendeck-bashstatius",
+		"description": "Execute bash-script and show its return status",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.emaspa.openxlr": {
 		"name": "OpenXLR",
 		"author": "Emanuele Sparvoli",
