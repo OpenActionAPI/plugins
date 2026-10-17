@@ -47,6 +47,15 @@
 		"repository": "https://github.com/am1337/OpenDeck-RocRail-Plugin",
 		"description": "Plugin for OpenDeck that connects to RocRail and enables to control your model train via stream deck"
 	},
+	"dev.anakafeel.claudeusage": {
+		"name": "Claude Usage",
+		"author": "Saim Hashmi",
+		"repository": "https://github.com/anakafeel/opendeck-claude-usage",
+		"description": "Animated Stream Deck key showing Claude usage limits, for OpenDeck on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"info.degois.damien.opendeck.plugins.rotary-command": {
 		"name": "Rotary Generic Command",
 		"author": "babs",
