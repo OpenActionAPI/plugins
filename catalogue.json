@@ -194,6 +194,15 @@
 			"ai_assisted": true
 		}
 	},
+	"systems.garcia.openwave": {
+		"name": "OpenWave",
+		"author": "NyleGarcia",
+		"repository": "https://github.com/NyleGarcia/openwave-opendeck",
+		"description": "OpenDeck plugin for OpenWave — mix, microphone and source volumes plus microphone-group switching from a Stream Deck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"fr.jourdois.pipewire": {
 		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
