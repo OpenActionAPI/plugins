@@ -982,16 +982,16 @@
 		"download_url": "https://github.com/MitchMcKean/mccontrol/raw/refs/heads/master/Release/com.mitchmckean.mccontrol.streamDeckPlugin",
 		"description": null
 	},
-    "com.mrredstonia.clocks": {
-        "name": "Clocks",
-        "author": "MrRedstonia",
-        "repository": "https://github.com/MrRedstonia/opendeck-clocks",
-        "description": "Customizable digital and analog clocks showing local time and date on a key.",
-        "download_url": "https://github.com/MrRedstonia/opendeck-clocks/raw/refs/heads/master/com.mrredstonia.clocks.streamDeckPlugin",
-        "flags": {
-            "ai_assisted": true
-        }
-    },
+	"com.mrredstonia.clocks": {
+		"name": "Clocks",
+		"author": "MrRedstonia",
+		"repository": "https://github.com/MrRedstonia/opendeck-clocks",
+		"description": "Customizable digital and analog clocks showing local time and date on a key.",
+		"download_url": "https://github.com/MrRedstonia/opendeck-clocks/raw/refs/heads/master/com.mrredstonia.clocks.streamDeckPlugin",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.github.mjbnz.sd-api-request": {
 		"name": "API Request",
 		"author": "Mike Beattie",
