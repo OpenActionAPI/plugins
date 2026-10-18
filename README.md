@@ -30,6 +30,4 @@ To submit your plugin to the OpenAction Marketplace, please follow these steps:
 
 Once you have added your entry to the appropriate section, submit a Pull Request to this repository for review.
 
-### Alternative Method (The Easy Way)
-
-If you prefer an easier route, simply get in contact with us via Matrix, Discord, or by opening a GitHub Issue in this repository. Drop your plugin's repository URL, and a maintainer will add the plugin for you!
+Pull requests that change the catalogue are checked automatically. The check verifies the repository topic, manifest metadata, repository description, bundle ID, latest-release artifacts, icon format and resolution, section placement, and repository URL ordering before maintainers review the submission.
