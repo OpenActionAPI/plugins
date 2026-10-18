@@ -236,6 +236,15 @@
 			"ai_assisted": true
 		}
 	},
+	"io.github.tonyheadband.opendeck-steam": {
+		"name": "Steam Dashboard Controller",
+		"author": "Antonio Frontino",
+		"repository": "https://github.com/TonyHeadband/opendeck-steam-plugin",
+		"description": "Steam status, navigation, game launch and friend presence keys for OpenDeck on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"net.parrec.deck.windows-essentials": {
 		"name": "Windows Essentials",
 		"author": "Xavi Parrec",
