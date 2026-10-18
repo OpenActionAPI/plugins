@@ -153,7 +153,9 @@ def repository_parts(url: str) -> tuple[str, str]:
 	parts = parsed.path.strip("/").split("/")
 	if len(parts) != 2 or not all(parts):
 		raise ValidationError(f"repository URL must identify an owner and repository: {url}")
-	return parts[0], parts[1].removesuffix(".git")
+	if parts[1].endswith(".git"):
+		raise ValidationError(f"repository URL must not use a .git suffix: {url}")
+	return parts[0], parts[1]
 
 
 def validate_repository(plugin_id: str, entry: dict, changed: set[str]) -> None:
