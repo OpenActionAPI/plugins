@@ -62,6 +62,12 @@
 			"ai_assisted": true
 		}
 	},
+	"io.github.cdcxd.herdr": {
+		"name": "herdr agent status",
+		"author": "cdcxd",
+		"repository": "https://github.com/cdcxd/opendeck-herdr-plugin",
+		"description": "Live herdr agent status on a Stream Deck, for OpenDeck on Linux"
+	},
 	"com.sfgrimes.corsaircontrol": {
 		"name": "Fan Profile Control",
 		"author": "sfgrimes",
