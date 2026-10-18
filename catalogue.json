@@ -278,6 +278,15 @@
 		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
 		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
 	},
+	"pl.sotomski.opendeck.openmasterhub": {
+		"name": "Unofficial MasterHub Device Support",
+		"author": "OpenMasterHub",
+		"repository": "https://github.com/OpenMasterHub/openmasterhub.git",
+		"description": "An unofficial OpenDeck device plugin for the MasterHub.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.github.pomeo.opendeck-mirabox-n1": {
 		"name": "Mirabox N1",
 		"author": "Sergey Ovechkin",
