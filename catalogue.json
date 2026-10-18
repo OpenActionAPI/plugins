@@ -134,6 +134,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"com.mroneleg.claudeusage": {
+		"name": "Claude Code Command Deck",
+		"author": "Mr. One Leg",
+		"repository": "https://github.com/mroneleg/claude-opendeck",
+		"description": "OpenDeck plugin for Claude Code: plan usage with pace and alerts, session status that jumps to the waiting window",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"fr.jourdois.pipewire": {
 		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
