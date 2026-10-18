@@ -134,6 +134,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"com.mroneleg.kdeconnect": {
+		"name": "KDE Connect",
+		"author": "Mr. One Leg",
+		"repository": "https://github.com/mroneleg/kde-connect-opendeck",
+		"description": "OpenAction plugin for KDE Connect: media, volume, battery, notifications, calls and more on your phone, tablet or computer",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"fr.jourdois.pipewire": {
 		"name": "PipeWire Audio (Native)",
 		"author": "Stephane Jourdois",
