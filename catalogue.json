@@ -29,6 +29,12 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
+	"us.rivul.tacto": {
+		"name": "Tacto Connect",
+		"author": "Rivulus",
+		"repository": "https://github.com/RivulusLive/tacto-connect-source",
+		"description": "OpenAction plugin providing Tacto mobile and keyboard device support"
+	},
 	"com.ags.info_clock": {
 		"name": "Info Clock",
 		"author": "Alex Godinez",
@@ -47,14 +53,20 @@
 		"repository": "https://github.com/babs/opendeck-plugins-rotary-command",
 		"description": "Run custom shell commands on rotary encoder actions (CW, CCW, press, long press)"
 	},
+	"com.cadufpolis.monitor-brightness": {
+		"name": "Linux Monitor Brightness",
+		"author": "cadufpolis",
+		"repository": "https://github.com/cadufpolis/linux-monitor-brightness",
+		"description": "Control monitor brightness over DDC/CI from a Stream Deck+ dial (Linux only)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"io.github.cdcxd.herdr": {
 		"name": "herdr agent status",
 		"author": "cdcxd",
 		"repository": "https://github.com/cdcxd/opendeck-herdr-plugin",
 		"description": "Live herdr agent status on a Stream Deck, for OpenDeck on Linux",
-		"flags": {
-			"ai_assisted": true
-		}
 	},
 	"com.sfgrimes.corsaircontrol": {
 		"name": "Fan Profile Control",
@@ -110,6 +122,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.infamous-pattern.openhomeb": {
+		"name": "OpenHomeB",
+		"author": "Infamous Pattern",
+		"repository": "https://github.com/infamous-pattern/OpenHome",
+		"description": "A Homebridge plugin for OpenDeck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
@@ -145,6 +166,21 @@
 		"flags": {
 			"ai_assisted": true
 		}
+	},
+	"com.t01ik.macoscontrols": {
+		"name": "macOS Controls",
+		"author": "Anatoliy Shulika",
+		"repository": "https://github.com/T01iK/opendeck-mac-controls",
+		"description": "Native macOS controls: volume, media, brightness, Control Center switches, launchers, Shortcuts, apps and a hardware monitor.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"at.terrorwolf.helldivers2": {
+		"name": "Helldivers2",
+		"author": "Terrorwolf",
+		"repository": "https://github.com/Terrorwolf01/opendeck-helldivers2",
+		"description": "A Plugin Providing all Helldivers2 Stratagems."
 	},
 	"at.terrorwolf.linkwarden": {
 		"name": "Linkwarden",
@@ -199,6 +235,15 @@
 		"author": "glmagalhaes, MQuest and MTesseracT",
 		"repository": "https://github.com/glmagalhaes/rs-ulanzi-d200",
 		"description": "An unofficial plugin to use Ulanzi D200(H) with OpenDeck"
+	},
+	"com.github.grizbeard.opendeck-mirabox293v3": {
+		"name": "Mirabox 293 V3",
+		"author": "Grizbeard",
+		"repository": "https://github.com/Grizbeard/opendeck-mirabox293v3",
+		"description": "Unofficial OpenDeck device support plugin for the MiraBox Stream Dock 293 V3 (USB 6603:1006)",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.github.ibanks42.opendeck-m18": {
 		"name": "VSD Inside M18 / Mirabox M18",
