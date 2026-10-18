@@ -74,7 +74,7 @@
 			"ai_assisted": true
 		}
 	},
-	"com.community.twitchviewer.sdPlugin": {
+	"com.community.twitchviewer": {
 		"name": "Twitch Viewer Deck",
 		"author": "Enfalion",
 		"repository": "https://github.com/Enfalion/Twitch-Viewer-Plugin",
