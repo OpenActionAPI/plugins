@@ -29,6 +29,12 @@
 		"repository": "https://github.com/OpenActionPlugins/system",
 		"description": "An OpenAction plugin for displaying system information"
 	},
+	"us.rivul.tacto": {
+		"name": "Tacto Connect",
+		"author": "Rivulus",
+		"repository": "https://github.com/RivulusLive/tacto-connect-source",
+		"description": "OpenAction plugin providing Tacto mobile and keyboard device support"
+	},
 	"com.ags.info_clock": {
 		"name": "Info Clock",
 		"author": "Alex Godinez",
@@ -47,6 +53,21 @@
 		"repository": "https://github.com/babs/opendeck-plugins-rotary-command",
 		"description": "Run custom shell commands on rotary encoder actions (CW, CCW, press, long press)"
 	},
+	"com.cadufpolis.monitor-brightness": {
+		"name": "Linux Monitor Brightness",
+		"author": "cadufpolis",
+		"repository": "https://github.com/cadufpolis/linux-monitor-brightness",
+		"description": "Control monitor brightness over DDC/CI from a Stream Deck+ dial (Linux only)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"io.github.cdcxd.herdr": {
+		"name": "herdr agent status",
+		"author": "cdcxd",
+		"repository": "https://github.com/cdcxd/opendeck-herdr-plugin",
+		"description": "Live herdr agent status on a Stream Deck, for OpenDeck on Linux"
+	},
 	"com.sfgrimes.corsaircontrol": {
 		"name": "Fan Profile Control",
 		"author": "sfgrimes",
@@ -58,6 +79,15 @@
 		"author": "sfgrimes",
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
+	},
+	"me.dwot.keylight": {
+		"name": "Key Light Direct",
+		"author": "dwot",
+		"repository": "https://github.com/dwot/opendeck-keylight",
+		"description": "Control Elgato Key Lights from OpenDeck, directly over the network. No companion app needed.",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.emaspa.openxlr": {
 		"name": "OpenXLR",
@@ -101,6 +131,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.infamous-pattern.openhomeb": {
+		"name": "OpenHomeB",
+		"author": "Infamous Pattern",
+		"repository": "https://github.com/infamous-pattern/OpenHome",
+		"description": "A Homebridge plugin for OpenDeck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
@@ -128,6 +167,24 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"systems.garcia.countdown": {
+		"name": "Countdown",
+		"author": "NyleGarcia",
+		"repository": "https://github.com/NyleGarcia/countdown-opendeck",
+		"description": "Countdown timer plugin for OpenDeck (Stream Deck on Linux)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"systems.garcia.cztimer": {
+		"name": "CZ Timer",
+		"author": "NyleGarcia",
+		"repository": "https://github.com/NyleGarcia/cztimer-opendeck",
+		"description": "Star Citizen contested-zone timers for OpenDeck (Stream Deck on Linux): exec hangar cycle and lights, keycard printers, vault door",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"systems.garcia.gsr": {
 		"name": "GPU Screen Recorder",
 		"author": "NyleGarcia",
@@ -142,6 +199,15 @@
 		"author": "Stephane Jourdois",
 		"repository": "https://github.com/sjourdois/opendeck-pipewire",
 		"description": "Native Rust PipeWire/WirePlumber audio control plugin for OpenDeck — no Node.js",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"com.t01ik.macoscontrols": {
+		"name": "macOS Controls",
+		"author": "Anatoliy Shulika",
+		"repository": "https://github.com/T01iK/opendeck-mac-controls",
+		"description": "Native macOS controls: volume, media, brightness, Control Center switches, launchers, Shortcuts, apps and a hardware monitor.",
 		"flags": {
 			"ai_assisted": true
 		}
@@ -206,6 +272,15 @@
 		"repository": "https://github.com/glmagalhaes/rs-ulanzi-d200",
 		"description": "An unofficial plugin to use Ulanzi D200(H) with OpenDeck"
 	},
+	"com.github.grizbeard.opendeck-mirabox293v3": {
+		"name": "Mirabox 293 V3",
+		"author": "Grizbeard",
+		"repository": "https://github.com/Grizbeard/opendeck-mirabox293v3",
+		"description": "Unofficial OpenDeck device support plugin for the MiraBox Stream Dock 293 V3 (USB 6603:1006)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.github.ibanks42.opendeck-m18": {
 		"name": "VSD Inside M18 / Mirabox M18",
 		"author": "ibanks42",
@@ -229,6 +304,15 @@
 		"author": "MonkeyKiller",
 		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
 		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
+	},
+	"pl.sotomski.opendeck.openmasterhub": {
+		"name": "Unofficial MasterHub Device Support",
+		"author": "OpenMasterHub",
+		"repository": "https://github.com/OpenMasterHub/openmasterhub.git",
+		"description": "An unofficial OpenDeck device plugin for the MasterHub.",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.github.pomeo.opendeck-mirabox-n1": {
 		"name": "Mirabox N1",
