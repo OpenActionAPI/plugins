@@ -98,11 +98,11 @@
 			"ai_assisted": true
 		}
 	},
-	"com.community.twitchviewer": {
+	"xyz.enfalion.twitchviewer": {
 		"name": "Twitch Viewer Deck",
 		"author": "Enfalion",
 		"repository": "https://github.com/Enfalion/Twitch-Viewer-Plugin",
-		"description": "An Twitch Viewer Plugin (Live Avatars, Auto-Rotating Live Slots, Live Switcher, Quick Chat !lurk & MultiTwitch) - Auto DE/EN",
+		"description": "Twitch Viewer Plugin (Live Avatars, Auto-Rotating Live Slots, Live Switcher, Quick Chat !lurk & MultiTwitch) - Auto DE/EN",
 		"flags": {
 			"ai_assisted": true
 		}
