@@ -991,7 +991,7 @@
         "flags": {
             "ai_assisted": true
         }
-    },	
+    },
 	"com.github.mjbnz.sd-api-request": {
 		"name": "API Request",
 		"author": "Mike Beattie",
