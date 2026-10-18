@@ -74,6 +74,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.community.twitchviewer.sdPlugin": {
+		"name": "Twitch Viewer Deck",
+		"author": "Enfalion",
+		"repository": "https://github.com/Enfalion/Twitch-Viewer-Plugin",
+		"description": "An Twitch Viewer Plugin (Live Avatars, Auto-Rotating Live Slots, Live Switcher, Quick Chat !lurk & MultiTwitch) - Auto DE/EN",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.gdwhisper.tikclock": {
 		"name": "TikClock",
 		"author": "GDWhisper",
@@ -572,15 +581,6 @@
 		"author": "ellreka",
 		"repository": "https://github.com/ellreka/streamdeck-slack-status",
 		"description": "Stream Deck Plugin. This plugin updates the slack status."
-	},
-	"com.community.twitchviewer.sdPlugin": {
-		"name": "Twitch Viewer Deck",
-		"author": "Enfalion",
-		"repository": "https://github.com/Enfalion/Twitch-Viewer-Plugin",
-		"description": "An Twitch Viewer Plugin (Live Avatars, Auto-Rotating Live Slots, Live Switcher, Quick Chat !lurk & MultiTwitch) - Auto DE/EN",
-		"flags": {
-			"ai_assisted": true
-		}
 	},
 	"com.f00d4tehg0dz.aipaints": {
 		"name": "AI Paints",
