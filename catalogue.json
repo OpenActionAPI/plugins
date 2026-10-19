@@ -167,6 +167,15 @@
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
+	"dev.kastro5.opendeck-mcp": {
+		"name": "OpenDeck MCP",
+		"author": "kastro5",
+		"repository": "https://github.com/kastro5/opendeck-mcp",
+		"description": "MCP server to configure OpenDeck (open-source Stream Deck software) with natural language: keys, profiles, multi-actions, app switching, plugins — staged, previewed, backed up",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.lilithmoder.lifx": {
 		"name": "LIFX",
 		"author": "lilithmoder",
