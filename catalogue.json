@@ -197,6 +197,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.mrredstonia.clocks": {
+		"name": "Clocks",
+		"author": "MrRedstonia",
+		"repository": "https://github.com/MrRedstonia/opendeck-clocks",
+		"description": "Customizable digital and analog clocks showing local time and date on a key.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"systems.garcia.countdown": {
 		"name": "Countdown",
 		"author": "NyleGarcia",
