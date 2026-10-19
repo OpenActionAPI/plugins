@@ -11,7 +11,7 @@ import subprocess
 import sys
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 from urllib.request import Request, urlopen
 
 CATALOGUE = Path("catalogue.json")
@@ -19,6 +19,7 @@ ICONS = Path("icons")
 
 SECTION_NAMES = ("official", "native", "device", "stream-deck")
 ALLOWED_SECTIONS = {"native", "device"}
+MAINTAINER_SECTIONS = {"official", "stream-deck"}
 
 
 class ValidationError(Exception):
@@ -105,12 +106,14 @@ def catalogue_section_starts(catalogue: dict[str, dict]) -> list[int]:
 	return [0, *resets[: len(SECTION_NAMES) - 1]]
 
 
-def validate_order(catalogue: dict[str, dict], relevant_ids: set[str]) -> None:
+def validate_order(
+	catalogue: dict[str, dict], relevant_ids: set[str], allowed_sections: set[str]
+) -> None:
 	ids = list(catalogue)
 	section_starts = catalogue_section_starts(catalogue)
 	for plugin_id in relevant_ids:
 		section = section_for(plugin_id, catalogue)
-		if section not in ALLOWED_SECTIONS:
+		if section not in allowed_sections:
 			continue
 		index = ids.index(plugin_id)
 		section_index = SECTION_NAMES.index(section)
@@ -156,6 +159,14 @@ def repository_parts(url: str) -> tuple[str, str]:
 	if parts[1].endswith(".git"):
 		raise ValidationError(f"repository URL must not use a .git suffix: {url}")
 	return parts[0], parts[1]
+
+
+def is_maintainer(repository: str, username: str) -> bool:
+	owner, repo = repository_parts(f"https://github.com/{repository}")
+	permission = github_json(
+		f"/repos/{owner}/{repo}/collaborators/{quote(username, safe='')}/permission"
+	).get("permission")
+	return permission in {"admin", "maintain"}
 
 
 def validate_repository(plugin_id: str, entry: dict, changed: set[str]) -> None:
@@ -227,6 +238,8 @@ def main() -> int:
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--base", required=True)
 	parser.add_argument("--head", default="HEAD")
+	parser.add_argument("--author")
+	parser.add_argument("--repository")
 	args = parser.parse_args()
 	try:
 		base_catalogue = load_catalogue_text(
@@ -243,7 +256,10 @@ def main() -> int:
 		if not changed_ids:
 			print("No catalogue entries changed; plugin submission checks skipped.")
 			return 0
-		validate_order(head_catalogue, changed_ids)
+		allowed_sections = ALLOWED_SECTIONS
+		if args.author and args.repository and is_maintainer(args.repository, args.author):
+			allowed_sections = allowed_sections | MAINTAINER_SECTIONS
+		validate_order(head_catalogue, changed_ids, allowed_sections)
 		list(head_catalogue)
 		for plugin_id in changed_ids:
 			if plugin_id not in head_catalogue:
@@ -251,9 +267,10 @@ def main() -> int:
 					f"{plugin_id}: catalogue entries may not be removed in a submission PR"
 				)
 			section = section_for(plugin_id, head_catalogue)
-			if section not in ALLOWED_SECTIONS:
+			if section not in allowed_sections:
 				raise ValidationError(
-					f"{plugin_id}: submissions are only allowed in Native or Device sections"
+					f"{plugin_id}: submissions are only allowed in Native or Device sections "
+					"unless the PR author is a repository maintainer"
 				)
 			validate_repository(plugin_id, head_catalogue[plugin_id], changed)
 		print(

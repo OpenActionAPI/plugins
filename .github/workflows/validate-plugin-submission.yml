@@ -28,4 +28,9 @@ jobs:
       - name: Validate catalogue submission
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python validate_submission.py --base "${{ github.event.pull_request.base.sha }}" --head "${{ github.event.pull_request.head.sha }}"
+        run: >-
+          python validate_submission.py
+          --base "${{ github.event.pull_request.base.sha }}"
+          --head "${{ github.event.pull_request.head.sha }}"
+          --author "${{ github.event.pull_request.user.login }}"
+          --repository "${{ github.repository }}"
