@@ -91,8 +91,8 @@
 	},
 	"com.heatguyj.bashstatus": {
 		"name": "Bash Status",
-		"author": "HeatguyJ",
-		"repository": "https://github.com/HeatGuyJ/opendeck-bashstatius",
+		"author": "HeatGuyJ",
+		"repository": "https://github.com/HeatGuyJ/opendeck-bashstatus",
 		"description": "Execute bash-script and show its return status",
 		"flags": {
 			"ai_assisted": true
