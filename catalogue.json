@@ -101,6 +101,15 @@
 			"ai_assisted": true
 		}
 	},
+	"xyz.enfalion.twitchviewer": {
+		"name": "Twitch Viewer Deck",
+		"author": "Enfalion",
+		"repository": "https://github.com/Enfalion/Twitch-Viewer-Plugin",
+		"description": "An Twitch Viewer Plugin (Live Avatars, Auto-Rotating Live Slots, Live Switcher, Quick Chat !lurk & MultiTwitch) - Auto DE/EN",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"de.felitendo.obs-tools": {
 		"name": "OBS Tools",
 		"author": "Felitendo",
@@ -178,6 +187,15 @@
 		"author": "Victor Marin",
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
+	},
+	"com.mroneleg.kdeconnect": {
+		"name": "KDE Connect",
+		"author": "Mr. One Leg",
+		"repository": "https://github.com/mroneleg/kde-connect-opendeck",
+		"description": "OpenAction plugin for KDE Connect: media, volume, battery, notifications, calls and more on your phone, tablet or computer",
+		"flags": {
+			"ai_assisted": true
+		}
 	},
 	"com.mrredstonia.clocks": {
 		"name": "Clocks",
