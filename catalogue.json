@@ -621,6 +621,12 @@
 		"repository": "https://github.com/dddice/dddice-stream-deck-plugin",
 		"description": null
 	},
+	"gg.dennis.firebot": {
+		"name": "Firebot",
+		"author": "DennisOnTheInternet",
+		"repository": "https://github.com/dennisrijsdijk/firebot-streamdeck",
+		"description": "Elgato Stream Deck plugin to interact with Firebot"
+	},
 	"audio.dhd.s52": {
 		"name": "DHD Stream Deck",
 		"author": "DHD audio",
