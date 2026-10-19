@@ -615,6 +615,12 @@
 		"download_url": "https://github.com/DavidGolunski/GoveeLightController/raw/refs/heads/main/Plugin/com.davidgolunski.goveelightcontroller.streamDeckPlugin",
 		"description": "A C# Application for the Streamdeck. It allows you to control compatible Govee lights using \"LAN Control\", which does not require an API Key"
 	},
+	"gg.dennis.firebot": {
+		"name": "Firebot",
+		"author": "DennisOnTheInternet",
+		"repository": "https://github.com/dennisrijsdijk/firebot-streamdeck",
+		"description": "Elgato Stream Deck plugin to interact with Firebot"
+	},
 	"com.dddice.app": {
 		"name": "dddice",
 		"author": "dddice",
