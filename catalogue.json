@@ -284,6 +284,15 @@
 			"ai_assisted": true
 		}
 	},
+	"local.opendeck.mpris": {
+		"name": "MPRIS Media",
+		"author": "toshich20",
+		"repository": "https://github.com/toshich20/opendeck-mpris-plugin",
+		"description": "OpenDeck plugin for reliable MPRIS media control on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"net.parrec.deck.windows-essentials": {
 		"name": "Windows Essentials",
 		"author": "Xavi Parrec",
