@@ -284,6 +284,15 @@
 			"ai_assisted": true
 		}
 	},
+	"de.felitendo.voicenux": {
+		"name": "Voicenux",
+		"author": "Felitendo",
+		"repository": "https://github.com/voicenux/voicenux-plugin",
+		"description": "Voicenux plugin for OpenDeck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"net.parrec.deck.windows-essentials": {
 		"name": "Windows Essentials",
 		"author": "Xavi Parrec",
