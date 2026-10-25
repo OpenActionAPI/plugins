@@ -251,6 +251,12 @@
 			"ai_assisted": true
 		}
 	},
+	"com.slashpaf.audioforge": {
+		"name": "Audio Forge",
+		"author": "Slashpaf",
+		"repository": "https://github.com/Slashpaf/audioforge-streamdeck",
+		"description": "Stream Deck / OpenDeck plugin for Audio Forge RPG Soundboard"
+	},
 	"com.t01ik.macoscontrols": {
 		"name": "macOS Controls",
 		"author": "Anatoliy Shulika",
