@@ -353,6 +353,15 @@
 		"repository": "https://github.com/ibanks42/opendeck-m18",
 		"description": "An unofficial OpenDeck plugin for Mirabox M18 / VSD Inside M18-family devices"
 	},
+	"pl.kobylarek.masterhub": {
+		"name": "Cooler Master MasterHUB",
+		"author": "Kamil Kobylarek",
+		"repository": "https://github.com/KamilKobylarek/opendeck-masterhub",
+		"description": "An OpenDeck device plugin for the Cooler Master MasterHUB, on macOS, Windows and Linux, without the official app.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.github.mean-ui-thread.opendeck-stream-dock-xl": {
 		"name": "VSD Inside / Mirabox Stream Dock XL",
 		"author": "Mean-UI-Thread",
