@@ -176,6 +176,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.marcelopazzo.meetmute": {
+		"name": "Meet Mute",
+		"author": "Marcelo Almeida",
+		"repository": "https://github.com/marcelopazzo/meet-mute",
+		"description": "Mute Google Meet in Chrome from your Stream Deck or OpenAction deck, no browser extension needed; falls back to the system mic outside calls.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
