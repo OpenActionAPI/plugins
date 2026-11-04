@@ -1,8 +1,9 @@
-import sys
 import json
+import sys
 import time
-import requests
 from urllib.parse import urlparse
+
+import requests
 from tqdm import tqdm
 
 # Constants
@@ -122,12 +123,6 @@ def main():
 	global skip_update
 	global wait_on_rate_limit
 
-	global failed
-	global invalid_repo
-	global performed
-	global skipped
-	global succeeded
-
 	for arg in args:
 		if arg.lower() == "--skip-update":
 			skip_update = True
@@ -142,12 +137,12 @@ def main():
 				ids.append(arg)
 		else:
 			print(RED + "Unrecognised argument: " + arg + CLEAR)
-			exit(1)
+			sys.exit(1)
 
 	if len(ids) == 0:
 		if start_from:
 			print(RED + "No plugins to be updated." + CLEAR)
-			exit(1)
+			sys.exit(1)
 		ids = all_ids
 
 	data = update_descriptions(data, ids)
@@ -166,7 +161,7 @@ def main():
 		"Plugins succeeded or skipped: "
 		+ str(succeeded + skipped)
 		+ " "
-		+ "{:.2f}%".format((succeeded + skipped) / performed * 100)
+		+ f"{(succeeded + skipped) / performed * 100:.2f}%"
 	)
 
 
