@@ -161,6 +161,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.jbrick2070.fadester-for-obs": {
+		"name": "Fadester for OBS",
+		"author": "Jeffrey A. Brick",
+		"repository": "https://github.com/jbrick2070/streamdeck-fadester",
+		"description": "Fadester for OBS: scenes, transitions, mixer fades, layers and audio on Stream Deck and OpenDeck keys and dials. Includes VJster.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
@@ -926,15 +935,6 @@
 		"author": "Javan Poirier",
 		"repository": "https://github.com/JavanPoirier/AudioMixer",
 		"description": null
-	},
-	"com.jbrick2070.fadester-for-obs": {
-		"name": "Fadester for OBS",
-		"author": "Jeffrey A. Brick",
-		"repository": "https://github.com/jbrick2070/streamdeck-fadester",
-		"description": "Fadester for OBS: scenes, transitions, mixer fades, layers and audio on Stream Deck and OpenDeck keys and dials. Includes VJster.",
-		"flags": {
-			"ai_assisted": true
-		}
 	},
 	"com.jetbrains.ide": {
 		"name": "JetBrains IDE",
