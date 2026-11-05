@@ -206,6 +206,15 @@
 			"ai_assisted": true
 		}
 	},
+	"org.genius-space.mediacontrol": {
+		"name": "Media Control",
+		"author": "NUCL3ARN30N",
+		"repository": "https://github.com/NUCL3ARN30N/opendeck-mediacontrol",
+		"description": "OpenDeck plugin for Windows media control (play, pause, stop, next, previous)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"systems.garcia.countdown": {
 		"name": "Countdown",
 		"author": "NyleGarcia",
