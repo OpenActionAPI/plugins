@@ -206,7 +206,7 @@
 			"ai_assisted": true
 		}
 	},
-	"com.nucl3arn30n.mediacontrol": {
+	"org.genius-space.mediacontrol": {
 		"name": "Media Control",
 		"author": "NUCL3ARN30N",
 		"repository": "https://github.com/NUCL3ARN30N/opendeck-mediacontrol",
