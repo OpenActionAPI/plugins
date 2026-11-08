@@ -176,6 +176,15 @@
 			"ai_assisted": true
 		}
 	},
+	"br.dev.consciencia.opendeck.uno-overlays": {
+		"name": "UNO Overlays",
+		"author": "SeTIC UFSC / Marcos Xavier",
+		"repository": "https://github.com/marcosxaviergil/opendeck-uno-overlays",
+		"description": "Plugin uno overlays para opendeck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.victormarin.graphs": {
 		"name": "Graphs",
 		"author": "Victor Marin",
