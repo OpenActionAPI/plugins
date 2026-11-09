@@ -146,7 +146,7 @@
 			"ai_assisted": true
 		}
 	},
-	"com.trsaur.helldivers2": {
+	"com.github.trsaur.helldivers2": {
 		"name": "Helldivers 2",
 		"author": "TrSaur",
 		"repository": "https://github.com/trsaur/hd2-plugin-opendeck",
