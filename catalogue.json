@@ -297,6 +297,7 @@
 		"name": "Voicenux",
 		"author": "felitendo",
 		"repository": "https://github.com/voicenux/voicenux-plugin",
+		"description": "Voicenux plugin for OpenDeck",
 		"flags": {
 			"ai_assisted": true
 		}
