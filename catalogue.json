@@ -275,6 +275,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.github.trsaur.helldivers2": {
+		"name": "Helldivers 2",
+		"author": "TrSaur",
+		"repository": "https://github.com/trsaur/hd2-plugin-opendeck",
+		"description": "Trigger Helldivers 2 Stratagems directly from your Stream Deck device on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"io.github.tonyheadband.opendeck-steam": {
 		"name": "Steam Dashboard Controller",
 		"author": "Antonio Frontino",
