@@ -295,7 +295,7 @@
 	},
 	"de.felitendo.voicenux": {
 		"name": "Voicenux",
-		"author": "felitendo",
+		"author": "Felitendo",
 		"repository": "https://github.com/voicenux/voicenux-plugin",
 		"description": "Voicenux plugin for OpenDeck",
 		"flags": {
