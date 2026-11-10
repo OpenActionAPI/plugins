@@ -188,6 +188,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"dev.moode.umbriel-controls": {
+		"name": "Umbriel Controls",
+		"author": "missmoode",
+		"repository": "https://github.com/missmoode/opendeck-umbriel-controls",
+		"description": "Control the Umbriel compositor from your Stream Deck",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.mroneleg.kdeconnect": {
 		"name": "KDE Connect",
 		"author": "Mr. One Leg",
