@@ -53,7 +53,7 @@
 		"repository": "https://github.com/babs/opendeck-plugins-rotary-command",
 		"description": "Run custom shell commands on rotary encoder actions (CW, CCW, press, long press)"
 	},
-	"us.echo.wavesink": {
+	"dev.munki.wavesink": {
 		"name": "WaveSink",
 		"author": "calmasacow",
 		"repository": "https://github.com/calmasacow/opendeck-wavesink",
