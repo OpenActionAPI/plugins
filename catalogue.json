@@ -371,6 +371,12 @@
 		"repository": "https://github.com/MMonkeyKiller/opendeck-ss550",
 		"description": "An unofficial OpenDeck plugin for the Redragon Streamcraft SS550"
 	},
+		"com.github.tinyplayerss.opendeck-ampgd6": {
+		"name": "FIFINE Ampligame D6",
+		"author": "tinyplayerss",
+		"repository": "https://github.com/tinyplayerss/OpenDeck-ampgd6",
+		"description": "An unofficial OpenDeck plugin for the Fifine Ampligame D6"
+	},
 	"pl.sotomski.opendeck.openmasterhub": {
 		"name": "Unofficial MasterHub Device Support",
 		"author": "OpenMasterHub",
