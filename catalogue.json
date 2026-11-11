@@ -376,6 +376,7 @@
 		"author": "tinyplayerss",
 		"repository": "https://github.com/tinyplayerss/OpenDeck-ampgd6",
 		"description": "An unofficial OpenDeck plugin for the Fifine Ampligame D6",
+		"icon": "icons/com.github.tinyplayerss.opendeck-ampgd6.png",
 		"flags": {
 			"ai_assisted": true
 		}
