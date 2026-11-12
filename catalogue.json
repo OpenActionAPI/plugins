@@ -119,6 +119,12 @@
 			"ai_assisted": true
 		}
 	},
+	"com.fms.winlauncher": {
+		"name": "Windows App Launcher",
+		"author": "FMS",
+		"repository": "https://github.com/Fractured-Mesh-Studios/winLauncher",
+		"description": "OpenDeck Windows Launcher Applications Plugin"
+	},
 	"com.gdwhisper.tikclock": {
 		"name": "TikClock",
 		"author": "GDWhisper",
