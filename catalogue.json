@@ -134,6 +134,15 @@
 		"repository": "https://github.com/Havner/uinput-simulation",
 		"description": "Simple plugin for nekename/OpenDeck with uinput keyboard + mouse simulation"
 	},
+	"se.wolfpack.idusscdeck": {
+		"name": "Idus SC Deck",
+		"author": "Idus",
+		"repository": "https://github.com/Idus/idus-sc-deck",
+		"description": "Star Citizen keys for OpenDeck on Linux: server clocks, Contested Zone timer, RSI status, game version, Game.log info and Idus SC Toolbox actions",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.imdevinc.opencodeusage": {
 		"name": "OpenCode Usage",
 		"author": "ImDevinC",
