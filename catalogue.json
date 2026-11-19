@@ -71,6 +71,15 @@
 			"ai_assisted": true
 		}
 	},
+	"org.codex.vuengine": {
+		"name": "VU Engine Pro",
+		"author": "CodeX",
+		"repository": "https://github.com/codexgamingdk/VU-Engine-Pro",
+		"description": "Advanced real-time audio metering and volume controls for OpenDeck on Linux, powered by PipeWire.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.sfgrimes.corsaircontrol": {
 		"name": "Fan Profile Control",
 		"author": "sfgrimes",
