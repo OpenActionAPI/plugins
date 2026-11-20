@@ -83,6 +83,15 @@
 		"repository": "https://github.com/CronusAK/Pulse-Audio-Stream-Deck-Plugin",
 		"description": "OpenDeck compatible Stream Deck plugin for controling Pulse Audio."
 	},
+	"com.martijn.opendeck.davinciresolve": {
+		"name": "DaVinci Resolve Controls",
+		"author": "Martijn",
+		"repository": "https://github.com/dixi83/OpenDeck_DavinciResolve_Plugin",
+		"description": "An OpenAction plugin for controlling DaVinci Resolve with OpenDeck.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"me.dwot.keylight": {
 		"name": "Key Light Direct",
 		"author": "dwot",
