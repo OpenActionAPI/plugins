@@ -161,6 +161,12 @@
 			"ai_assisted": true
 		}
 	},
+	"dev.nerdytech.jellyglance": {
+		"name": "JellyGlance",
+		"author": "Nerdy Technician",
+		"repository": "https://github.com/JellyGlance/OpenDeck-JellyGlance",
+		"description": "Live JellyGlance widgets on your keys: now playing, library, downloads, requests, health and more."
+	},
 	"com.kahikara.opendeck-redline": {
 		"name": "Redline Monitor",
 		"author": "Ming",
