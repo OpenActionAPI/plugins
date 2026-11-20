@@ -212,12 +212,7 @@
 			"ai_assisted": true
 		}
 	},
-	"dev.nerdytech.uptimekuma": {
-		"name": "Uptime Kuma",
-		"author": "Nerdy Technician",
-		"repository": "https://github.com/Nerdy-Technician/opendeck-uptime-kuma",
-		"description": "Show Uptime Kuma monitor status on your keys. Uses a read-only API key via the /metrics endpoint."
-	},
+
 	"systems.garcia.countdown": {
 		"name": "Countdown",
 		"author": "NyleGarcia",
