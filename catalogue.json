@@ -365,6 +365,15 @@
 		"repository": "https://github.com/MikaBust/opendeck-duo87",
 		"description": "An unofficial plugin for the Womier DUO87 keyboard's detachable screen module."
 	},
+	"io.github.millenniumambiguity.saitekmultipanel": {
+		"name": "Saitek Pro Flight Multi Panel",
+		"author": "millennIumAMbiguity",
+		"repository": "https://github.com/millennIumAMbiguity/opendeck-saitek-multipanel",
+		"description": "OpenDeck device plugin for the Logitech/Saitek Pro Flight Multi Panel",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.monkeykiller.plugins.opendeck-ss550": {
 		"name": "Redragon Streamcraft SS550",
 		"author": "MonkeyKiller",
