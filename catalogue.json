@@ -167,6 +167,69 @@
 		"repository": "https://github.com/kahikara/opendeck-redline-monitor",
 		"description": "A high-performance System Information dashboard for Stream Deck on Linux. Features real-time CPU/GPU monitoring (AMD focus), intelligent disk aggregation, and encoder-based system controls."
 	},
+	"wt.luizgustavo.getcraft.designcraft": {
+		"name": "DesignCraft CLI",
+		"author": "LuizGustavoWT",
+		"repository": "https://github.com/LuizGustavoWT/getcraft-designcraft-opendeck",
+		"description": "OpenDeck controls for DesignCraft: frames, layers, alignment, PDF export, and encoder workflow.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"wt.luizgustavo.getcraft.effectcraft": {
+		"name": "EffectCraft CLI",
+		"author": "LuizGustavoWT",
+		"repository": "https://github.com/LuizGustavoWT/getcraft-effectcraft-opendeck",
+		"description": "Live EffectCraft controls for OpenDeck: editing keys, Render Queue, and rotary dials for Stream Deck+ and D200X.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"wt.luizgustavo.getcraft.filmcraft": {
+		"name": "FilmCraft Editing Controls",
+		"author": "LuizGustavoWT",
+		"repository": "https://github.com/LuizGustavoWT/getcraft-filmcraft-opendeck",
+		"description": "Live FilmCraft timeline, transport, color, audio, and rotary controls for OpenDeck on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"wt.luizgustavo.getcraft.lightcraft": {
+		"name": "LightCraft CLI",
+		"author": "LuizGustavoWT",
+		"repository": "https://github.com/LuizGustavoWT/getcraft-lightcraft-opendeck",
+		"description": "Live LightCraft controls for OpenDeck: culling, development, export, and rotary dials for Stream Deck+ and D200X.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"wt.luizgustavo.getcraft.pdfcraft": {
+		"name": "PdfCraft CLI",
+		"author": "LuizGustavoWT",
+		"repository": "https://github.com/LuizGustavoWT/getcraft-pdfcraft-opendeck",
+		"description": "OpenDeck controls for PdfCraft: split, review, redact, and encoder-driven PDF workflows.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"wt.luizgustavo.getcraft.photocraft": {
+		"name": "PhotoCraft Editing Controls",
+		"author": "LuizGustavoWT",
+		"repository": "https://github.com/LuizGustavoWT/getcraft-photocraft-opendeck",
+		"description": "Live PhotoCraft layer, mask, develop, brush, and rotary controls for OpenDeck on Linux",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
+	"wt.luizgustavo.getcraft.vectorcraft": {
+		"name": "VectorCraft CLI",
+		"author": "LuizGustavoWT",
+		"repository": "https://github.com/LuizGustavoWT/getcraft-vectorcraft-opendeck",
+		"description": "OpenDeck control surface for VectorCraft: live editing buttons, rotary controls, and safe batch automation on Linux.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.lilithmoder.lifx": {
 		"name": "LIFX",
 		"author": "lilithmoder",
