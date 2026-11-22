@@ -197,6 +197,15 @@
 			"ai_assisted": true
 		}
 	},
+	"com.mrbretzel.keymacro": {
+		"name": "Keyboard Macros",
+		"author": "MrBretzel",
+		"repository": "https://github.com/MrBretze/Keyboard-Macros",
+		"description": "Record, edit (timing included) and replay keyboard and mouse macros from Stream Deck keys and Stream Deck+ dials. OpenDeck plugin for Linux.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.mroneleg.kdeconnect": {
 		"name": "KDE Connect",
 		"author": "Mr. One Leg",
