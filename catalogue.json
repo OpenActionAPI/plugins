@@ -134,6 +134,15 @@
 		"repository": "https://github.com/Havner/uinput-simulation",
 		"description": "Simple plugin for nekename/OpenDeck with uinput keyboard + mouse simulation"
 	},
+	"com.imdevinc.codexusage": {
+		"name": "Codex Usage",
+		"author": "ImDevinC",
+		"repository": "https://github.com/ImDevinC/opendeck-codex-usage",
+		"description": "Show ChatGPT subscription Codex quota on an OpenDeck key",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.imdevinc.opencodeusage": {
 		"name": "OpenCode Usage",
 		"author": "ImDevinC",
