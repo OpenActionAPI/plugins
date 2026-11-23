@@ -215,6 +215,15 @@
 			"ai_assisted": true
 		}
 	},
+	"io.github.nnfisfree.govee-control": {
+		"name": "Govee Control",
+		"author": "nnfisfree",
+		"repository": "https://github.com/nnfisfree/govee-control-opendeck",
+		"description": "Native OpenDeck plugin for Govee lights and appliances: power, brightness, colour, scenes, presets, music mode, segments, sensors and more on Stream Deck keys and dials, using the official Govee API",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"systems.garcia.countdown": {
 		"name": "Countdown",
 		"author": "NyleGarcia",
