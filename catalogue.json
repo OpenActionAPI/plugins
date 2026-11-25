@@ -260,6 +260,15 @@
 			"ai_assisted": true
 		}
 	},
+	"io.github.spurlos.codexlimits": {
+		"name": "Codex Limits",
+		"author": "spurlos",
+		"repository": "https://github.com/Spurlos/opendeck-codex-limits",
+		"description": "Show Codex session and weekly quota on your Stream Deck with OpenDeck.",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"com.t01ik.macoscontrols": {
 		"name": "macOS Controls",
 		"author": "Anatoliy Shulika",
