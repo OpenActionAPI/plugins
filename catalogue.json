@@ -188,7 +188,7 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
-	"it.michelejohn.fps": {
+	"io.github.michelejohn.fps": {
 		"name": "Vulkan FPS",
 		"author": "michelejohn",
 		"repository": "https://github.com/MicheleJohn/opendeck-vulkan-fps",
