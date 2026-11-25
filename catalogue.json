@@ -188,6 +188,15 @@
 		"repository": "https://github.com/mdvictor/opendeck-volume-controller",
 		"description": "A per-application volume control plugin for the Stream Deck using OpenDeck on Linux."
 	},
+	"it.michelejohn.fps": {
+		"name": "Vulkan FPS",
+		"author": "michelejohn",
+		"repository": "https://github.com/MicheleJohn/opendeck-vulkan-fps",
+		"description": "Native Rust Vulkan FPS Counter plugin for OpenDeck on Linux (AMD, NVIDIA, Intel)",
+		"flags": {
+			"ai_assisted": true
+		}
+	},
 	"io.github.millenniumambiguity.warthunder": {
 		"name": "War Thunder Telemetry",
 		"author": "millennIumAMbiguity",
